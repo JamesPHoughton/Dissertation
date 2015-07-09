@@ -1,0 +1,44 @@
+GISJOIN,YEAR,STATE,STATEA,AREANAME,AJG001
+GIS Join Match Code,Data File Year,State Name,State Code,Area name,Total
+"G010","1860","Alabama","010","Alabama",529121
+"G050","1860","Arkansas","050","Arkansas",324335
+"G060","1860","California","060","California",379994
+"G085","1860","Colorado Territory","085","Colorado Territory",34277
+"G090","1860","Connecticut","090","Connecticut",460147
+"G095","1860","Dakota Territory","095","Dakota Territory",4837
+"G100","1860","Delaware","100","Delaware",110418
+"G110","1860","District Of Columbia","110","District of Columbia",71895
+"G120","1860","Florida","120","Florida",78679
+"G130","1860","Georgia","130","Georgia",595088
+"G170","1860","Illinois","170","Illinois",1711951
+"G180","1860","Indiana","180","Indiana",1350428
+"G190","1860","Iowa","190","Iowa",674913
+"G205","1860","Kansas Territory","205","Kansas Territory",107204
+"G210","1860","Kentucky","210","Kentucky",930201
+"G220","1860","Louisiana","220","Louisianna",376276
+"G230","1860","Maine","230","Maine",628279
+"G240","1860","Maryland","240","Maryland",599860
+"G250","1860","Massachusetts","250","Massachusetts",1231066
+"G260","1860","Michigan","260","Michigan",749113
+"G270","1860","Minnesota","270","Minnesota",172023
+"G280","1860","Mississippi","280","Mississippi",354674
+"G290","1860","Missouri","290","Missouri",1067081
+"G315","1860","Nebraska Territory","315","Nebraska Territory",28826
+"G325","1860","Nevada Territory","325","Nevada Territory",6857
+"G330","1860","New Hampshire","330","New Hampshire",326073
+"G340","1860","New Jersey","340","New Jersey",672017
+"G355","1860","New Mexico Territory","355","New Mexico Territory",93516
+"G360","1860","New York","360","New York",3880735
+"G370","1860","North Carolina","370","North Carolina",661563
+"G390","1860","Ohio","390","Ohio",2339511
+"G410","1860","Oregon","410","Oregon",52465
+"G420","1860","Pennsylvania","420","Pennsylvania",2906215
+"G440","1860","Rhode Island","440","Rhode Island",174620
+"G450","1860","South Carolina","450","South Carolina",301302
+"G470","1860","Tennessee","470","Tennessee",834082
+"G480","1860","Texas","480","Texas",421649
+"G495","1860","Utah Territory","495","Utah Territory",40244
+"G500","1860","Vermont","500","Vermont",315098
+"G510","1860","Virginia","510","Virginia",1105453
+"G535","1860","Washington Territory","535","Washington Territory",11594
+"G550","1860","Wisconsin","550","Wisconsin",775881

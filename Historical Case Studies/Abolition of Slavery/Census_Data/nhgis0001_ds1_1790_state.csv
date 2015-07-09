@@ -1,0 +1,17 @@
+GISJOIN,YEAR,STATE,STATEA,COUNTY,COUNTYA,AREANAME,AAQ001,AAQ002,AAQ003,AAD001,AAD002,AAE001,AAE002,AAE003,AAE004,AAI001,AAJ001,AAL001,AAL002,AAL003,AAL004,AAL005,AAL006,AAL007,AAL008,AAL009,AAL010
+GIS Join Match Code,Data File Year,State Name,State Code,County Name,County Code,Area name,Non-White: Free,Non-White: Slave,White,Slaveholding family,Non-slaveholding family,Slaveholding family >> White,Slaveholding family >> Free Colored,Non-slaveholding family >> White,Non-slaveholding family >> Free Colored,Total,Total,Families holding 1 slave,Families holding 2 to 5 slaves,Families holding 5 to 9 slaves,Families holding 10 to 19 slaves,Families holding 20 to 49 slaves,Families holding 50 to 99 slaves,Families holding 100 to 199 slaves,Families holding 200 to 299 slaves,Families holding 300 slaves or over,Families holding an unknown number of slaves
+"G090","1790","Connecticut","090",,,"Connecticut",2771,2648,232236,1563,39313,1557,6,38900,413,2648,1.7,980,505,66,12,0,0,0,0,0,0
+"G100","1790","Delaware","100",,,"Delaware",3899,8887,46310,,,,,,,,,,,,,,,,,,
+"G130","1790","Georgia","130",,,"Georgia",398,29264,52886,,,,,,,,,,,,,,,,,,
+"G240","1790","Maryland","240",,,"Maryland",8043,103036,208649,12226,21068,12142,84,19870,1198,103036,7.5,2841,3617,2807,1796,713,96,16,3,1,336
+"G250","1790","Massachusetts","250",,,"Massachusetts",5905,0,373187,,,,,,,,,,,,,,,,,,
+"G330","1790","New Hampshire","330",,,"New Hampshire",630,157,141112,123,23942,123,0,23859,83,157,1.3,97,24,2,0,0,0,0,0,0,0
+"G340","1790","New Jersey","340",,,"New Jersey",2762,11423,169954,,,,,,,,,,,,,,,,,,
+"G360","1790","New York","360",,,"New York",4682,21193,314366,7796,47082,7787,9,46398,684,21193,2.7,3088,2867,1165,181,1,0,0,0,0,494
+"G370","1790","North Carolina","370",,,"North Carolina",5041,100783,289181,14973,33728,14945,28,33076,652,100783,6.7,4040,4959,3375,1788,701,90,11,2,0,7
+"G420","1790","Pennsylvania","420",,,"Pennsylvania",6531,3707,423373,1858,72016,1851,7,71471,545,3707,2.0,1031,667,145,12,1,0,0,0,0,2
+"G440","1790","Rhode Island","440",,,"Rhode Island",3484,958,64670,461,10835,461,0,10393,442,958,2.1,255,160,46,0,0,0,0,0,0,0
+"G450","1790","South Carolina","450",,,"South Carolina",1801,107094,140178,8859,17013,8798,61,16754,259,107094,12.1,1930,2603,1853,1201,859,285,96,21,6,5
+"G465","1790","Southwest Territory","465",,,"Southwest Territory",361,3417,31913,,,,,,,,,,,,,,,,,,
+"G500","1790","Vermont","500",,,"Vermont",269,0,85072,,,,,,,,,,,,,,,,,,
+"G510","1790","Virginia","510",,,"Virginia",12980,305067,442117,,,,,,,,,,,,,,,,,,
