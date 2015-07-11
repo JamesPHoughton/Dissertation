@@ -1,0 +1,510 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>&lt;no title&gt; &mdash; Dissertation 0.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Dissertation 0.0.1 documentation" href="../../index.html" />
+    <link rel="up" title="Case Studies" href="../Case_Studies.html" />
+    <link rel="next" title="Climate Movement" href="../../Models_of_the_Climate_Movement/Climate Movement.html" />
+    <link rel="prev" title="&lt;no title&gt;" href="../UK_Abolition_of_Slave_Trade/Data Sources.html" />
+   
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9">
+
+  </head>
+  <body role="document">  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <p>National Opinion Research Center Data from NORC General Social Survey
+<a class="reference external" href="http://www3.norc.org/GSS+Website/Download/">http://www3.norc.org/GSS+Website/Download/</a></p>
+<p>The data fields are described here:
+<a class="reference external" href="http://publicdata.norc.org:41000/gss/documents//BOOK/GSS_Codebook_index.pdf">http://publicdata.norc.org:41000/gss/documents//BOOK/GSS_Codebook_index.pdf</a></p>
+<p>Relevant columns:</p>
+<ul>
+<li><p class="first"><strong>MARHOMO</strong> HOMOSEXUALS SHOULD HAVE RIGHT TO MARRY</p>
+</li>
+<li><p class="first"><strong>HOMOSEX1</strong> IS HOMOSEXUAL SEX WRONG?</p>
+</li>
+<li><p class="first"><strong>HOMOCHNG</strong></p>
+</li>
+<li><p class="first"><strong>SEXORNT</strong></p>
+</li>
+<li><p class="first"><strong>MARUNION</strong></p>
+<p>GAYS AND LESBIANS Age first attracted to same sex ATTRACTD Age R
+first told another that R was gay/les/bi TOLDSXOR Age R first told
+another R had sex with same sex TOLDSMSX Attitudes toward HOMOSEX,
+HOMOSEX1 Cause of homosexuality HOMOCHNG Civil liberties of SPKHOMO,
+COLHOMO, LIBHOMO Gender of R&#8217;s sex partners since age 18 SEXSEX18
+Government inquiries into ASKSEXOR Housing problems due to
+discrimination EVDWELL, DWELL5 In military DRAFTGAY Job Harassment
+EVHARJB, HARJOB5 How many co-workers know R is gay TOLDWORK Job
+loss/problems due to discrimination EVLOSEJB, LOSEJOB5, EVNEGJOB,
+NEGJOB5 Marriage MARHOMO Marital status of R MARUNION Number of Gays
+R knows… at work ACQWKGAY, TOLDWORK in family ACQFMGAY in general
+ACQGAY in neighborhood ACQNHGAY through voluntary organizations
+ACQVAGAY Number if Gays R trusts TRTGAY Sexual orientation of R
+SEXORNT Spouse/partner, sex of SEXUNION</p>
+</li>
+</ul>
+<p>This is hard to geographically disambiguate, as the geo information is
+withheld. To get it, need to fill out some forms, send in money, etc.
+<a class="reference external" href="http://publicdata.norc.org:41000/gss/documents//OTHR/ObtainingGSSSensitiveDataFiles.pdf">http://publicdata.norc.org:41000/gss/documents//OTHR/ObtainingGSSSensitiveDataFiles.pdf</a></p>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="kn">import</span> <span class="nn">pandas</span> <span class="kn">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">gss</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_stata</span><span class="p">(</span><span class="s">&#39;/Users/houghtons/Desktop/Data/GSS/GSS2012.DTA&#39;</span><span class="p">)</span>
+<span class="n">gss</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+<div style="max-height:1000px;max-width:1500px;overflow:auto;">
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>year</th>
+      <th>id</th>
+      <th>wtss</th>
+      <th>vpsu</th>
+      <th>vstrat</th>
+      <th>res2008</th>
+      <th>res2010</th>
+      <th>isco88</th>
+      <th>spisco88</th>
+      <th>paisco88</th>
+      <th>...</th>
+      <th>wrksch</th>
+      <th>wrkslf</th>
+      <th>wrkstat</th>
+      <th>wrkwayup</th>
+      <th>wwwhr</th>
+      <th>wwwmin</th>
+      <th>xmarsex</th>
+      <th>xmovie</th>
+      <th>xnorcsiz</th>
+      <th>zodiac</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td> 2012</td>
+      <td> 1</td>
+      <td> 2.621963</td>
+      <td> 1</td>
+      <td> 3001</td>
+      <td> living in the u.s.</td>
+      <td> living in the u.s.</td>
+      <td> 3429</td>
+      <td>  NaN</td>
+      <td> 1233</td>
+      <td>...</td>
+      <td> work part-time</td>
+      <td> someone else</td>
+      <td> working parttime</td>
+      <td> agree somewhat</td>
+      <td>  5</td>
+      <td>NaN</td>
+      <td>     always wrong</td>
+      <td> NaN</td>
+      <td> uninc,med city</td>
+      <td>     libra</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td> 2012</td>
+      <td> 2</td>
+      <td> 3.495950</td>
+      <td> 1</td>
+      <td> 3001</td>
+      <td> living in the u.s.</td>
+      <td> living in the u.s.</td>
+      <td> 3132</td>
+      <td>  NaN</td>
+      <td>  NaN</td>
+      <td>...</td>
+      <td>            NaN</td>
+      <td> someone else</td>
+      <td> working parttime</td>
+      <td>            NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>     always wrong</td>
+      <td> yes</td>
+      <td> uninc,med city</td>
+      <td>     aries</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td> 2012</td>
+      <td> 3</td>
+      <td> 1.747975</td>
+      <td> 1</td>
+      <td> 3001</td>
+      <td> living in the u.s.</td>
+      <td> living in the u.s.</td>
+      <td> 2144</td>
+      <td> 2331</td>
+      <td>  NaN</td>
+      <td>...</td>
+      <td>            NaN</td>
+      <td> someone else</td>
+      <td> working fulltime</td>
+      <td>            NaN</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td> almst always wrg</td>
+      <td> yes</td>
+      <td> uninc,med city</td>
+      <td>     aries</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td> 2012</td>
+      <td> 4</td>
+      <td> 1.235694</td>
+      <td> 1</td>
+      <td> 3001</td>
+      <td> living in the u.s.</td>
+      <td> living in the u.s.</td>
+      <td> 2411</td>
+      <td> 1233</td>
+      <td> 1210</td>
+      <td>...</td>
+      <td>            NaN</td>
+      <td> someone else</td>
+      <td>            other</td>
+      <td> agree strongly</td>
+      <td> 15</td>
+      <td>NaN</td>
+      <td>              NaN</td>
+      <td>  no</td>
+      <td> uninc,med city</td>
+      <td> capricorn</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td> 2012</td>
+      <td> 5</td>
+      <td> 0.873988</td>
+      <td> 1</td>
+      <td> 3001</td>
+      <td> living in the u.s.</td>
+      <td> living in the u.s.</td>
+      <td> 5163</td>
+      <td>  NaN</td>
+      <td> 1319</td>
+      <td>...</td>
+      <td> work full-time</td>
+      <td> someone else</td>
+      <td>          retired</td>
+      <td> agree strongly</td>
+      <td>  4</td>
+      <td>  0</td>
+      <td>              NaN</td>
+      <td>  no</td>
+      <td> city,50-250000</td>
+      <td>    taurus</td>
+    </tr>
+  </tbody>
+</table>
+<p>5 rows × 818 columns</p>
+</div><div class="code python highlight-python"><div class="highlight"><pre><span class="n">gss</span><span class="o">.</span><span class="n">columns</span><span class="o">.</span><span class="n">values</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre><span class="n">array</span><span class="p">([</span><span class="s">&#39;year&#39;</span><span class="p">,</span> <span class="s">&#39;id&#39;</span><span class="p">,</span> <span class="s">&#39;wtss&#39;</span><span class="p">,</span> <span class="s">&#39;vpsu&#39;</span><span class="p">,</span> <span class="s">&#39;vstrat&#39;</span><span class="p">,</span> <span class="s">&#39;res2008&#39;</span><span class="p">,</span> <span class="s">&#39;res2010&#39;</span><span class="p">,</span>
+       <span class="s">&#39;isco88&#39;</span><span class="p">,</span> <span class="s">&#39;spisco88&#39;</span><span class="p">,</span> <span class="s">&#39;paisco88&#39;</span><span class="p">,</span> <span class="s">&#39;maisco88&#39;</span><span class="p">,</span> <span class="s">&#39;mar1&#39;</span><span class="p">,</span> <span class="s">&#39;mar2&#39;</span><span class="p">,</span>
+       <span class="s">&#39;mar3&#39;</span><span class="p">,</span> <span class="s">&#39;mar4&#39;</span><span class="p">,</span> <span class="s">&#39;mar5&#39;</span><span class="p">,</span> <span class="s">&#39;mar6&#39;</span><span class="p">,</span> <span class="s">&#39;mar7&#39;</span><span class="p">,</span> <span class="s">&#39;mar8&#39;</span><span class="p">,</span> <span class="s">&#39;mar11&#39;</span><span class="p">,</span> <span class="s">&#39;mar12&#39;</span><span class="p">,</span>
+       <span class="s">&#39;mar13&#39;</span><span class="p">,</span> <span class="s">&#39;mar14&#39;</span><span class="p">,</span> <span class="s">&#39;abany&#39;</span><span class="p">,</span> <span class="s">&#39;abdefect&#39;</span><span class="p">,</span> <span class="s">&#39;abhlth&#39;</span><span class="p">,</span> <span class="s">&#39;abnomore&#39;</span><span class="p">,</span>
+       <span class="s">&#39;abpoor&#39;</span><span class="p">,</span> <span class="s">&#39;abrape&#39;</span><span class="p">,</span> <span class="s">&#39;absingle&#39;</span><span class="p">,</span> <span class="s">&#39;accntsci&#39;</span><span class="p">,</span> <span class="s">&#39;accptoth&#39;</span><span class="p">,</span> <span class="s">&#39;acqntsex&#39;</span><span class="p">,</span>
+       <span class="s">&#39;actupset&#39;</span><span class="p">,</span> <span class="s">&#39;adults&#39;</span><span class="p">,</span> <span class="s">&#39;advfront&#39;</span><span class="p">,</span> <span class="s">&#39;affrmact&#39;</span><span class="p">,</span> <span class="s">&#39;age&#39;</span><span class="p">,</span> <span class="s">&#39;aged&#39;</span><span class="p">,</span>
+       <span class="s">&#39;agekdbrn&#39;</span><span class="p">,</span> <span class="s">&#39;architct&#39;</span><span class="p">,</span> <span class="s">&#39;arrest&#39;</span><span class="p">,</span> <span class="s">&#39;astrolgy&#39;</span><span class="p">,</span> <span class="s">&#39;astrosci&#39;</span><span class="p">,</span> <span class="s">&#39;attend&#39;</span><span class="p">,</span>
+       <span class="s">&#39;away1&#39;</span><span class="p">,</span> <span class="s">&#39;away11&#39;</span><span class="p">,</span> <span class="s">&#39;away12&#39;</span><span class="p">,</span> <span class="s">&#39;away2&#39;</span><span class="p">,</span> <span class="s">&#39;away3&#39;</span><span class="p">,</span> <span class="s">&#39;away4&#39;</span><span class="p">,</span> <span class="s">&#39;away5&#39;</span><span class="p">,</span>
+       <span class="s">&#39;away6&#39;</span><span class="p">,</span> <span class="s">&#39;away7&#39;</span><span class="p">,</span> <span class="s">&#39;away8&#39;</span><span class="p">,</span> <span class="s">&#39;babies&#39;</span><span class="p">,</span> <span class="s">&#39;ballot&#39;</span><span class="p">,</span> <span class="s">&#39;balneg&#39;</span><span class="p">,</span> <span class="s">&#39;balpos&#39;</span><span class="p">,</span>
+       <span class="s">&#39;barate&#39;</span><span class="p">,</span> <span class="s">&#39;betrlang&#39;</span><span class="p">,</span> <span class="s">&#39;bible&#39;</span><span class="p">,</span> <span class="s">&#39;bigbang&#39;</span><span class="p">,</span> <span class="s">&#39;bigbang1&#39;</span><span class="p">,</span> <span class="s">&#39;biosci&#39;</span><span class="p">,</span>
+       <span class="s">&#39;bmitzvah&#39;</span><span class="p">,</span> <span class="s">&#39;born&#39;</span><span class="p">,</span> <span class="s">&#39;bossemps&#39;</span><span class="p">,</span> <span class="s">&#39;boyorgrl&#39;</span><span class="p">,</span> <span class="s">&#39;cappun&#39;</span><span class="p">,</span> <span class="s">&#39;carecost&#39;</span><span class="p">,</span>
+       <span class="s">&#39;careprov&#39;</span><span class="p">,</span> <span class="s">&#39;careself&#39;</span><span class="p">,</span> <span class="s">&#39;caresik1&#39;</span><span class="p">,</span> <span class="s">&#39;carried&#39;</span><span class="p">,</span> <span class="s">&#39;childs&#39;</span><span class="p">,</span> <span class="s">&#39;chldidel&#39;</span><span class="p">,</span>
+       <span class="s">&#39;class&#39;</span><span class="p">,</span> <span class="s">&#39;closeblk&#39;</span><span class="p">,</span> <span class="s">&#39;closewht&#39;</span><span class="p">,</span> <span class="s">&#39;cmprgmng&#39;</span><span class="p">,</span> <span class="s">&#39;cohabok&#39;</span><span class="p">,</span> <span class="s">&#39;cohort&#39;</span><span class="p">,</span>
+       <span class="s">&#39;colath&#39;</span><span class="p">,</span> <span class="s">&#39;colcom&#39;</span><span class="p">,</span> <span class="s">&#39;coldeg1&#39;</span><span class="p">,</span> <span class="s">&#39;colhomo&#39;</span><span class="p">,</span> <span class="s">&#39;colmil&#39;</span><span class="p">,</span> <span class="s">&#39;colmslm&#39;</span><span class="p">,</span>
+       <span class="s">&#39;colrac&#39;</span><span class="p">,</span> <span class="s">&#39;colsci&#39;</span><span class="p">,</span> <span class="s">&#39;colscinm&#39;</span><span class="p">,</span> <span class="s">&#39;comprend&#39;</span><span class="p">,</span> <span class="s">&#39;compuse&#39;</span><span class="p">,</span> <span class="s">&#39;conarmy&#39;</span><span class="p">,</span>
+       <span class="s">&#39;conbus&#39;</span><span class="p">,</span> <span class="s">&#39;conclerg&#39;</span><span class="p">,</span> <span class="s">&#39;condom&#39;</span><span class="p">,</span> <span class="s">&#39;condrift&#39;</span><span class="p">,</span> <span class="s">&#39;coneduc&#39;</span><span class="p">,</span> <span class="s">&#39;confed&#39;</span><span class="p">,</span>
+       <span class="s">&#39;confinan&#39;</span><span class="p">,</span> <span class="s">&#39;coninc&#39;</span><span class="p">,</span> <span class="s">&#39;conjudge&#39;</span><span class="p">,</span> <span class="s">&#39;conlabor&#39;</span><span class="p">,</span> <span class="s">&#39;conlegis&#39;</span><span class="p">,</span>
+       <span class="s">&#39;conmedic&#39;</span><span class="p">,</span> <span class="s">&#39;conpress&#39;</span><span class="p">,</span> <span class="s">&#39;conrinc&#39;</span><span class="p">,</span> <span class="s">&#39;consci&#39;</span><span class="p">,</span> <span class="s">&#39;consent&#39;</span><span class="p">,</span> <span class="s">&#39;contv&#39;</span><span class="p">,</span>
+       <span class="s">&#39;convictd&#39;</span><span class="p">,</span> <span class="s">&#39;cooking1&#39;</span><span class="p">,</span> <span class="s">&#39;coop&#39;</span><span class="p">,</span> <span class="s">&#39;courts&#39;</span><span class="p">,</span> <span class="s">&#39;crack30&#39;</span><span class="p">,</span> <span class="s">&#39;cshutyp08&#39;</span><span class="p">,</span>
+       <span class="s">&#39;cshutyp10&#39;</span><span class="p">,</span> <span class="s">&#39;cutahead&#39;</span><span class="p">,</span> <span class="s">&#39;dateintv&#39;</span><span class="p">,</span> <span class="s">&#39;deckids&#39;</span><span class="p">,</span> <span class="s">&#39;degree&#39;</span><span class="p">,</span> <span class="s">&#39;denom&#39;</span><span class="p">,</span>
+       <span class="s">&#39;denom16&#39;</span><span class="p">,</span> <span class="s">&#39;denyrais&#39;</span><span class="p">,</span> <span class="s">&#39;difstand&#39;</span><span class="p">,</span> <span class="s">&#39;dipged&#39;</span><span class="p">,</span> <span class="s">&#39;directns&#39;</span><span class="p">,</span> <span class="s">&#39;discaff&#39;</span><span class="p">,</span>
+       <span class="s">&#39;discaffm&#39;</span><span class="p">,</span> <span class="s">&#39;discaffw&#39;</span><span class="p">,</span> <span class="s">&#39;divbest&#39;</span><span class="p">,</span> <span class="s">&#39;divlaw&#39;</span><span class="p">,</span> <span class="s">&#39;divorce&#39;</span><span class="p">,</span> <span class="s">&#39;dwell5&#39;</span><span class="p">,</span>
+       <span class="s">&#39;dwelling&#39;</span><span class="p">,</span> <span class="s">&#39;dwelown&#39;</span><span class="p">,</span> <span class="s">&#39;earnrs&#39;</span><span class="p">,</span> <span class="s">&#39;earnshh&#39;</span><span class="p">,</span> <span class="s">&#39;earthsun&#39;</span><span class="p">,</span> <span class="s">&#39;econsci&#39;</span><span class="p">,</span>
+       <span class="s">&#39;educ&#39;</span><span class="p">,</span> <span class="s">&#39;eftotlt&#39;</span><span class="p">,</span> <span class="s">&#39;eharaswk&#39;</span><span class="p">,</span> <span class="s">&#39;eldcost&#39;</span><span class="p">,</span> <span class="s">&#39;eldersup&#39;</span><span class="p">,</span> <span class="s">&#39;eldhelp&#39;</span><span class="p">,</span>
+       <span class="s">&#39;electron&#39;</span><span class="p">,</span> <span class="s">&#39;emailhr&#39;</span><span class="p">,</span> <span class="s">&#39;emailmin&#39;</span><span class="p">,</span> <span class="s">&#39;engbrng&#39;</span><span class="p">,</span> <span class="s">&#39;engbtr&#39;</span><span class="p">,</span> <span class="s">&#39;engda&#39;</span><span class="p">,</span>
+       <span class="s">&#39;engdgr&#39;</span><span class="p">,</span> <span class="s">&#39;engdo&#39;</span><span class="p">,</span> <span class="s">&#39;engearn&#39;</span><span class="p">,</span> <span class="s">&#39;engfun&#39;</span><span class="p">,</span> <span class="s">&#39;enggood&#39;</span><span class="p">,</span> <span class="s">&#39;engint&#39;</span><span class="p">,</span>
+       <span class="s">&#39;englone&#39;</span><span class="p">,</span> <span class="s">&#39;engnring&#39;</span><span class="p">,</span> <span class="s">&#39;engnrsci&#39;</span><span class="p">,</span> <span class="s">&#39;engodd&#39;</span><span class="p">,</span> <span class="s">&#39;engprob&#39;</span><span class="p">,</span> <span class="s">&#39;engrel&#39;</span><span class="p">,</span>
+       <span class="s">&#39;engresp&#39;</span><span class="p">,</span> <span class="s">&#39;engson&#39;</span><span class="p">,</span> <span class="s">&#39;eqwlth&#39;</span><span class="p">,</span> <span class="s">&#39;eth1&#39;</span><span class="p">,</span> <span class="s">&#39;eth2&#39;</span><span class="p">,</span> <span class="s">&#39;eth3&#39;</span><span class="p">,</span> <span class="s">&#39;ethnic&#39;</span><span class="p">,</span>
+       <span class="s">&#39;ethnum&#39;</span><span class="p">,</span> <span class="s">&#39;evcrack&#39;</span><span class="p">,</span> <span class="s">&#39;evdwell&#39;</span><span class="p">,</span> <span class="s">&#39;evharjb&#39;</span><span class="p">,</span> <span class="s">&#39;evidu&#39;</span><span class="p">,</span> <span class="s">&#39;evlosejb&#39;</span><span class="p">,</span>
+       <span class="s">&#39;evnegjob&#39;</span><span class="p">,</span> <span class="s">&#39;evolved&#39;</span><span class="p">,</span> <span class="s">&#39;evolved1&#39;</span><span class="p">,</span> <span class="s">&#39;evpaidsx&#39;</span><span class="p">,</span> <span class="s">&#39;evstray&#39;</span><span class="p">,</span> <span class="s">&#39;evwork&#39;</span><span class="p">,</span>
+       <span class="s">&#39;expdesgn&#39;</span><span class="p">,</span> <span class="s">&#39;exptext&#39;</span><span class="p">,</span> <span class="s">&#39;fair&#39;</span><span class="p">,</span> <span class="s">&#39;fambudgt&#39;</span><span class="p">,</span> <span class="s">&#39;famdif16&#39;</span><span class="p">,</span> <span class="s">&#39;famgen&#39;</span><span class="p">,</span>
+       <span class="s">&#39;family16&#39;</span><span class="p">,</span> <span class="s">&#39;famsuffr&#39;</span><span class="p">,</span> <span class="s">&#39;famvswk1&#39;</span><span class="p">,</span> <span class="s">&#39;famwkbst&#39;</span><span class="p">,</span> <span class="s">&#39;famwklst&#39;</span><span class="p">,</span>
+       <span class="s">&#39;farming&#39;</span><span class="p">,</span> <span class="s">&#39;fear&#39;</span><span class="p">,</span> <span class="s">&#39;fechld&#39;</span><span class="p">,</span> <span class="s">&#39;feelevel&#39;</span><span class="p">,</span> <span class="s">&#39;feeused&#39;</span><span class="p">,</span> <span class="s">&#39;fefam&#39;</span><span class="p">,</span>
+       <span class="s">&#39;fehire&#39;</span><span class="p">,</span> <span class="s">&#39;fejobaff&#39;</span><span class="p">,</span> <span class="s">&#39;fepol&#39;</span><span class="p">,</span> <span class="s">&#39;fepresch&#39;</span><span class="p">,</span> <span class="s">&#39;finalter&#39;</span><span class="p">,</span> <span class="s">&#39;finlcoun&#39;</span><span class="p">,</span>
+       <span class="s">&#39;finrela&#39;</span><span class="p">,</span> <span class="s">&#39;fireftng&#39;</span><span class="p">,</span> <span class="s">&#39;form&#39;</span><span class="p">,</span> <span class="s">&#39;formwt&#39;</span><span class="p">,</span> <span class="s">&#39;frndsex&#39;</span><span class="p">,</span> <span class="s">&#39;fucitzn&#39;</span><span class="p">,</span>
+       <span class="s">&#39;fund&#39;</span><span class="p">,</span> <span class="s">&#39;fund16&#39;</span><span class="p">,</span> <span class="s">&#39;gender1&#39;</span><span class="p">,</span> <span class="s">&#39;gender10&#39;</span><span class="p">,</span> <span class="s">&#39;gender11&#39;</span><span class="p">,</span> <span class="s">&#39;gender12&#39;</span><span class="p">,</span>
+       <span class="s">&#39;gender13&#39;</span><span class="p">,</span> <span class="s">&#39;gender14&#39;</span><span class="p">,</span> <span class="s">&#39;gender2&#39;</span><span class="p">,</span> <span class="s">&#39;gender3&#39;</span><span class="p">,</span> <span class="s">&#39;gender4&#39;</span><span class="p">,</span> <span class="s">&#39;gender5&#39;</span><span class="p">,</span>
+       <span class="s">&#39;gender6&#39;</span><span class="p">,</span> <span class="s">&#39;gender7&#39;</span><span class="p">,</span> <span class="s">&#39;gender8&#39;</span><span class="p">,</span> <span class="s">&#39;gender9&#39;</span><span class="p">,</span> <span class="s">&#39;getahead&#39;</span><span class="p">,</span> <span class="s">&#39;givblood&#39;</span><span class="p">,</span>
+       <span class="s">&#39;givchrty&#39;</span><span class="p">,</span> <span class="s">&#39;givhmlss&#39;</span><span class="p">,</span> <span class="s">&#39;givseat&#39;</span><span class="p">,</span> <span class="s">&#39;god&#39;</span><span class="p">,</span> <span class="s">&#39;goodlife&#39;</span><span class="p">,</span> <span class="s">&#39;gradtounder&#39;</span><span class="p">,</span>
+       <span class="s">&#39;granborn&#39;</span><span class="p">,</span> <span class="s">&#39;grass&#39;</span><span class="p">,</span> <span class="s">&#39;gunlaw&#39;</span><span class="p">,</span> <span class="s">&#39;hapcohab&#39;</span><span class="p">,</span> <span class="s">&#39;hapmar&#39;</span><span class="p">,</span> <span class="s">&#39;happy&#39;</span><span class="p">,</span>
+       <span class="s">&#39;happy7&#39;</span><span class="p">,</span> <span class="s">&#39;harjob5&#39;</span><span class="p">,</span> <span class="s">&#39;health&#39;</span><span class="p">,</span> <span class="s">&#39;health1&#39;</span><span class="p">,</span> <span class="s">&#39;hefinfo&#39;</span><span class="p">,</span> <span class="s">&#39;helpaway&#39;</span><span class="p">,</span>
+       <span class="s">&#39;helpblk&#39;</span><span class="p">,</span> <span class="s">&#39;helpful&#39;</span><span class="p">,</span> <span class="s">&#39;helphwrk&#39;</span><span class="p">,</span> <span class="s">&#39;helpjob&#39;</span><span class="p">,</span> <span class="s">&#39;helpnot&#39;</span><span class="p">,</span> <span class="s">&#39;helpoth&#39;</span><span class="p">,</span>
+       <span class="s">&#39;helppoor&#39;</span><span class="p">,</span> <span class="s">&#39;helpsick&#39;</span><span class="p">,</span> <span class="s">&#39;hhclean1&#39;</span><span class="p">,</span> <span class="s">&#39;hhrace&#39;</span><span class="p">,</span> <span class="s">&#39;hhtype&#39;</span><span class="p">,</span> <span class="s">&#39;hhtype1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;hhwkfair&#39;</span><span class="p">,</span> <span class="s">&#39;hispanic&#39;</span><span class="p">,</span> <span class="s">&#39;histsci&#39;</span><span class="p">,</span> <span class="s">&#39;hivtest&#39;</span><span class="p">,</span> <span class="s">&#39;hivtest1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;hivtest2&#39;</span><span class="p">,</span> <span class="s">&#39;homekid&#39;</span><span class="p">,</span> <span class="s">&#39;homosex&#39;</span><span class="p">,</span> <span class="s">&#39;hompop&#39;</span><span class="p">,</span> <span class="s">&#39;hotcore&#39;</span><span class="p">,</span> <span class="s">&#39;housewrk&#39;</span><span class="p">,</span>
+       <span class="s">&#39;hrs1&#39;</span><span class="p">,</span> <span class="s">&#39;hrs2&#39;</span><span class="p">,</span> <span class="s">&#39;hsbio&#39;</span><span class="p">,</span> <span class="s">&#39;hschem&#39;</span><span class="p">,</span> <span class="s">&#39;hsmath&#39;</span><span class="p">,</span> <span class="s">&#39;hsphys&#39;</span><span class="p">,</span> <span class="s">&#39;hubbywk1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;hunt&#39;</span><span class="p">,</span> <span class="s">&#39;idu30&#39;</span><span class="p">,</span> <span class="s">&#39;if08who&#39;</span><span class="p">,</span> <span class="s">&#39;ignorwk&#39;</span><span class="p">,</span> <span class="s">&#39;incom16&#39;</span><span class="p">,</span> <span class="s">&#39;income&#39;</span><span class="p">,</span>
+       <span class="s">&#39;income06&#39;</span><span class="p">,</span> <span class="s">&#39;indus10&#39;</span><span class="p">,</span> <span class="s">&#39;intage&#39;</span><span class="p">,</span> <span class="s">&#39;intecon&#39;</span><span class="p">,</span> <span class="s">&#39;inteduc&#39;</span><span class="p">,</span> <span class="s">&#39;intenvir&#39;</span><span class="p">,</span>
+       <span class="s">&#39;intethn&#39;</span><span class="p">,</span> <span class="s">&#39;intfarm&#39;</span><span class="p">,</span> <span class="s">&#39;inthisp&#39;</span><span class="p">,</span> <span class="s">&#39;intid&#39;</span><span class="p">,</span> <span class="s">&#39;intintl&#39;</span><span class="p">,</span> <span class="s">&#39;intlblks&#39;</span><span class="p">,</span>
+       <span class="s">&#39;intlwhts&#39;</span><span class="p">,</span> <span class="s">&#39;intmed&#39;</span><span class="p">,</span> <span class="s">&#39;intmil&#39;</span><span class="p">,</span> <span class="s">&#39;intrace1&#39;</span><span class="p">,</span> <span class="s">&#39;intrace2&#39;</span><span class="p">,</span> <span class="s">&#39;intrace3&#39;</span><span class="p">,</span>
+       <span class="s">&#39;intrhome&#39;</span><span class="p">,</span> <span class="s">&#39;intsci&#39;</span><span class="p">,</span> <span class="s">&#39;intsex&#39;</span><span class="p">,</span> <span class="s">&#39;intspace&#39;</span><span class="p">,</span> <span class="s">&#39;inttech&#39;</span><span class="p">,</span> <span class="s">&#39;intyrs&#39;</span><span class="p">,</span>
+       <span class="s">&#39;issp&#39;</span><span class="p">,</span> <span class="s">&#39;jew&#39;</span><span class="p">,</span> <span class="s">&#39;jew16&#39;</span><span class="p">,</span> <span class="s">&#39;jew16aj&#39;</span><span class="p">,</span> <span class="s">&#39;jewaj&#39;</span><span class="p">,</span> <span class="s">&#39;jobfind&#39;</span><span class="p">,</span> <span class="s">&#39;jobhour&#39;</span><span class="p">,</span>
+       <span class="s">&#39;jobinc&#39;</span><span class="p">,</span> <span class="s">&#39;joblose&#39;</span><span class="p">,</span> <span class="s">&#39;jobmeans&#39;</span><span class="p">,</span> <span class="s">&#39;jobpromo&#39;</span><span class="p">,</span> <span class="s">&#39;jobsec&#39;</span><span class="p">,</span> <span class="s">&#39;jobsecok&#39;</span><span class="p">,</span>
+       <span class="s">&#39;jobvsfa1&#39;</span><span class="p">,</span> <span class="s">&#39;jokeswk&#39;</span><span class="p">,</span> <span class="s">&#39;journlsm&#39;</span><span class="p">,</span> <span class="s">&#39;kd1jwoth&#39;</span><span class="p">,</span> <span class="s">&#39;kd1relig&#39;</span><span class="p">,</span>
+       <span class="s">&#39;kd2jwoth&#39;</span><span class="p">,</span> <span class="s">&#39;kd2relig&#39;</span><span class="p">,</span> <span class="s">&#39;kd3relig&#39;</span><span class="p">,</span> <span class="s">&#39;kidfinbu&#39;</span><span class="p">,</span> <span class="s">&#39;kidjob&#39;</span><span class="p">,</span> <span class="s">&#39;kidjoy&#39;</span><span class="p">,</span>
+       <span class="s">&#39;kidnofre&#39;</span><span class="p">,</span> <span class="s">&#39;kidnum&#39;</span><span class="p">,</span> <span class="s">&#39;kidsocst&#39;</span><span class="p">,</span> <span class="s">&#39;kidssol&#39;</span><span class="p">,</span> <span class="s">&#39;kidsuffr&#39;</span><span class="p">,</span> <span class="s">&#39;lackinfo&#39;</span><span class="p">,</span>
+       <span class="s">&#39;lasers&#39;</span><span class="p">,</span> <span class="s">&#39;laundry1&#39;</span><span class="p">,</span> <span class="s">&#39;lawenfrc&#39;</span><span class="p">,</span> <span class="s">&#39;lentto&#39;</span><span class="p">,</span> <span class="s">&#39;letdie1&#39;</span><span class="p">,</span> <span class="s">&#39;letin1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;libath&#39;</span><span class="p">,</span> <span class="s">&#39;libcom&#39;</span><span class="p">,</span> <span class="s">&#39;libhomo&#39;</span><span class="p">,</span> <span class="s">&#39;libmil&#39;</span><span class="p">,</span> <span class="s">&#39;libmslm&#39;</span><span class="p">,</span> <span class="s">&#39;librac&#39;</span><span class="p">,</span>
+       <span class="s">&#39;liedcwkr&#39;</span><span class="p">,</span> <span class="s">&#39;life&#39;</span><span class="p">,</span> <span class="s">&#39;liveblks&#39;</span><span class="p">,</span> <span class="s">&#39;livewhts&#39;</span><span class="p">,</span> <span class="s">&#39;lngthinv&#39;</span><span class="p">,</span> <span class="s">&#39;loanitem&#39;</span><span class="p">,</span>
+       <span class="s">&#39;localnum&#39;</span><span class="p">,</span> <span class="s">&#39;lockedup&#39;</span><span class="p">,</span> <span class="s">&#39;lookaway&#39;</span><span class="p">,</span> <span class="s">&#39;losejob5&#39;</span><span class="p">,</span> <span class="s">&#39;madeg&#39;</span><span class="p">,</span> <span class="s">&#39;maeduc&#39;</span><span class="p">,</span>
+       <span class="s">&#39;maind10&#39;</span><span class="p">,</span> <span class="s">&#39;majew&#39;</span><span class="p">,</span> <span class="s">&#39;major1&#39;</span><span class="p">,</span> <span class="s">&#39;major2&#39;</span><span class="p">,</span> <span class="s">&#39;majorcol&#39;</span><span class="p">,</span> <span class="s">&#39;majwoth&#39;</span><span class="p">,</span>
+       <span class="s">&#39;maocc10&#39;</span><span class="p">,</span> <span class="s">&#39;marasian&#39;</span><span class="p">,</span> <span class="s">&#39;marblk&#39;</span><span class="p">,</span> <span class="s">&#39;marelig&#39;</span><span class="p">,</span> <span class="s">&#39;marhappy&#39;</span><span class="p">,</span> <span class="s">&#39;marhisp&#39;</span><span class="p">,</span>
+       <span class="s">&#39;marhomo&#39;</span><span class="p">,</span> <span class="s">&#39;marital&#39;</span><span class="p">,</span> <span class="s">&#39;marlegit&#39;</span><span class="p">,</span> <span class="s">&#39;marrcoun&#39;</span><span class="p">,</span> <span class="s">&#39;marwht&#39;</span><span class="p">,</span> <span class="s">&#39;matesex&#39;</span><span class="p">,</span>
+       <span class="s">&#39;mawork14&#39;</span><span class="p">,</span> <span class="s">&#39;mawrkgrw&#39;</span><span class="p">,</span> <span class="s">&#39;mawrkslf&#39;</span><span class="p">,</span> <span class="s">&#39;mawrkwrm&#39;</span><span class="p">,</span> <span class="s">&#39;medsci&#39;</span><span class="p">,</span>
+       <span class="s">&#39;medtreat&#39;</span><span class="p">,</span> <span class="s">&#39;meovrwrk&#39;</span><span class="p">,</span> <span class="s">&#39;mntlhlth&#39;</span><span class="p">,</span> <span class="s">&#39;mobile16&#39;</span><span class="p">,</span> <span class="s">&#39;mode&#39;</span><span class="p">,</span> <span class="s">&#39;nataid&#39;</span><span class="p">,</span>
+       <span class="s">&#39;nataidy&#39;</span><span class="p">,</span> <span class="s">&#39;natarms&#39;</span><span class="p">,</span> <span class="s">&#39;natarmsy&#39;</span><span class="p">,</span> <span class="s">&#39;natchld&#39;</span><span class="p">,</span> <span class="s">&#39;natcity&#39;</span><span class="p">,</span> <span class="s">&#39;natcityy&#39;</span><span class="p">,</span>
+       <span class="s">&#39;natcrime&#39;</span><span class="p">,</span> <span class="s">&#39;natcrimy&#39;</span><span class="p">,</span> <span class="s">&#39;natdrug&#39;</span><span class="p">,</span> <span class="s">&#39;natdrugy&#39;</span><span class="p">,</span> <span class="s">&#39;nateduc&#39;</span><span class="p">,</span>
+       <span class="s">&#39;nateducy&#39;</span><span class="p">,</span> <span class="s">&#39;natenrgy&#39;</span><span class="p">,</span> <span class="s">&#39;natenvir&#39;</span><span class="p">,</span> <span class="s">&#39;natenviy&#39;</span><span class="p">,</span> <span class="s">&#39;natfare&#39;</span><span class="p">,</span>
+       <span class="s">&#39;natfarey&#39;</span><span class="p">,</span> <span class="s">&#39;natheal&#39;</span><span class="p">,</span> <span class="s">&#39;nathealy&#39;</span><span class="p">,</span> <span class="s">&#39;natmass&#39;</span><span class="p">,</span> <span class="s">&#39;natpark&#39;</span><span class="p">,</span> <span class="s">&#39;natrace&#39;</span><span class="p">,</span>
+       <span class="s">&#39;natracey&#39;</span><span class="p">,</span> <span class="s">&#39;natroad&#39;</span><span class="p">,</span> <span class="s">&#39;natsci&#39;</span><span class="p">,</span> <span class="s">&#39;natsoc&#39;</span><span class="p">,</span> <span class="s">&#39;natspac&#39;</span><span class="p">,</span> <span class="s">&#39;natspacy&#39;</span><span class="p">,</span>
+       <span class="s">&#39;negjob5&#39;</span><span class="p">,</span> <span class="s">&#39;news&#39;</span><span class="p">,</span> <span class="s">&#39;newsfrom&#39;</span><span class="p">,</span> <span class="s">&#39;nextgen&#39;</span><span class="p">,</span> <span class="s">&#39;numcong&#39;</span><span class="p">,</span> <span class="s">&#39;numemps&#39;</span><span class="p">,</span>
+       <span class="s">&#39;numkids&#39;</span><span class="p">,</span> <span class="s">&#39;nummen&#39;</span><span class="p">,</span> <span class="s">&#39;numwomen&#39;</span><span class="p">,</span> <span class="s">&#39;obey&#39;</span><span class="p">,</span> <span class="s">&#39;occ10&#39;</span><span class="p">,</span> <span class="s">&#39;odds1&#39;</span><span class="p">,</span> <span class="s">&#39;odds2&#39;</span><span class="p">,</span>
+       <span class="s">&#39;old1&#39;</span><span class="p">,</span> <span class="s">&#39;old10&#39;</span><span class="p">,</span> <span class="s">&#39;old11&#39;</span><span class="p">,</span> <span class="s">&#39;old12&#39;</span><span class="p">,</span> <span class="s">&#39;old13&#39;</span><span class="p">,</span> <span class="s">&#39;old14&#39;</span><span class="p">,</span> <span class="s">&#39;old2&#39;</span><span class="p">,</span> <span class="s">&#39;old3&#39;</span><span class="p">,</span>
+       <span class="s">&#39;old4&#39;</span><span class="p">,</span> <span class="s">&#39;old5&#39;</span><span class="p">,</span> <span class="s">&#39;old6&#39;</span><span class="p">,</span> <span class="s">&#39;old7&#39;</span><span class="p">,</span> <span class="s">&#39;old8&#39;</span><span class="p">,</span> <span class="s">&#39;old9&#39;</span><span class="p">,</span> <span class="s">&#39;oth16&#39;</span><span class="p">,</span> <span class="s">&#39;othcredt&#39;</span><span class="p">,</span>
+       <span class="s">&#39;other&#39;</span><span class="p">,</span> <span class="s">&#39;othersex&#39;</span><span class="p">,</span> <span class="s">&#39;othjew&#39;</span><span class="p">,</span> <span class="s">&#39;othjew16&#39;</span><span class="p">,</span> <span class="s">&#39;othlang&#39;</span><span class="p">,</span> <span class="s">&#39;othlang1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;othlang2&#39;</span><span class="p">,</span> <span class="s">&#39;othshelp&#39;</span><span class="p">,</span> <span class="s">&#39;oversamp&#39;</span><span class="p">,</span> <span class="s">&#39;owngun&#39;</span><span class="p">,</span> <span class="s">&#39;padeg&#39;</span><span class="p">,</span> <span class="s">&#39;paeduc&#39;</span><span class="p">,</span>
+       <span class="s">&#39;paidlv&#39;</span><span class="p">,</span> <span class="s">&#39;paidlv1&#39;</span><span class="p">,</span> <span class="s">&#39;paidlvdv&#39;</span><span class="p">,</span> <span class="s">&#39;paidlvpy&#39;</span><span class="p">,</span> <span class="s">&#39;paidsex&#39;</span><span class="p">,</span> <span class="s">&#39;paind10&#39;</span><span class="p">,</span>
+       <span class="s">&#39;pajew&#39;</span><span class="p">,</span> <span class="s">&#39;pajwoth&#39;</span><span class="p">,</span> <span class="s">&#39;paocc10&#39;</span><span class="p">,</span> <span class="s">&#39;parborn&#39;</span><span class="p">,</span> <span class="s">&#39;parelig&#39;</span><span class="p">,</span> <span class="s">&#39;parsol&#39;</span><span class="p">,</span>
+       <span class="s">&#39;partfull&#39;</span><span class="p">,</span> <span class="s">&#39;partners&#39;</span><span class="p">,</span> <span class="s">&#39;partnrs5&#39;</span><span class="p">,</span> <span class="s">&#39;partyid&#39;</span><span class="p">,</span> <span class="s">&#39;pawrkslf&#39;</span><span class="p">,</span>
+       <span class="s">&#39;peoptrbl&#39;</span><span class="p">,</span> <span class="s">&#39;phase&#39;</span><span class="p">,</span> <span class="s">&#39;phone&#39;</span><span class="p">,</span> <span class="s">&#39;physcsci&#39;</span><span class="p">,</span> <span class="s">&#39;pikupsex&#39;</span><span class="p">,</span> <span class="s">&#39;pillok&#39;</span><span class="p">,</span>
+       <span class="s">&#39;pistol&#39;</span><span class="p">,</span> <span class="s">&#39;polabuse&#39;</span><span class="p">,</span> <span class="s">&#39;polattak&#39;</span><span class="p">,</span> <span class="s">&#39;poleff11&#39;</span><span class="p">,</span> <span class="s">&#39;poleff13&#39;</span><span class="p">,</span>
+       <span class="s">&#39;poleff15&#39;</span><span class="p">,</span> <span class="s">&#39;poleff16&#39;</span><span class="p">,</span> <span class="s">&#39;poleff17&#39;</span><span class="p">,</span> <span class="s">&#39;poleff3&#39;</span><span class="p">,</span> <span class="s">&#39;polefy11&#39;</span><span class="p">,</span>
+       <span class="s">&#39;polefy13&#39;</span><span class="p">,</span> <span class="s">&#39;polefy15&#39;</span><span class="p">,</span> <span class="s">&#39;polefy16&#39;</span><span class="p">,</span> <span class="s">&#39;polefy17&#39;</span><span class="p">,</span> <span class="s">&#39;polefy3&#39;</span><span class="p">,</span>
+       <span class="s">&#39;polescap&#39;</span><span class="p">,</span> <span class="s">&#39;polhitok&#39;</span><span class="p">,</span> <span class="s">&#39;polmurdr&#39;</span><span class="p">,</span> <span class="s">&#39;polviews&#39;</span><span class="p">,</span> <span class="s">&#39;popespks&#39;</span><span class="p">,</span>
+       <span class="s">&#39;popular&#39;</span><span class="p">,</span> <span class="s">&#39;pornlaw&#39;</span><span class="p">,</span> <span class="s">&#39;posslq&#39;</span><span class="p">,</span> <span class="s">&#39;posslqy&#39;</span><span class="p">,</span> <span class="s">&#39;postlife&#39;</span><span class="p">,</span> <span class="s">&#39;pray&#39;</span><span class="p">,</span>
+       <span class="s">&#39;prayer&#39;</span><span class="p">,</span> <span class="s">&#39;premarsx&#39;</span><span class="p">,</span> <span class="s">&#39;pres08&#39;</span><span class="p">,</span> <span class="s">&#39;prespop&#39;</span><span class="p">,</span> <span class="s">&#39;preteen&#39;</span><span class="p">,</span> <span class="s">&#39;putdown&#39;</span><span class="p">,</span>
+       <span class="s">&#39;racdif1&#39;</span><span class="p">,</span> <span class="s">&#39;racdif2&#39;</span><span class="p">,</span> <span class="s">&#39;racdif3&#39;</span><span class="p">,</span> <span class="s">&#39;racdif4&#39;</span><span class="p">,</span> <span class="s">&#39;race&#39;</span><span class="p">,</span> <span class="s">&#39;racecen1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;racecen2&#39;</span><span class="p">,</span> <span class="s">&#39;racecen3&#39;</span><span class="p">,</span> <span class="s">&#39;raclive&#39;</span><span class="p">,</span> <span class="s">&#39;racopen&#39;</span><span class="p">,</span> <span class="s">&#39;racwork&#39;</span><span class="p">,</span> <span class="s">&#39;radioact&#39;</span><span class="p">,</span>
+       <span class="s">&#39;rank&#39;</span><span class="p">,</span> <span class="s">&#39;ratetone&#39;</span><span class="p">,</span> <span class="s">&#39;realinc&#39;</span><span class="p">,</span> <span class="s">&#39;realrinc&#39;</span><span class="p">,</span> <span class="s">&#39;reborn&#39;</span><span class="p">,</span> <span class="s">&#39;reg16&#39;</span><span class="p">,</span>
+       <span class="s">&#39;region&#39;</span><span class="p">,</span> <span class="s">&#39;relactiv&#39;</span><span class="p">,</span> <span class="s">&#39;relate1&#39;</span><span class="p">,</span> <span class="s">&#39;relate10&#39;</span><span class="p">,</span> <span class="s">&#39;relate11&#39;</span><span class="p">,</span> <span class="s">&#39;relate12&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relate13&#39;</span><span class="p">,</span> <span class="s">&#39;relate14&#39;</span><span class="p">,</span> <span class="s">&#39;relate2&#39;</span><span class="p">,</span> <span class="s">&#39;relate3&#39;</span><span class="p">,</span> <span class="s">&#39;relate4&#39;</span><span class="p">,</span> <span class="s">&#39;relate5&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relate6&#39;</span><span class="p">,</span> <span class="s">&#39;relate7&#39;</span><span class="p">,</span> <span class="s">&#39;relate8&#39;</span><span class="p">,</span> <span class="s">&#39;relate9&#39;</span><span class="p">,</span> <span class="s">&#39;relatsex&#39;</span><span class="p">,</span> <span class="s">&#39;relhh1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relhh10&#39;</span><span class="p">,</span> <span class="s">&#39;relhh11&#39;</span><span class="p">,</span> <span class="s">&#39;relhh12&#39;</span><span class="p">,</span> <span class="s">&#39;relhh13&#39;</span><span class="p">,</span> <span class="s">&#39;relhh14&#39;</span><span class="p">,</span> <span class="s">&#39;relhh2&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relhh3&#39;</span><span class="p">,</span> <span class="s">&#39;relhh4&#39;</span><span class="p">,</span> <span class="s">&#39;relhh5&#39;</span><span class="p">,</span> <span class="s">&#39;relhh6&#39;</span><span class="p">,</span> <span class="s">&#39;relhh7&#39;</span><span class="p">,</span> <span class="s">&#39;relhh8&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relhh9&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd1&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd10&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd11&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd12&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd13&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relhhd14&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd2&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd3&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd4&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd5&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd6&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relhhd7&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd8&#39;</span><span class="p">,</span> <span class="s">&#39;relhhd9&#39;</span><span class="p">,</span> <span class="s">&#39;relig&#39;</span><span class="p">,</span> <span class="s">&#39;relig16&#39;</span><span class="p">,</span> <span class="s">&#39;reliten&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relpersn&#39;</span><span class="p">,</span> <span class="s">&#39;relsp1&#39;</span><span class="p">,</span> <span class="s">&#39;relsp10&#39;</span><span class="p">,</span> <span class="s">&#39;relsp11&#39;</span><span class="p">,</span> <span class="s">&#39;relsp12&#39;</span><span class="p">,</span> <span class="s">&#39;relsp13&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relsp14&#39;</span><span class="p">,</span> <span class="s">&#39;relsp2&#39;</span><span class="p">,</span> <span class="s">&#39;relsp3&#39;</span><span class="p">,</span> <span class="s">&#39;relsp4&#39;</span><span class="p">,</span> <span class="s">&#39;relsp5&#39;</span><span class="p">,</span> <span class="s">&#39;relsp6&#39;</span><span class="p">,</span>
+       <span class="s">&#39;relsp7&#39;</span><span class="p">,</span> <span class="s">&#39;relsp8&#39;</span><span class="p">,</span> <span class="s">&#39;relsp9&#39;</span><span class="p">,</span> <span class="s">&#39;repairs1&#39;</span><span class="p">,</span> <span class="s">&#39;res16&#39;</span><span class="p">,</span> <span class="s">&#39;respnum&#39;</span><span class="p">,</span>
+       <span class="s">&#39;retchnge&#39;</span><span class="p">,</span> <span class="s">&#39;rfamlook&#39;</span><span class="p">,</span> <span class="s">&#39;rhhwork&#39;</span><span class="p">,</span> <span class="s">&#39;richwork&#39;</span><span class="p">,</span> <span class="s">&#39;rifle&#39;</span><span class="p">,</span> <span class="s">&#39;rincom06&#39;</span><span class="p">,</span>
+       <span class="s">&#39;rincome&#39;</span><span class="p">,</span> <span class="s">&#39;rowngun&#39;</span><span class="p">,</span> <span class="s">&#39;rplace&#39;</span><span class="p">,</span> <span class="s">&#39;rudewk&#39;</span><span class="p">,</span> <span class="s">&#39;rumorwk&#39;</span><span class="p">,</span> <span class="s">&#39;rvisitor&#39;</span><span class="p">,</span>
+       <span class="s">&#39;sampcode&#39;</span><span class="p">,</span> <span class="s">&#39;sample&#39;</span><span class="p">,</span> <span class="s">&#39;satfam7&#39;</span><span class="p">,</span> <span class="s">&#39;satfin&#39;</span><span class="p">,</span> <span class="s">&#39;satjob&#39;</span><span class="p">,</span> <span class="s">&#39;satjob7&#39;</span><span class="p">,</span>
+       <span class="s">&#39;savesoul&#39;</span><span class="p">,</span> <span class="s">&#39;scibnfts&#39;</span><span class="p">,</span> <span class="s">&#39;sciental&#39;</span><span class="p">,</span> <span class="s">&#39;scientbe&#39;</span><span class="p">,</span> <span class="s">&#39;scientbr&#39;</span><span class="p">,</span>
+       <span class="s">&#39;scientda&#39;</span><span class="p">,</span> <span class="s">&#39;scientdn&#39;</span><span class="p">,</span> <span class="s">&#39;scientdo&#39;</span><span class="p">,</span> <span class="s">&#39;scientfu&#39;</span><span class="p">,</span> <span class="s">&#39;scientgo&#39;</span><span class="p">,</span>
+       <span class="s">&#39;scienthe&#39;</span><span class="p">,</span> <span class="s">&#39;scientmo&#39;</span><span class="p">,</span> <span class="s">&#39;scientod&#39;</span><span class="p">,</span> <span class="s">&#39;scientr&#39;</span><span class="p">,</span> <span class="s">&#39;scientre&#39;</span><span class="p">,</span>
+       <span class="s">&#39;scientsn&#39;</span><span class="p">,</span> <span class="s">&#39;scientwk&#39;</span><span class="p">,</span> <span class="s">&#39;scifrom&#39;</span><span class="p">,</span> <span class="s">&#39;scinews1&#39;</span><span class="p">,</span> <span class="s">&#39;scinews2&#39;</span><span class="p">,</span>
+       <span class="s">&#39;scinews3&#39;</span><span class="p">,</span> <span class="s">&#39;scistudy&#39;</span><span class="p">,</span> <span class="s">&#39;scitext&#39;</span><span class="p">,</span> <span class="s">&#39;sector&#39;</span><span class="p">,</span> <span class="s">&#39;seeksci&#39;</span><span class="p">,</span> <span class="s">&#39;selffrst&#39;</span><span class="p">,</span>
+       <span class="s">&#39;selfless&#39;</span><span class="p">,</span> <span class="s">&#39;sex&#39;</span><span class="p">,</span> <span class="s">&#39;sexeduc&#39;</span><span class="p">,</span> <span class="s">&#39;sexfreq&#39;</span><span class="p">,</span> <span class="s">&#39;sexornt&#39;</span><span class="p">,</span> <span class="s">&#39;sexsex&#39;</span><span class="p">,</span>
+       <span class="s">&#39;sexsex18&#39;</span><span class="p">,</span> <span class="s">&#39;sexsex5&#39;</span><span class="p">,</span> <span class="s">&#39;shop1&#39;</span><span class="p">,</span> <span class="s">&#39;shotgun&#39;</span><span class="p">,</span> <span class="s">&#39;shout&#39;</span><span class="p">,</span> <span class="s">&#39;sibs&#39;</span><span class="p">,</span>
+       <span class="s">&#39;singlpar&#39;</span><span class="p">,</span> <span class="s">&#39;size&#39;</span><span class="p">,</span> <span class="s">&#39;slsmnshp&#39;</span><span class="p">,</span> <span class="s">&#39;socbar&#39;</span><span class="p">,</span> <span class="s">&#39;socfrend&#39;</span><span class="p">,</span> <span class="s">&#39;socommun&#39;</span><span class="p">,</span>
+       <span class="s">&#39;socrel&#39;</span><span class="p">,</span> <span class="s">&#39;socsci&#39;</span><span class="p">,</span> <span class="s">&#39;solarrev&#39;</span><span class="p">,</span> <span class="s">&#39;spaneng&#39;</span><span class="p">,</span> <span class="s">&#39;spanint&#39;</span><span class="p">,</span> <span class="s">&#39;spanking&#39;</span><span class="p">,</span>
+       <span class="s">&#39;spanself&#39;</span><span class="p">,</span> <span class="s">&#39;spbarate&#39;</span><span class="p">,</span> <span class="s">&#39;spdeg&#39;</span><span class="p">,</span> <span class="s">&#39;spden&#39;</span><span class="p">,</span> <span class="s">&#39;spdipged&#39;</span><span class="p">,</span> <span class="s">&#39;speduc&#39;</span><span class="p">,</span>
+       <span class="s">&#39;speftotlt&#39;</span><span class="p">,</span> <span class="s">&#39;spevwork&#39;</span><span class="p">,</span> <span class="s">&#39;spfalook&#39;</span><span class="p">,</span> <span class="s">&#39;spfund&#39;</span><span class="p">,</span> <span class="s">&#39;spgradtounder&#39;</span><span class="p">,</span>
+       <span class="s">&#39;sphhwork&#39;</span><span class="p">,</span> <span class="s">&#39;sphrs1&#39;</span><span class="p">,</span> <span class="s">&#39;sphrs2&#39;</span><span class="p">,</span> <span class="s">&#39;spind10&#39;</span><span class="p">,</span> <span class="s">&#39;spjew&#39;</span><span class="p">,</span> <span class="s">&#39;spjew16&#39;</span><span class="p">,</span>
+       <span class="s">&#39;spjewaj&#39;</span><span class="p">,</span> <span class="s">&#39;spjoth16&#39;</span><span class="p">,</span> <span class="s">&#39;spkath&#39;</span><span class="p">,</span> <span class="s">&#39;spkcom&#39;</span><span class="p">,</span> <span class="s">&#39;spkhomo&#39;</span><span class="p">,</span> <span class="s">&#39;spklang&#39;</span><span class="p">,</span>
+       <span class="s">&#39;spkmil&#39;</span><span class="p">,</span> <span class="s">&#39;spkmslm&#39;</span><span class="p">,</span> <span class="s">&#39;spkrac&#39;</span><span class="p">,</span> <span class="s">&#39;splive&#39;</span><span class="p">,</span> <span class="s">&#39;spocc10&#39;</span><span class="p">,</span> <span class="s">&#39;spother&#39;</span><span class="p">,</span>
+       <span class="s">&#39;spothjew&#39;</span><span class="p">,</span> <span class="s">&#39;sprel&#39;</span><span class="p">,</span> <span class="s">&#39;sprel16&#39;</span><span class="p">,</span> <span class="s">&#39;sprtprsn&#39;</span><span class="p">,</span> <span class="s">&#39;spsector&#39;</span><span class="p">,</span> <span class="s">&#39;spwrkslf&#39;</span><span class="p">,</span>
+       <span class="s">&#39;spwrksta&#39;</span><span class="p">,</span> <span class="s">&#39;srcbelt&#39;</span><span class="p">,</span> <span class="s">&#39;ssfchild&#39;</span><span class="p">,</span> <span class="s">&#39;ssmchild&#39;</span><span class="p">,</span> <span class="s">&#39;suicide1&#39;</span><span class="p">,</span>
+       <span class="s">&#39;suicide2&#39;</span><span class="p">,</span> <span class="s">&#39;suicide3&#39;</span><span class="p">,</span> <span class="s">&#39;suicide4&#39;</span><span class="p">,</span> <span class="s">&#39;supcares&#39;</span><span class="p">,</span> <span class="s">&#39;synmem&#39;</span><span class="p">,</span>
+       <span class="s">&#39;talkedto&#39;</span><span class="p">,</span> <span class="s">&#39;tax&#39;</span><span class="p">,</span> <span class="s">&#39;teens&#39;</span><span class="p">,</span> <span class="s">&#39;teensex&#39;</span><span class="p">,</span> <span class="s">&#39;thnkself&#39;</span><span class="p">,</span> <span class="s">&#39;ticket&#39;</span><span class="p">,</span>
+       <span class="s">&#39;tiredhm1&#39;</span><span class="p">,</span> <span class="s">&#39;tiredwk1&#39;</span><span class="p">,</span> <span class="s">&#39;toldwork&#39;</span><span class="p">,</span> <span class="s">&#39;toofast&#39;</span><span class="p">,</span> <span class="s">&#39;treatres&#39;</span><span class="p">,</span> <span class="s">&#39;trust&#39;</span><span class="p">,</span>
+       <span class="s">&#39;trynewjb&#39;</span><span class="p">,</span> <span class="s">&#39;tvhours&#39;</span><span class="p">,</span> <span class="s">&#39;twoincs1&#39;</span><span class="p">,</span> <span class="s">&#39;unemp&#39;</span><span class="p">,</span> <span class="s">&#39;union&#39;</span><span class="p">,</span> <span class="s">&#39;unrelat&#39;</span><span class="p">,</span>
+       <span class="s">&#39;uscitzn&#39;</span><span class="p">,</span> <span class="s">&#39;usewww&#39;</span><span class="p">,</span> <span class="s">&#39;uswar&#39;</span><span class="p">,</span> <span class="s">&#39;uswary&#39;</span><span class="p">,</span> <span class="s">&#39;version&#39;</span><span class="p">,</span> <span class="s">&#39;vetyears&#39;</span><span class="p">,</span>
+       <span class="s">&#39;viruses&#39;</span><span class="p">,</span> <span class="s">&#39;visart&#39;</span><span class="p">,</span> <span class="s">&#39;visitors&#39;</span><span class="p">,</span> <span class="s">&#39;vislib&#39;</span><span class="p">,</span> <span class="s">&#39;visnhist&#39;</span><span class="p">,</span> <span class="s">&#39;vissci&#39;</span><span class="p">,</span>
+       <span class="s">&#39;viszoo&#39;</span><span class="p">,</span> <span class="s">&#39;voedcol&#39;</span><span class="p">,</span> <span class="s">&#39;voedncol&#39;</span><span class="p">,</span> <span class="s">&#39;voednme1&#39;</span><span class="p">,</span> <span class="s">&#39;voednme2&#39;</span><span class="p">,</span> <span class="s">&#39;volacty2&#39;</span><span class="p">,</span>
+       <span class="s">&#39;volactyr&#39;</span><span class="p">,</span> <span class="s">&#39;volchrty&#39;</span><span class="p">,</span> <span class="s">&#39;volmonth&#39;</span><span class="p">,</span> <span class="s">&#39;vote08&#39;</span><span class="p">,</span> <span class="s">&#39;webmob&#39;</span><span class="p">,</span> <span class="s">&#39;weekswrk&#39;</span><span class="p">,</span>
+       <span class="s">&#39;whencol&#39;</span><span class="p">,</span> <span class="s">&#39;whenhs&#39;</span><span class="p">,</span> <span class="s">&#39;where1&#39;</span><span class="p">,</span> <span class="s">&#39;where11&#39;</span><span class="p">,</span> <span class="s">&#39;where12&#39;</span><span class="p">,</span> <span class="s">&#39;where2&#39;</span><span class="p">,</span>
+       <span class="s">&#39;where3&#39;</span><span class="p">,</span> <span class="s">&#39;where4&#39;</span><span class="p">,</span> <span class="s">&#39;where5&#39;</span><span class="p">,</span> <span class="s">&#39;where6&#39;</span><span class="p">,</span> <span class="s">&#39;where7&#39;</span><span class="p">,</span> <span class="s">&#39;where8&#39;</span><span class="p">,</span>
+       <span class="s">&#39;whoelse1&#39;</span><span class="p">,</span> <span class="s">&#39;whoelse2&#39;</span><span class="p">,</span> <span class="s">&#39;whoelse3&#39;</span><span class="p">,</span> <span class="s">&#39;whoelse4&#39;</span><span class="p">,</span> <span class="s">&#39;whoelse5&#39;</span><span class="p">,</span>
+       <span class="s">&#39;whoelse6&#39;</span><span class="p">,</span> <span class="s">&#39;widowed&#39;</span><span class="p">,</span> <span class="s">&#39;wkageism&#39;</span><span class="p">,</span> <span class="s">&#39;wkbhvrs&#39;</span><span class="p">,</span> <span class="s">&#39;wkkidscl&#39;</span><span class="p">,</span>
+       <span class="s">&#39;wkkidscs&#39;</span><span class="p">,</span> <span class="s">&#39;wkndact&#39;</span><span class="p">,</span> <span class="s">&#39;wkracism&#39;</span><span class="p">,</span> <span class="s">&#39;wkrspns&#39;</span><span class="p">,</span> <span class="s">&#39;wkstress&#39;</span><span class="p">,</span> <span class="s">&#39;wksub&#39;</span><span class="p">,</span>
+       <span class="s">&#39;wksubs&#39;</span><span class="p">,</span> <span class="s">&#39;wksup&#39;</span><span class="p">,</span> <span class="s">&#39;wksups&#39;</span><span class="p">,</span> <span class="s">&#39;wkvsfam&#39;</span><span class="p">,</span> <span class="s">&#39;wkyngscl&#39;</span><span class="p">,</span> <span class="s">&#39;wkyngscs&#39;</span><span class="p">,</span>
+       <span class="s">&#39;wlthblks&#39;</span><span class="p">,</span> <span class="s">&#39;wlthwhts&#39;</span><span class="p">,</span> <span class="s">&#39;worda&#39;</span><span class="p">,</span> <span class="s">&#39;wordb&#39;</span><span class="p">,</span> <span class="s">&#39;wordc&#39;</span><span class="p">,</span> <span class="s">&#39;wordd&#39;</span><span class="p">,</span> <span class="s">&#39;worde&#39;</span><span class="p">,</span>
+       <span class="s">&#39;wordf&#39;</span><span class="p">,</span> <span class="s">&#39;wordg&#39;</span><span class="p">,</span> <span class="s">&#39;wordh&#39;</span><span class="p">,</span> <span class="s">&#39;wordi&#39;</span><span class="p">,</span> <span class="s">&#39;wordj&#39;</span><span class="p">,</span> <span class="s">&#39;wordsum&#39;</span><span class="p">,</span> <span class="s">&#39;workblks&#39;</span><span class="p">,</span>
+       <span class="s">&#39;workhard&#39;</span><span class="p">,</span> <span class="s">&#39;workwhts&#39;</span><span class="p">,</span> <span class="s">&#39;wrkbaby&#39;</span><span class="p">,</span> <span class="s">&#39;wrkgovt&#39;</span><span class="p">,</span> <span class="s">&#39;wrksch&#39;</span><span class="p">,</span> <span class="s">&#39;wrkslf&#39;</span><span class="p">,</span>
+       <span class="s">&#39;wrkstat&#39;</span><span class="p">,</span> <span class="s">&#39;wrkwayup&#39;</span><span class="p">,</span> <span class="s">&#39;wwwhr&#39;</span><span class="p">,</span> <span class="s">&#39;wwwmin&#39;</span><span class="p">,</span> <span class="s">&#39;xmarsex&#39;</span><span class="p">,</span> <span class="s">&#39;xmovie&#39;</span><span class="p">,</span>
+       <span class="s">&#39;xnorcsiz&#39;</span><span class="p">,</span> <span class="s">&#39;zodiac&#39;</span><span class="p">],</span> <span class="n">dtype</span><span class="o">=</span><span class="nb">object</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">gss</span><span class="p">[</span><span class="s">&#39;age&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre>0     22
+1     21
+2     42
+3     49
+4     70
+5     50
+6     35
+7     24
+8     28
+9     28
+10    55
+11    36
+12    28
+13    59
+14    52
+...
+1959    63
+1960    20
+1961    71
+1962    50
+1963    23
+1964    65
+1965    60
+1966    69
+1967    78
+1968    25
+1969    61
+1970    53
+1971    48
+1972    37
+1973    22
+Name: age, Length: 1974, dtype: object
+</pre></div>
+</div>
+<div class="code python highlight-python"><div class="highlight"><pre><span class="n">gss</span><span class="p">[</span><span class="s">&#39;marhomo&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+<div class="highlight-python"><div class="highlight"><pre>0                 strongly agree
+1              strongly disagree
+2                 strongly agree
+3                            NaN
+4                            NaN
+5                 strongly agree
+6                            NaN
+7                 strongly agree
+8     neither agree nor disagree
+9                 strongly agree
+10                           NaN
+11                           NaN
+12                strongly agree
+13             strongly disagree
+14                           NaN
+...
+1959                strongly agree
+1960                strongly agree
+1961                           NaN
+1962                         agree
+1963                strongly agree
+1964                           NaN
+1965                         agree
+1966                           NaN
+1967                      disagree
+1968                strongly agree
+1969                           NaN
+1970             strongly disagree
+1971    neither agree nor disagree
+1972                           NaN
+1973    neither agree nor disagree
+Name: marhomo, Length: 1974, dtype: object
+</pre></div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../Case_Studies.html">Case Studies</a><ul>
+      <li>Previous: <a href="../UK_Abolition_of_Slave_Trade/Data Sources.html" title="previous chapter">&lt;no title&gt;</a></li>
+      <li>Next: <a href="../../Models_of_the_Climate_Movement/Climate Movement.html" title="next chapter">Climate Movement</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../../_sources/Historical_Case_Studies/US_Marriage_Equality/Acceptance of Gay Marriage.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <input type="text" name="q" />
+      <input type="submit" value="Go" />
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+    <p class="searchtip" style="font-size: 90%">
+    Enter search terms or a module, class or function name.
+    </p>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2015, James Houghton.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.3.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.6</a>
+      
+      |
+      <a href="../../_sources/Historical_Case_Studies/US_Marriage_Equality/Acceptance of Gay Marriage.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
