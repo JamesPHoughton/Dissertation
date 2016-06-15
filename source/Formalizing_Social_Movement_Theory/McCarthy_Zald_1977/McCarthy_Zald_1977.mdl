@@ -1,0 +1,149 @@
+{UTF-8}
+********************************************************
+	.mccarthy zald 1977
+********************************************************~
+		Research Question:
+		What is the theory described in McCarthy and Zald 1977
+		- Is it structurally consistent
+		- Can it produce the predicted behavior
+		
+		Scope:
+		- Social movement industry: all of the individuals and organizations \
+		within an SMI
+	|
+
+Interaction:
+	Federated, Isolated
+	~	
+	~		|
+
+Discontent  = A FUNCTION OF( )
+	~	
+	~		|
+
+Movement Grievances  = A FUNCTION OF( )
+	~	
+	~		|
+
+"Intensity of grievances/preferences"  = A FUNCTION OF( )
+	~	
+	~		|
+
+Social Movement Organizations  = A FUNCTION OF( )
+	~	
+	~		|
+
+Goal Achievement  = A FUNCTION OF( )
+	~	
+	~		|
+
+SMO:
+	SMO 1, SMO 2, SMO 3, SMO 4, SMO 5
+	~	
+	~		|
+
+Adherents  = A FUNCTION OF( -Mobilization)
+	~	
+	~		|
+
+Benefit:
+	Beneficiary, Non Beneficiary
+	~	
+	~		|
+
+Bystander Public  = A FUNCTION OF( )
+	~	
+	~		|
+
+Constituents  = A FUNCTION OF( Mobilization)
+	~	
+	~		|
+
+Mobilization  = A FUNCTION OF( )
+	~	
+	~		|
+
+Opponents  = A FUNCTION OF( )
+	~	
+	~		|
+
+Resource Level:
+	Mass, Elite
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Opponents,184,241,40,20,3,131,0,0,0,0,0,0
+10,2,Bystander Public,359,241,40,20,3,131,0,0,0,0,0,0
+10,3,Adherents,534,241,40,20,3,131,0,0,0,0,0,0
+10,4,Constituents,709,241,40,20,3,131,0,0,0,0,0,0
+1,5,7,4,4,0,0,22,0,0,0,-1--1--1,,1|(648,241)|
+1,6,7,3,100,0,0,22,0,0,0,-1--1--1,,1|(594,241)|
+11,7,236,621,241,6,8,34,3,0,0,1,0,0,0
+10,8,Mobilization,621,257,33,8,40,3,0,0,-1,0,0,0
+10,9,Movement Grievances,331,52,40,20,3,3,0,0,0,0,0,0
+10,10,Discontent,489,96,40,20,3,3,0,0,0,0,0,0
+10,11,Social Movement Organizations,393,534,40,20,3,3,0,0,0,0,0,0
+10,12,Goal Achievement,604,451,40,20,3,3,0,0,0,0,0,0
+10,13,"Intensity of grievances/preferences",228,99,59,14,8,3,0,0,0,0,0,0
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Adherents
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:0
+24:0
+25:0
+26:0
+6:Beneficiary
+6:Federated
+6:Mass
+6:SMO 1

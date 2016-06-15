@@ -1,0 +1,150 @@
+{UTF-8}
+Avg Owner's Liquid Assets  = A FUNCTION OF( Income,-Investment Spending)
+	~	
+	~		|
+
+Avg Worker's Liquid Assets  = A FUNCTION OF( Earnings,-Expenses)
+	~	
+	~		|
+
+Capital  = A FUNCTION OF( Investment)
+	~	
+	~		|
+
+Earnings  = A FUNCTION OF( Worker Wage)
+	~	
+	~		|
+
+Expenses  = A FUNCTION OF( )
+	~	
+	~		|
+
+Income  = A FUNCTION OF( Revenue Net Labor Cost)
+	~	
+	~		|
+
+Investment  = A FUNCTION OF( Investment Spending)
+	~	
+	~		|
+
+Investment Spending  = A FUNCTION OF( Avg Owner's Liquid Assets)
+	~	
+	~		|
+
+Labor Excess Productivity=A FUNCTION OF(Labor Excess Productivity) ~~|
+Labor Excess Productivity=
+	~	
+	~	This is the fraction of the average worker's income that is returned as \
+		profit to the owner. Ie, if the per worker earnings are 1.5, and the cost \
+		of employing each worker is 1, then the productivity in excess of what the \
+		worker gets is 0.5
+	|
+
+Reinvestment Ratio  = A FUNCTION OF( )
+	~	
+	~		|
+
+Revenue Net Labor Cost  = A FUNCTION OF( Labor Excess Productivity,workers per owner)
+	~	
+	~		|
+
+Worker Wage  = A FUNCTION OF( )
+	~	
+	~		|
+
+workers per owner  = A FUNCTION OF( Capital)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Capital,626,163,40,20,3,3,0,0,0,0,0,0
+10,2,Avg Owner's Liquid Assets,599,380,40,20,3,3,0,0,0,0,0,0
+12,3,48,460,384,10,8,0,3,0,0,-1,0,0,0
+1,4,6,2,4,0,0,22,0,0,0,-1--1--1,,1|(540,380)|
+1,5,6,3,100,0,0,22,0,0,0,-1--1--1,,1|(489,380)|
+11,6,0,515,380,6,8,34,3,0,0,1,0,0,0
+10,7,Income,515,396,20,8,40,3,0,0,-1,0,0,0
+12,8,48,767,380,10,8,0,3,0,0,-1,0,0,0
+1,9,11,8,4,0,0,22,0,0,0,-1--1--1,,1|(736,380)|
+1,10,11,2,100,0,0,22,0,0,0,-1--1--1,,1|(671,380)|
+11,11,0,710,380,6,8,34,3,0,0,1,0,0,0
+10,12,Investment Spending,710,404,30,16,40,131,0,0,-1,0,0,0
+10,13,Reinvestment Ratio,920,296,50,8,8,3,0,0,0,0,0,0
+12,14,48,766,164,10,8,0,3,0,0,-1,0,0,0
+1,15,17,1,4,0,0,22,0,0,0,-1--1--1,,1|(692,165)|
+1,16,17,14,100,0,0,22,0,0,0,-1--1--1,,1|(743,165)|
+11,17,0,724,165,6,8,34,3,0,0,1,0,0,0
+10,18,Investment,724,181,29,8,40,3,0,0,-1,0,0,0
+10,19,Labor Excess Productivity,366,204,35,14,8,131,0,0,0,0,0,0
+10,20,Avg Worker's Liquid Assets,348,473,40,20,3,3,0,0,0,0,0,0
+12,21,48,212,471,10,8,0,3,0,0,-1,0,0,0
+1,22,24,20,4,0,0,22,0,0,0,-1--1--1,,1|(289,471)|
+1,23,24,21,100,0,0,22,0,0,0,-1--1--1,,1|(240,471)|
+11,24,0,265,471,6,8,34,3,0,0,1,0,0,0
+10,25,Earnings,265,487,24,8,40,3,0,0,-1,0,0,0
+12,26,48,493,475,10,8,0,3,0,0,-1,0,0,0
+1,27,29,26,4,0,0,22,0,0,0,-1--1--1,,1|(462,475)|
+1,28,29,20,100,0,0,22,0,0,0,-1--1--1,,1|(408,475)|
+11,29,0,435,475,6,8,34,3,0,0,1,0,0,0
+10,30,Expenses,435,491,25,8,40,3,0,0,-1,0,0,0
+1,31,11,18,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(779,307)|
+10,32,Worker Wage,262,399,24,14,8,131,0,0,0,0,0,0
+10,33,workers per owner,480,194,32,15,8,131,0,0,0,0,0,0
+1,34,1,33,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(542,165)|
+1,35,33,40,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(454,226)|
+1,36,19,40,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(384,246)|
+1,37,32,24,0,0,0,0,0,64,0,-1--1--1,,1|(262,432)|
+12,38,0,116,82,116,28,8,7,0,0,-1,0,0,0
+Model Assumes: capital yeilds a proportional increase in number of employees, with no internal impact on productivity per employee. No depreciation, no inflation, etc.
+1,39,2,11,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(651,350)|
+10,40,Revenue Net Labor Cost,449,290,33,14,8,3,0,0,0,0,0,0
+1,41,40,6,1,0,0,0,0,64,0,-1--1--1,,1|(470,347)|
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Capital
+24:0
+25:0
+26:0

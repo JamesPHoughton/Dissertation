@@ -1,0 +1,163 @@
+{UTF-8}
+Advantages of Protest A= INTEG (
+	0,
+		1)
+	~	
+	~		|
+
+Current Threat Tc= INTEG (
+	0,
+		1)
+	~	
+	~	Harms under the existing regime.
+		
+		pg 184:
+		'The state can increase prospective or current harm by increasing taxes, \
+		increasing violence against the population or specific groups, taking away \
+		rights or property, or other such actions. The state can also decrease \
+		current or prospective harm by making concessions, that is changing its \
+		policies to improve conditions for popular and/or elite groups.'
+	|
+
+Gains that would result from success V=
+	Advantages of Protest A + Current Threat Tc
+	~	
+	~	pg 184
+		new advantages obtained or current or prospective harms avoided
+	|
+
+Opposition Percieved Gains to Protest G=
+	(Gains that would result from success V * "Opposition Percieved Probability of Success (Opportunity) O"\
+		) - Repressive Threat Tr
+	~	
+	~	Pg 184:
+		This fonnula involves yet another simplification - that the costs of \
+		repression do not depend on the chances for success. In some cases, this \
+		is clearly false - those leading a rebellion are likely to suffer far \
+		greater costs if the rebellion fails than if it succeeds. However, if we \
+		focus on the ordinary protestor, say the person who helped defend the \
+		Russian Parliament in 1991, or the civil rights protestor who risks a \
+		beating or arrest, for them the eventual result days or weeks later will \
+		not change whether a bullet finds them on the barricade, or lighten the \
+		beating, or avoid the arrest. For them, the immediate risks involved with \
+		the act of protest itself are what counts - which is to say that leaders \
+		and followers may have a separate calculus of prospective gains and risks, \
+		with both being much greater for those in charge.
+	|
+
+"Opposition Percieved Probability of Success (Opportunity) O"=
+	State Susceptibility k1 + Popular Support k2 + Strength of nonstate allies k3
+	~	
+	~		|
+
+Popular Support k2= INTEG (
+	0,
+		0.1666)
+	~	
+	~		|
+
+Protest=
+	IF THEN ELSE(Opposition Percieved Gains to Protest G >0, 1 , 0 )
+	~	 [0,1,1]
+	~	Protest is here conceptualized as a binary variable, that depends only on the sign \
+		of the gains...
+		
+		Pg 185
+	|
+
+Repressive Threat Tr= INTEG (
+	0,
+		1)
+	~	
+	~	The cost of repression if protest is undertaken.
+		pg. 185
+	|
+
+State Susceptibility k1= INTEG (
+	0,
+		0.1666)
+	~	
+	~	state weakness (for example, fiscal problems, elite divisions, military \
+		defeat)
+	|
+
+Strength of nonstate allies k3= INTEG (
+	0,
+		0.1666)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Opposition Percieved Gains to Protest G,763,494,57,18,8,3,0,0,0,0,0,0
+10,2,"Opposition Percieved Probability of Success (Opportunity) O",603,300,68,18,8,3,0,0,0,0,0,0
+10,3,State Susceptibility k1,457,187,47,19,3,131,0,0,0,0,0,0
+10,4,Popular Support k2,572,122,40,20,3,3,0,0,0,0,0,0
+10,5,Strength of nonstate allies k3,700,190,40,20,3,3,0,0,0,0,0,0
+1,6,3,2,0,0,0,0,0,128,0,-1--1--1,,1|(524,239)|
+1,7,4,2,0,0,0,0,0,128,0,-1--1--1,,1|(585,205)|
+1,8,5,2,0,0,0,0,0,128,0,-1--1--1,,1|(655,240)|
+10,9,Advantages of Protest A,848,203,40,20,3,3,0,0,0,0,0,0
+12,10,0,423,379,69,18,8,7,0,0,-1,0,0,0
+Majority of varibles are 'Perceptions of Opposition Group'
+10,11,Gains that would result from success V,944,295,52,18,8,3,0,0,0,0,0,0
+1,12,9,11,0,0,0,0,0,64,0,-1--1--1,,1|(891,245)|
+10,13,Current Threat Tc,1052,200,40,20,3,3,0,0,0,0,0,0
+10,14,Repressive Threat Tr,1032,385,40,20,3,3,0,0,0,0,0,0
+1,15,13,11,0,0,0,0,0,64,0,-1--1--1,,1|(1002,243)|
+1,16,14,1,0,0,0,0,0,64,0,-1--1--1,,1|(905,435)|
+1,17,2,1,0,0,0,0,0,64,0,-1--1--1,,1|(678,391)|
+1,18,11,1,0,0,0,0,0,64,0,-1--1--1,,1|(858,389)|
+10,19,Protest,768,582,23,7,8,3,0,0,0,0,0,0
+1,20,1,19,0,0,0,0,0,64,0,-1--1--1,,1|(765,536)|
+///---\\\
+:L<%^E!@
+1:Current.vdf
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+4:Time
+5:Opposition Percieved Gains to Protest G
+24:0
+25:100
+26:100

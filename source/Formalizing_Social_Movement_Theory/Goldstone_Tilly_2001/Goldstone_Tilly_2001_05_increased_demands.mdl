@@ -1,0 +1,372 @@
+{UTF-8}
+********************************************************
+	.goldstone tilly 2001 05 increased demands
+********************************************************~
+		This file is essentially the mental model of an unsophisticated regime, which \
+		considers only the direct impact of their policy.
+		
+		
+		Model Assumptions:
+		---------------------------
+		- Individuals are rational actiors making cost/benefit decisions
+	|
+
+Ability to Make Concessions=
+	1
+	~	
+	~		|
+
+Ability to Repress=
+	3
+	~	
+	~		|
+
+Adjusting Repression=
+	IF THEN ELSE(Protest, IF THEN ELSE( Manifest Repressive Threat Tr < Ability to Repress\
+		 , Agressiveness of Response * Bias towards Repression
+	 , 0 ) , 0 )
+	~	
+	~	The state, ... has additional options, namely its ability to manipulate \
+		the current threats to the protest group, and the level of repression that \
+		follows on protest action.
+	|
+
+Agressiveness of Response=
+	0.25
+	~	
+	~		|
+
+Bias towards Repression=
+	Cost per unit Concession / (Cost per unit Concession + Cost per unit repression)
+	~	
+	~		|
+
+Concessions= INTEG (
+	Making Concessions,
+		0)
+	~	
+	~	Harms under the existing regime.
+		
+		pg 184:
+		'The state can increase prospective or current harm by increasing taxes, \
+		increasing violence against the population or specific groups, taking away \
+		rights or property, or other such actions. The state can also decrease \
+		current or prospective harm by making concessions, that is changing its \
+		policies to improve conditions for popular and/or elite groups.'
+	|
+
+Cost per unit Concession=
+	1
+	~	
+	~		|
+
+Cost per unit repression=
+	1
+	~	
+	~		|
+
+Cost to Regime=
+	Concessions * Cost per unit Concession + Manifest Repressive Threat Tr * Cost per unit repression
+	~	
+	~		|
+
+Framing Repression as Current Threat=
+	IF THEN ELSE( Manifest Repressive Threat Tr > Repression Threshold, Protestor Framing Ability\
+		 * (Manifest Repressive Threat Tr-Repression Threshold) , 0 )
+	~	
+	~	'repression that is excessive can create a perception of increased current threat \
+		under the status quo, due to greater illegitimacy and violence from the \
+		regime' pg 188
+		'Excessively strong represslon can raise the perceptions of current threat' pg 189
+		
+		Interpret this as repression past a threshold contributes linearly to \
+		current threat.
+	|
+
+Gains that would result from success V=
+	Percieved Advantages of Protest A + Percieved Current Threat
+	~	
+	~	pg 184
+		new advantages obtained or current or prospective harms avoided
+	|
+
+Impact of Concessions on New Demands=
+	0.1
+	~	 [0,3,0.1]
+	~	One could theorize that concessions made lead individuals to believe that \
+		'change is possible', and work via the opportunity route. In the paper, \
+		however, this feedback is described to go only through the 'new demands' \
+		mechanism. It would be interesting to see if changing this assumption \
+		would influence behavior.
+	|
+
+Initial Demands=
+	1
+	~	
+	~		|
+
+Making Concessions=
+	IF THEN ELSE(Protest , IF THEN ELSE( Concessions < Ability to Make Concessions , Agressiveness of Response\
+		 * (1-Bias towards Repression) , 0 ) , 0 )
+	~	
+	~		|
+
+Manifest Current Threat Tc=
+	Starting Current Threat Level - Concessions
+	~	
+	~	What happens if concessions exceed the initial 'current threat'?
+	|
+
+Popular Support for Protest k2=
+	0.1667
+	~	
+	~		|
+
+New Demands=
+	Concessions * Impact of Concessions on New Demands
+	~	
+	~	'Modest concessions can lead to increased demands for further change, either because \
+		of the de Tocqueville effect - minor changes made by the regime are an \
+		advertisen1ent of its illegitimacy, but do not fully correct that \
+		illegitimacy, and thus lead to greater demands for elimination or \
+		transfonnation of the regime - or because the concessions attract other \
+		supporters who now feel that they too can extract more from the regime.' \
+		pg 188
+		
+		For now, assume that concessions yield a linear increase in demands.
+	|
+
+Opposition Percieved Gains to Protest G=
+	(Gains that would result from success V * Opposition Percieved Probability of Success Opportunity O\
+		) - Percieved Repressive Threat Tr
+	~	
+	~	Pg 184:
+		This fonnula involves yet another simplification - that the costs of \
+		repression do not depend on the chances for success. In some cases, this \
+		is clearly false - those leading a rebellion are likely to suffer far \
+		greater costs if the rebellion fails than if it succeeds. However, if we \
+		focus on the ordinary protestor, say the person who helped defend the \
+		Russian Parliament in 1991, or the civil rights protestor who risks a \
+		beating or arrest, for them the eventual result days or weeks later will \
+		not change whether a bullet finds them on the barricade, or lighten the \
+		beating, or avoid the arrest. For them, the immediate risks involved with \
+		the act of protest itself are what counts - which is to say that leaders \
+		and followers may have a separate calculus of prospective gains and risks, \
+		with both being much greater for those in charge.
+	|
+
+Opposition Percieved Probability of Success Opportunity O=
+	State Weakness k1 + Popular Support for Protest k2 + Strength of nonstate allies k3
+	~	
+	~		|
+
+Percieved Advantages of Protest A=
+	Initial Demands + New Demands
+	~	
+	~		|
+
+Percieved Current Threat=
+	Manifest Current Threat Tc + Framing Repression as Current Threat
+	~	
+	~		|
+
+Percieved Repressive Threat Tr=
+	Manifest Repressive Threat Tr
+	~	
+	~		|
+
+Repression Threshold=
+	2
+	~	
+	~		|
+
+Starting Current Threat Level=
+	1
+	~	
+	~		|
+
+Protestor Framing Ability=
+	0.5
+	~	
+	~	What is the scaling relationship between repressive activity and current \
+		threat?
+	|
+
+Strength of nonstate allies k3=
+	0.1667
+	~	
+	~		|
+
+State Weakness k1=
+	0.1666
+	~	
+	~	'The probability of success depends on state weakness (for example, fiscal problems, \
+		elite divisions, military defeat)' pg 184
+		'In the short run, the group and the state probably can do little about state \
+		weakness, which depends on structural conditions or events, such as \
+		financial weakness, elite divisions, or military defeat.' pg 185
+		
+		'Weak repression or concessions can increase perceptions of state \
+		weakness.' pg 189
+	|
+
+Manifest Repressive Threat Tr= INTEG (
+	Adjusting Repression,
+		1)
+	~	
+	~	The cost of repression if protest is undertaken.
+		pg. 185
+	|
+
+Protest=
+	IF THEN ELSE(Opposition Percieved Gains to Protest G >0, 1 , 0 )
+	~	 [0,1,1]
+	~	'Protest is here conceptualized as a binary variable, that depends only on the sign \
+		of the gains.' Pg 185
+		
+		'We expect protest to occur if results are a net gain.' pg 184
+		
+		It would be interesting to make this a continuous variable, and make the \
+		strength of response proportional to the strength of the protest...
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 10
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.03125
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Opposition Percieved Gains to Protest G,624,398,57,18,8,3,0,0,0,0,0,0
+10,2,Opposition Percieved Probability of Success Opportunity O,471,267,68,18,8,3,0,0,0,0,0,0
+10,3,Gains that would result from success V,660,285,52,18,8,3,0,0,0,0,0,0
+10,4,Concessions,1024,167,40,20,3,3,0,0,0,0,0,0
+10,5,Manifest Repressive Threat Tr,869,453,40,20,3,3,0,0,0,0,0,0
+1,6,2,1,0,0,0,0,0,64,0,-1--1--1,,1|(541,327)|
+1,7,3,1,0,0,0,0,0,64,0,-1--1--1,,1|(644,334)|
+10,8,Protest,623,476,23,7,8,3,0,0,0,0,0,0
+1,9,1,8,0,0,0,0,0,64,0,-1--1--1,,1|(623,435)|
+12,10,48,998,453,10,8,0,3,0,0,-1,0,0,0
+1,11,13,5,4,0,0,22,0,0,0,-1--1--1,,1|(923,453)|
+1,12,13,10,100,0,0,22,0,0,0,-1--1--1,,1|(969,453)|
+11,13,48,944,453,6,8,34,3,0,0,1,0,0,0
+10,14,Adjusting Repression,944,473,35,12,40,3,0,0,-1,0,0,0
+12,15,48,1180,165,10,8,0,3,0,0,-1,0,0,0
+10,16,State Weakness k1,313,234,56,7,8,3,0,0,0,0,0,0
+1,17,16,2,1,0,0,0,0,128,0,-1--1--1,,1|(366,237)|
+10,18,Percieved Current Threat,742,209,44,12,8,3,0,0,0,0,0,0
+1,19,18,3,0,0,0,0,0,128,0,-1--1--1,,1|(709,239)|
+10,20,Percieved Repressive Threat Tr,762,381,34,18,8,3,0,0,0,0,0,0
+1,21,5,20,1,0,0,0,0,128,0,-1--1--1,,1|(821,405)|
+10,22,Percieved Advantages of Protest A,630,166,44,18,8,3,0,0,0,0,0,0
+1,23,22,3,1,0,0,0,0,128,0,-1--1--1,,1|(631,218)|
+10,24,Ability to Make Concessions,1193,51,45,12,8,3,0,0,0,0,0,0
+10,25,Ability to Repress,997,402,38,16,8,131,0,0,0,0,0,0
+1,26,25,13,1,0,0,0,0,128,0,-1--1--1,,1|(976,421)|
+1,27,5,13,1,0,0,0,0,128,0,-1--1--1,,1|(911,427)|
+10,28,Popular Support for Protest k2,397,184,35,18,8,3,0,0,0,0,0,0
+1,29,28,2,0,0,0,0,0,128,0,-1--1--1,,1|(428,220)|
+10,30,Strength of nonstate allies k3,508,174,53,12,8,3,0,0,0,0,0,0
+1,31,30,2,0,0,0,0,0,128,0,-1--1--1,,1|(493,211)|
+10,32,Agressiveness of Response,956,556,45,12,8,3,0,0,0,0,0,0
+10,33,Bias towards Repression,152,371,40,12,8,3,0,0,0,0,0,0
+1,34,8,14,1,0,0,0,0,128,0,-1--1--1,,1|(777,528)|
+1,35,32,14,0,0,0,0,0,128,0,-1--1--1,,1|(951,521)|
+10,36,Agressiveness of Response,1081,76,49,12,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,37,Bias towards Repression,1199,102,44,12,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,38,20,1,0,0,0,0,0,128,0,-1--1--1,,1|(711,386)|
+10,39,Starting Current Threat Level,870,98,49,12,8,3,0,0,0,0,0,0
+1,40,39,41,0,0,0,0,0,128,0,-1--1--1,,1|(870,122)|
+10,41,Manifest Current Threat Tc,870,167,44,18,8,3,0,0,0,0,0,0
+1,42,41,18,0,0,0,0,0,128,0,-1--1--1,,1|(808,186)|
+1,43,4,41,0,0,0,0,0,128,0,-1--1--1,,1|(956,167)|
+1,44,46,4,4,0,0,22,0,0,0,-1--1--1,,1|(1087,165)|
+1,45,46,15,100,0,0,22,0,0,0,-1--1--1,,1|(1146,165)|
+11,46,476,1117,165,6,8,34,3,0,0,1,0,0,0
+10,47,Making Concessions,1117,185,40,12,40,3,0,0,-1,0,0,0
+1,48,24,46,1,0,0,0,0,128,0,-1--1--1,,1|(1122,155)|
+1,49,37,46,0,0,0,0,0,128,0,-1--1--1,,1|(1158,133)|
+1,50,36,46,0,0,0,0,0,128,0,-1--1--1,,1|(1096,117)|
+1,51,8,47,1,0,0,0,0,128,0,-1--1--1,,1|(1152,447)|
+1,52,4,46,1,0,0,0,0,128,0,-1--1--1,,1|(1058,142)|
+10,53,Cost to Regime,152,521,46,7,8,3,0,0,0,0,0,0
+10,54,Cost per unit repression,56,439,40,12,8,3,0,0,0,0,0,0
+10,55,Cost per unit Concession,235,446,40,12,8,3,0,0,0,0,0,0
+1,56,54,53,0,0,0,0,0,128,0,-1--1--1,,1|(101,477)|
+1,57,55,53,0,0,0,0,0,128,0,-1--1--1,,1|(195,481)|
+10,58,Manifest Repressive Threat Tr,48,585,34,18,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,59,Concessions,247,588,47,7,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,60,59,53,0,0,0,0,0,128,0,-1--1--1,,1|(205,558)|
+1,61,58,53,0,0,0,0,0,128,0,-1--1--1,,1|(102,551)|
+10,62,Bias towards Repression,1039,520,44,12,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+1,63,62,14,0,0,0,0,0,128,0,-1--1--1,,1|(997,500)|
+1,64,54,33,0,0,0,0,0,128,0,-1--1--1,,1|(97,409)|
+1,65,55,33,0,0,0,0,0,128,0,-1--1--1,,1|(198,413)|
+10,66,Framing Repression as Current Threat,858,301,44,18,8,3,0,0,0,0,0,0
+1,67,66,18,1,0,0,0,0,128,0,-1--1--1,,1|(825,248)|
+1,68,5,66,1,0,0,0,0,128,0,-1--1--1,,1|(872,378)|
+10,69,Repression Threshold,932,230,35,12,8,3,0,0,0,0,0,0
+10,70,Protestor Framing Ability,987,285,46,12,8,3,0,0,0,0,0,0
+1,71,69,66,0,0,0,0,0,128,0,-1--1--1,,1|(903,257)|
+1,72,70,66,0,0,0,0,0,128,0,-1--1--1,,1|(928,291)|
+10,73,Initial Demands,573,101,36,14,8,131,0,0,0,0,0,0
+1,74,73,22,0,0,0,0,0,128,0,-1--1--1,,1|(594,126)|
+10,75,New Demands,706,80,30,13,8,131,0,0,0,0,0,0
+1,76,75,22,1,0,0,0,0,128,0,-1--1--1,,1|(661,113)|
+1,77,4,75,1,0,0,0,0,128,0,-1--1--1,,1|(937,73)|
+10,78,Impact of Concessions on New Demands,627,23,49,18,8,3,0,0,0,0,0,0
+1,79,78,75,0,0,0,0,0,128,0,-1--1--1,,1|(663,49)|
+///---\\\
+:L<%^E!@
+1:Current.vdf
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+23:0
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+4:Time
+5:Cost per unit Concession
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:0
+24:0
+25:10
+26:10

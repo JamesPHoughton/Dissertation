@@ -1,0 +1,163 @@
+{UTF-8}
+Avg Owner's Liquid Assets  = A FUNCTION OF( Income,-Investment Spending)
+	~	
+	~		|
+
+Avg Worker's Liquid Assets  = A FUNCTION OF( Avg Worker's Savings)
+	~	
+	~		|
+
+Avg Worker's Savings  = A FUNCTION OF( Worker Savings Rate)
+	~	
+	~		|
+
+Capital  = A FUNCTION OF( Investment)
+	~	
+	~		|
+
+Class Conflict and System Overthrow  = A FUNCTION OF( Group Identification)
+	~	
+	~		|
+
+Group Identification  = A FUNCTION OF( Social Distance Btw Owners and Workers)
+	~	
+	~		|
+
+Income  = A FUNCTION OF( Revenue Net Labor Cost)
+	~	
+	~		|
+
+Investment  = A FUNCTION OF( Investment Spending)
+	~	
+	~		|
+
+Investment Spending  = A FUNCTION OF( Avg Owner's Liquid Assets)
+	~	
+	~		|
+
+Labor Excess Productivity=A FUNCTION OF(Labor Excess Productivity) ~~|
+Labor Excess Productivity=
+	~	
+	~	This is the fraction of the average worker's income that is returned as \
+		profit to the owner. Ie, if the per worker earnings are 1.5, and the cost \
+		of employing each worker is 1, then the productivity in excess of what the \
+		worker gets is 0.5
+	|
+
+Revenue Net Labor Cost  = A FUNCTION OF( Labor Excess Productivity,workers per owner)
+	~	
+	~		|
+
+Social Distance Btw Owners and Workers  = A FUNCTION OF( Wealth Gap)
+	~	
+	~		|
+
+Wealth Gap  = A FUNCTION OF( Avg Owner's Liquid Assets,Avg Worker's Liquid Assets)
+	~	
+	~		|
+
+Worker Savings Rate  = A FUNCTION OF( )
+	~	
+	~		|
+
+workers per owner  = A FUNCTION OF( Capital)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Capital,626,163,40,20,3,3,0,0,0,0,0,0
+10,2,Avg Owner's Liquid Assets,599,380,40,20,3,3,0,0,0,0,0,0
+12,15,48,460,384,10,8,0,3,0,0,-1,0,0,0
+1,17,19,2,4,0,0,22,0,0,0,-1--1--1,,1|(540,380)|
+1,18,19,15,100,0,0,22,0,0,0,-1--1--1,,1|(489,380)|
+11,19,0,515,380,6,8,34,3,0,0,1,0,0,0
+10,20,Income,515,396,20,8,40,3,0,0,-1,0,0,0
+12,21,48,767,380,10,8,0,3,0,0,-1,0,0,0
+1,23,25,21,4,0,0,22,0,0,0,-1--1--1,,1|(736,380)|
+1,24,25,2,100,0,0,22,0,0,0,-1--1--1,,1|(671,380)|
+11,25,0,710,380,6,8,34,3,0,0,1,0,0,0
+10,26,Investment Spending,710,404,30,16,40,131,0,0,-1,0,0,0
+12,33,48,766,164,10,8,0,3,0,0,-1,0,0,0
+1,35,37,1,4,0,0,22,0,0,0,-1--1--1,,1|(692,165)|
+1,36,37,33,100,0,0,22,0,0,0,-1--1--1,,1|(743,165)|
+11,37,0,724,165,6,8,34,3,0,0,1,0,0,0
+10,38,Investment,724,181,29,8,40,3,0,0,-1,0,0,0
+10,40,Labor Excess Productivity,353,240,35,14,8,131,0,0,0,0,0,0
+10,41,Avg Worker's Liquid Assets,305,385,40,20,3,3,0,0,0,0,0,0
+12,42,48,169,383,10,8,0,3,0,0,-1,0,0,0
+1,44,46,41,4,0,0,22,0,0,0,-1--1--1,,1|(246,383)|
+1,45,46,42,100,0,0,22,0,0,0,-1--1--1,,1|(197,383)|
+11,46,0,222,383,6,8,34,3,0,0,1,0,0,0
+10,47,Avg Worker's Savings,222,411,29,20,40,131,0,0,-1,0,0,0
+1,54,25,38,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(779,307)|
+10,57,workers per owner,480,194,32,15,8,131,0,0,0,0,0,0
+1,58,1,57,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(542,165)|
+1,60,57,67,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(453,231)|
+1,61,40,67,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(387,271)|
+12,65,0,210,224,73,71,8,135,0,0,-1,0,0,0
+Model Assumes: capital yeilds a proportional increase in number of employees, with no internal impact on productivity per employee. No depreciation, no inflation, etc. All values are multiples of worker's wages per time period, assumed to be fixed at 1.
+1,66,2,25,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(651,350)|
+10,67,Revenue Net Labor Cost,455,303,33,14,8,3,0,0,0,0,0,0
+1,68,67,19,1,0,0,0,0,64,0,-1--1--1,,1|(476,351)|
+10,69,Worker Savings Rate,191,323,33,20,8,131,0,0,0,0,0,0
+1,72,69,46,0,0,0,0,0,64,0,-1--1--1,,1|(206,353)|
+10,73,Wealth Gap,446,466,31,8,8,3,0,0,0,0,0,0
+1,74,41,73,1,0,45,0,2,64,0,-1--1--1,|0||-1--1--1,1|(374,434)|
+1,75,2,73,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(522,428)|
+10,76,Social Distance Btw Owners and Workers,449,521,54,14,8,3,0,0,0,0,0,0
+10,77,Group Identification,636,518,51,8,8,3,0,0,0,0,0,0
+10,78,Class Conflict and System Overthrow,812,518,48,14,8,3,0,0,0,0,0,0
+1,79,73,76,0,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(446,483)|
+1,80,76,77,0,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(537,519)|
+1,81,77,78,0,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(718,518)|
+12,82,0,629,276,116,46,8,135,0,0,-1,0,0,0
+Structurally, owners liquid assets are able to grow exponentially, wheras workers assets can only grow linearly, as they can't use money to buy more earning power. In this case, the wealth gap grows exponentially, leading inevitably to intergroup conflict
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+22:Day,Days
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Wealth Gap
+24:0
+25:0
+26:0

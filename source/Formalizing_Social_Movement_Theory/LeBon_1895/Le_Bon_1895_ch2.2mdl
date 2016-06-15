@@ -1,0 +1,106 @@
+{UTF-8}
+Collective Hallucination  = A FUNCTION OF( Inability to distinguish subjective from objective reality\
+		,Propensity to 'think in images',Spread of images by contagion)
+	~	
+	~		|
+
+Exposure to and participation in a crowd  = A FUNCTION OF( )
+	~	
+	~		|
+
+Inability to distinguish subjective from objective reality=A FUNCTION OF(Inability to distinguish subjective from objective reality\
+		,Exposure to and participation in a crowd) ~~|
+Inability to distinguish subjective from objective reality=
+	~	
+	~	A crowd scarcely distinguishes between the sub-jective and the objective. It accepts \
+		as real the images evoked in
+		its mind, though they most often have only a very distant rela-tion with \
+		the observed fact.
+	|
+
+Propensity to 'think in images'  = A FUNCTION OF( Exposure to and participation in a crowd\
+		) ~~|
+Propensity to 'think in images'=
+	~	
+	~	A crowd thinks in images - pg 15
+	|
+
+Spread of images by contagion=A FUNCTION OF(Spread of images by contagion,Exposure to and participation in a crowd\
+		) ~~|
+Spread of images by contagion=
+	~	
+	~	As the result of contagion the perversions are of the
+		same kind, and take the same shape in the case of all the
+		assembled individuals.
+		pg 15
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP 
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Collective Hallucination,548,403,40,12,8,3,0,0,0,0,0,0
+10,2,Spread of images by contagion,484,306,31,18,8,3,0,0,0,0,0,0
+10,3,Inability to distinguish subjective from objective reality,593,303,67,18,8,3,0,0,0,0,0,0
+10,4,Exposure to and participation in a crowd,584,191,51,18,8,3,0,0,0,0,0,0
+1,5,4,3,0,0,0,0,0,128,0,-1--1--1,,1|(587,240)|
+1,6,4,2,1,0,0,0,0,128,0,-1--1--1,,1|(521,238)|
+1,7,2,1,1,0,0,0,0,128,0,-1--1--1,,1|(499,353)|
+1,8,3,1,0,0,0,0,0,128,0,-1--1--1,,1|(571,349)|
+10,9,Propensity to 'think in images',749,291,49,12,8,3,0,0,0,0,0,0
+1,10,4,9,1,0,0,0,0,128,0,-1--1--1,,1|(675,228)|
+1,11,9,1,1,0,0,0,0,128,0,-1--1--1,,1|(659,357)|
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Spread of images by contagion
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:1
+24:0
+25:0
+26:0

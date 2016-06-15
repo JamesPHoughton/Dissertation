@@ -1,0 +1,215 @@
+{UTF-8}
+Instinctual temperament of the population=A FUNCTION OF(Instinctual temperament of the population\
+		) ~~|
+Instinctual temperament of the population=
+	~	
+	~	The fundamental characteristics of the race, which constitute
+		the unvarying source from which all our sentiments spring,
+		always exert an influence on the irritability of crowds, their
+		impulsiveness and their mobility, as on all the popular senti-ments we shall have to \
+		study.
+		pg 13
+	|
+
+Quality of crowd behavior  = A FUNCTION OF( Acting in accordance with crowd suggestion\
+		,Instinctual temperament of the population,Nature of suggestion) ~~|
+Quality of crowd behavior=
+	~	
+	~	from the point of view of feelings and of the acts these
+		feelings provoke, the crowd may, according to circumstances, be
+		better or worse than the individual. All depends on the nature
+		of the suggestion to which the crowd is exposed.
+		pg 9
+	|
+
+Strength of Suggestion=A FUNCTION OF(Strength of Suggestion,Reciprocity of suggestion by crowd members\
+		) ~~|
+Strength of Suggestion=
+	~	
+	~	The first sugges-tion formulated which arises implants itself immediately by a
+		process of contagion in the brains of all assembled, and the
+		identical bent of the sentiments of the crowd is immediately an
+		accomplished fact.
+		pg. 14
+	|
+
+Acting in accordance with crowd suggestion  = A FUNCTION OF( Priority of Group Interest over Self Interest\
+		,Retained individual will and discernment,Strength of Suggestion,Tendency to transform Suggested Ideas into Actions\
+		)
+	~	
+	~		|
+
+Anonymity  = A FUNCTION OF( Individual's presence in and exposure to the crowd)
+	~	
+	~		|
+
+Contagiousness of sentiment=A FUNCTION OF(Contagiousness of sentiment,Individual's presence in and exposure to the crowd\
+		) ~~|
+Contagiousness of sentiment=
+	~	
+	~	In a crowd every sentiment and act is contagious,
+		and contagious to such a degree that an individual readily sacri-fices his personal \
+		interest to the collective interest.
+		pg 7
+	|
+
+Individual's presence in and exposure to the crowd  = A FUNCTION OF( )
+	~	
+	~		|
+
+Magnetic Influence of Crowd  = A FUNCTION OF( Individual's presence in and exposure to the crowd\
+		)
+	~	
+	~		|
+
+Manifest characteristics of Primitive Beings=A FUNCTION OF(Manifest characteristics of Primitive Beings\
+		,Restraint of Instinct) ~~|
+Manifest characteristics of Primitive Beings=
+	~	
+	~	in a crowd, he
+		is a barbarian—that is, a creature acting by instinct. He pos-sesses the \
+		spontaneity, the violence, the ferocity, and also the
+		enthusiasm and heroism of primitive beings,
+		pg 8
+	|
+
+Nature of suggestion  = A FUNCTION OF( )
+	~	
+	~		|
+
+Priority of Group Interest over Self Interest  = A FUNCTION OF( Contagiousness of sentiment\
+		)
+	~	
+	~		|
+
+Reciprocity of suggestion by crowd members=A FUNCTION OF(Reciprocity of suggestion by crowd members\
+		,Individual's presence in and exposure to the crowd) ~~|
+Reciprocity of suggestion by crowd members=
+	~	
+	~	This impetuosity is the more irresistible in the case of crowds than in that of the \
+		hypnotised subject, from the fact that, the suggestion being the same for \
+		all the individuals of the crowd, it gains in strength by reciprocity
+		pg 8
+	|
+
+Restraint of Instinct  = A FUNCTION OF( Sentiment of Invincible Power,Sentiment of Responsibility\
+		)
+	~	
+	~		|
+
+Retained individual will and discernment=A FUNCTION OF(Retained individual will and discernment\
+		,Magnetic Influence of Crowd) ~~|
+Retained individual will and discernment=
+	~	
+	~	the state of the individual forming
+		part of a psychological crowd... He is no longer conscious of his acts.
+		pg 7
+	|
+
+Sentiment of Invincible Power=A FUNCTION OF(Sentiment of Invincible Power,Individual's presence in and exposure to the crowd\
+		) ~~|
+Sentiment of Invincible Power=
+	~	
+	~	the individual forming part of a crowd
+		acquires, solely from numerical considerations, a sentiment of
+		invincible power which allows him to yield to instincts which,
+		had he been alone, he would perforce have kept under restraint.
+		pg 6
+	|
+
+Sentiment of Responsibility  = A FUNCTION OF( Anonymity)
+	~	
+	~		|
+
+Tendency to transform Suggested Ideas into Actions  = A FUNCTION OF( Manifest characteristics of Primitive Beings\
+		)
+	~	
+	~		|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 100
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 1
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
+10,1,Individual's presence in and exposure to the crowd,763,133,55,24,3,131,0,0,0,0,0,0
+10,2,Sentiment of Invincible Power,816,233,50,12,8,3,0,0,0,0,0,0
+1,3,1,2,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(785,170)|
+10,4,Restraint of Instinct,807,327,59,7,8,3,0,0,0,0,0,0
+1,5,2,4,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(821,276)|
+10,6,Sentiment of Responsibility,920,272,44,12,8,3,0,0,0,0,0,0
+10,7,Anonymity,918,190,33,7,8,3,0,0,0,0,0,0
+1,8,1,7,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(886,159)|
+1,9,7,6,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(934,218)|
+1,10,6,4,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(881,311)|
+10,11,Priority of Group Interest over Self Interest,640,333,52,18,8,3,0,0,0,0,0,0
+10,12,Contagiousness of sentiment,660,228,49,12,8,3,0,0,0,0,0,0
+1,13,1,12,0,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(710,181)|
+1,14,12,11,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(651,270)|
+10,15,Magnetic Influence of Crowd,374,246,36,18,8,3,0,0,0,0,0,0
+10,16,Retained individual will and discernment,405,411,58,18,8,3,0,0,0,0,0,0
+1,17,1,15,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(529,157)|
+1,18,15,16,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(348,330)|
+10,19,Acting in accordance with crowd suggestion,579,522,55,18,8,3,0,0,0,0,0,0
+1,20,16,19,1,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(476,469)|
+1,21,11,19,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(622,417)|
+1,22,4,30,1,0,45,0,2,64,0,-1--1--1,|12||0-0-0,1|(800,351)|
+10,23,Strength of Suggestion,511,389,35,12,8,3,0,0,0,0,0,0
+10,24,Reciprocity of suggestion by crowd members,512,250,49,18,8,3,0,0,0,0,0,0
+1,25,1,24,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(557,198)|
+1,26,24,23,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(499,329)|
+1,27,23,19,1,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(546,483)|
+10,28,Tendency to transform Suggested Ideas into Actions,722,461,64,18,8,3,0,0,0,0,0,0
+1,29,28,19,0,0,43,0,2,128,0,-1--1--1,|12||0-0-0,1|(656,488)|
+10,30,Manifest characteristics of Primitive Beings,785,386,53,18,8,3,0,0,0,0,0,0
+1,31,30,28,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(778,419)|
+10,32,Nature of suggestion,715,562,34,12,8,3,0,0,0,0,0,0
+10,33,Quality of crowd behavior,571,597,47,12,8,3,0,0,0,0,0,0
+1,34,19,33,0,0,0,0,0,128,0,-1--1--1,,1|(575,555)|
+1,35,32,33,0,0,0,0,0,128,0,-1--1--1,,1|(656,575)|
+10,36,Instinctual temperament of the population,408,571,59,18,8,3,0,0,0,0,0,0
+1,37,36,33,0,0,0,0,0,128,0,-1--1--1,,1|(488,583)|
+///---\\\
+:L<%^E!@
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+15:0,0,0,0,0,0
+19:100,0
+27:2,
+34:0,
+5:Strength of Suggestion
+24:0
+25:0
+26:0

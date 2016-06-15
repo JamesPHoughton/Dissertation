@@ -1,0 +1,120 @@
+{UTF-8}
+********************************************************
+	.Goldstone Tilly 2001 01 basic
+********************************************************~
+		This file is essentially the mental model of an unsophisticated regime, which \
+		considers only the direct impact of their policy.
+		
+		
+		Model Assumptions:
+		---------------------------
+		- Individuals are rational actiors making cost/benefit decisions
+	|
+
+Cost of protest C  = A FUNCTION OF( ) ~~|
+Cost of protest C=
+	Manifest Repressive Threat Tr
+	~	
+	~		|
+
+Probability of success O  = A FUNCTION OF( ) ~~|
+Probability of success O=
+	State Weakness k1 + Popular Support for Protest k2 + Strength of nonstate allies k3
+	~	
+	~		|
+
+Gains that would result from success V  = A FUNCTION OF( ) ~~|
+Gains that would result from success V=
+	New Advantages of Protest A + Percieved Current Threat
+	~	
+	~	pg 184
+		new advantages obtained or current or prospective harms avoided
+	|
+
+Expected net gain from protest G=
+	(Gains that would result from success V * Probability of success O) - Cost of protest C
+	~	
+	~	Pg 184:
+		This fonnula involves yet another simplification - that the costs of \
+		repression do not depend on the chances for success. In some cases, this \
+		is clearly false - those leading a rebellion are likely to suffer far \
+		greater costs if the rebellion fails than if it succeeds. However, if we \
+		focus on the ordinary protestor, say the person who helped defend the \
+		Russian Parliament in 1991, or the civil rights protestor who risks a \
+		beating or arrest, for them the eventual result days or weeks later will \
+		not change whether a bullet finds them on the barricade, or lighten the \
+		beating, or avoid the arrest. For them, the immediate risks involved with \
+		the act of protest itself are what counts - which is to say that leaders \
+		and followers may have a separate calculus of prospective gains and risks, \
+		with both being much greater for those in charge.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 10
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.03125
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,5,0
+10,1,Expected net gain from protest G,286,333,53,18,8,3,0,0,0,0,0,0
+10,2,Probability of success O,239,267,41,12,8,3,0,0,0,0,0,0
+10,3,Gains that would result from success V,342,266,52,18,8,3,0,0,0,0,0,0
+1,6,2,1,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(251,288)|
+1,7,3,1,1,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(324,297)|
+1,9,1,8,0,0,43,0,2,64,0,-1--1--1,|0||-1--1--1,1|(286,361)|
+10,20,Cost of protest C,405,329,33,13,8,131,0,0,0,0,0,0
+1,38,20,1,0,0,45,0,2,128,0,-1--1--1,|0||-1--1--1,1|(362,330)|
+///---\\\
+:L<%^E!@
+1:Current.vdf
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+23:0
+15:0,0,0,0,0,0
+19:5,0
+27:2,
+34:0,
+4:Time
+5:Cost of protest C
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:0
+24:0
+25:10
+26:10

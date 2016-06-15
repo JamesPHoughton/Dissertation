@@ -1,0 +1,179 @@
+{UTF-8}
+Protest  = A FUNCTION OF( Expected net gain from protest G)
+	~	
+	~		|
+
+********************************************************
+	.Goldstone Tilly 2001 02b detail
+********************************************************~
+		This file is essentially the mental model of an unsophisticated regime, which \
+		considers only the direct impact of their policy.
+		
+		
+		Model Assumptions:
+		---------------------------
+		- Individuals are rational actiors making cost/benefit decisions
+	|
+
+Cost of protest C  = A FUNCTION OF( Repressive Threat Tr) ~~|
+Cost of protest C=
+	Manifest Repressive Threat Tr
+	~	
+	~		|
+
+Current threat Tc  = A FUNCTION OF( ) ~~|
+Current threat Tc=
+	Starting Current Threat Level - Concessions
+	~	
+	~		|
+
+Repressive Threat Tr  = A FUNCTION OF( ) ~~|
+Repressive Threat Tr=
+	Manifest Repressive Threat Tr
+	~	
+	~		|
+
+Gains that would result from success V  = A FUNCTION OF( Current threat Tc,New advantages A\
+		) ~~|
+Gains that would result from success V=
+	New Advantages of Protest A + Percieved Current Threat
+	~	
+	~	pg 184
+		new advantages obtained or current or prospective harms avoided
+	|
+
+New advantages A=
+	1
+	~	
+	~		|
+
+Popular support k2=
+	0.1667
+	~	
+	~		|
+
+Probability of success O  = A FUNCTION OF( Popular support k2,State weakness k1,Strength of nonstate allies k3\
+		) ~~|
+Probability of success O=
+	State weakness k1 + Popular Support for Protest k2 + Strength of nonstate allies k3
+	~	
+	~		|
+
+Strength of nonstate allies k3=
+	0.1667
+	~	
+	~		|
+
+State weakness k1=
+	0.1666
+	~	
+	~	'The probability of success depends on state weakness (for example, fiscal problems, \
+		elite divisions, military defeat)' pg 184
+		'In the short run, the group and the state probably can do little about state \
+		weakness, which depends on structural conditions or events, such as \
+		financial weakness, elite divisions, or military defeat.' pg 185
+		
+		'Weak repression or concessions can increase perceptions of state \
+		weakness.' pg 189
+	|
+
+Expected net gain from protest G=
+	(Gains that would result from success V * Probability of success O) - Cost of protest C
+	~	
+	~	Pg 184:
+		This fonnula involves yet another simplification - that the costs of \
+		repression do not depend on the chances for success. In some cases, this \
+		is clearly false - those leading a rebellion are likely to suffer far \
+		greater costs if the rebellion fails than if it succeeds. However, if we \
+		focus on the ordinary protestor, say the person who helped defend the \
+		Russian Parliament in 1991, or the civil rights protestor who risks a \
+		beating or arrest, for them the eventual result days or weeks later will \
+		not change whether a bullet finds them on the barricade, or lighten the \
+		beating, or avoid the arrest. For them, the immediate risks involved with \
+		the act of protest itself are what counts - which is to say that leaders \
+		and followers may have a separate calculus of prospective gains and risks, \
+		with both being much greater for those in charge.
+	|
+
+********************************************************
+	.Control
+********************************************************~
+		Simulation Control Parameters
+	|
+
+FINAL TIME  = 10
+	~	Month
+	~	The final time for the simulation.
+	|
+
+INITIAL TIME  = 0
+	~	Month
+	~	The initial time for the simulation.
+	|
+
+SAVEPER  = 
+        TIME STEP
+	~	Month [0,?]
+	~	The frequency with which output is stored.
+	|
+
+TIME STEP  = 0.03125
+	~	Month [0,?]
+	~	The time step for the simulation.
+	|
+
+\\\---/// Sketch information - do not modify anything except names
+V300  Do not put anything below this section - it will be ignored
+*View 1
+$192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,5,0
+10,1,Expected net gain from protest G,721,457,53,18,8,3,0,0,0,0,0,0
+10,2,Probability of success O,674,391,41,12,8,3,0,0,0,0,0,0
+10,3,Gains that would result from success V,777,390,52,18,8,3,0,0,0,0,0,0
+1,4,2,1,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(686,412)|
+1,5,3,1,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(759,421)|
+10,6,Cost of protest C,840,457,33,13,8,131,0,0,0,0,0,0
+1,7,6,1,0,0,45,0,2,192,0,-1--1--1,|12||0-0-0,1|(797,457)|
+10,8,State weakness k1,574,327,40,14,8,131,0,0,0,0,0,0
+10,9,Popular support k2,657,327,32,13,8,131,0,0,0,0,0,0
+10,10,Strength of nonstate allies k3,737,327,34,18,8,131,0,0,0,0,0,0
+10,11,New advantages A,827,327,41,13,8,131,0,0,0,0,0,0
+10,12,Current threat Tc,912,327,28,14,8,131,0,0,0,0,0,0
+1,13,8,2,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(619,356)|
+1,14,9,2,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(663,352)|
+1,15,10,2,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(710,362)|
+1,16,11,3,1,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(803,356)|
+1,17,12,3,1,0,43,0,2,64,0,-1--1--1,|12||0-0-0,1|(856,356)|
+10,18,Repressive Threat Tr,950,457,34,12,8,3,0,0,0,0,0,0
+1,19,18,6,0,0,43,0,2,192,0,-1--1--1,|12||0-0-0,1|(901,457)|
+10,20,Protest,721,514,23,7,8,3,0,0,0,0,0,0
+1,21,1,20,0,0,43,0,2,192,0,-1--1--1,|0||-1--1--1,1|(721,484)|
+///---\\\
+:L<%^E!@
+1:Current.vdf
+9:Current
+22:$,Dollar,Dollars,$s
+22:Day,Days
+22:Hour,Hours
+22:Month,Months
+22:Person,People,Persons
+22:Unit,Units
+22:Week,Weeks
+22:Year,Years
+23:0
+15:0,0,0,0,0,0
+19:5,0
+27:2,
+34:0,
+4:Time
+5:Protest
+35:Date
+36:YYYY-MM-DD
+37:2000
+38:1
+39:1
+40:2
+41:0
+42:0
+24:0
+25:10
+26:10
