@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4750e2a7-46eb-4d05-ac9f-e7b6b1e23273" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/McCarthy_Zald_1977.3vm" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McCarthy_Zald_1977.2mdl" afterPath="$PROJECT_DIR$/McCarthy_Zald_1977.2mdl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McCarthy_Zald_1977.mdl" afterPath="$PROJECT_DIR$/McCarthy_Zald_1977.mdl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/McCarthy_Zald_1977_Behavior_Tests.ipynb" afterPath="$PROJECT_DIR$/McCarthy_Zald_1977_Behavior_Tests.ipynb" />
     </list>
     <ignored path="McCarthy_Zald_1977.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,8 +39,8 @@
       <file leaf-file-name="McCarthy_Zald_1977.mdl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/McCarthy_Zald_1977.mdl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1365">
-              <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+            <state relative-caret-position="1275">
+              <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -424,8 +419,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/McCarthy_Zald_1977.mdl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1365">
-          <caret line="69" column="19" selection-start-line="69" selection-start-column="19" selection-end-line="69" selection-end-column="19" />
+        <state relative-caret-position="1275">
+          <caret line="85" column="19" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="19" />
           <folding />
         </state>
       </provider>

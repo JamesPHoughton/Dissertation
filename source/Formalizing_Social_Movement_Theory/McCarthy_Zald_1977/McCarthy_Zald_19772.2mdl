@@ -7,9 +7,6 @@
 		- Is it structurally consistent
 		- Can it produce the predicted behavior
 		
-		Theory's objective:
-		- "explaining the processes of growth and decline" of social movements
-		
 		Scope:
 		- " All SMOs that have as their goal the attainment of the broadest preferences of a \
 		social movement constitute a social movement industry (SMI)" pg 1219
@@ -23,13 +20,6 @@
 		industries. pg 1219-1220
 		- "The social movement sector (SMS) consists of all SMIs in a society no matter to \
 		which SM they are attached." pg 1220
-		- "These two propositions attempt to account for the total growth of the SMS. They \
-		ignore variations in the taste for change over time. They imply nothing \
-		about which SMI will reap the benefits of sector expansion. Nor do they \
-		imply what types of SMOs will lead the growth of an expanding SMI. They \
-		explicitly ignore the relationship between the size of the SMS and the \
-		intensities of preferences within a SM." pg 1225
-		
 		- We limit the scope of this model to a single social movement industry partly for \
 		simplicity and partly because this is the level at which the majority of \
 		the theory is presented. Changes to a single SMI due to changes in the SMS \
@@ -40,188 +30,9 @@
 		subsumed to the competition between SMOs within a social movement industry.
 		
 		Design Choices:
-		- Should the number of SMOs be modeled as a stock, or as exogenous? If modeled as a \
-		stock, we have trouble differentiating between strategies. If modeled as \
-		fixed, we have trouble talking about new entry...
-		
-		Model Assumptions:
-		- "there is always enough discontent in any society to supply the grass-roots \
-		support for a movement if the movement is effec-tively organized and has \
-		at its disposal the power and resources of some established elite group" \
-		pg 1215
-		- "In any set of empirical circumstances the analyst must decide how \
-		narrowly to define industry boundaries." pg 1220
-	|
-
-Creating Discontent=A FUNCTION OF(Creating Discontent) ~~|
-Creating Discontent=
-	~	
-	~	"grievances and discontent may be defined, created, and manipulated by \
-		issue entrepreneurs and organizations." pg 1215
-	|
-
-Resource Cost of Mobilization=A FUNCTION OF(Resource Cost of Mobilization,Specialization\
-		) ~~|
-Resource Cost of Mobilization=
-	~	
-	~	"The problems of SMOs with regard to binding beneficiary and conscience constituents \
-		to the organization are different, not with regard to the stakes of \
-		individual involvement relative to goal accomplishment (the Olson problem) \
-		but with regard to the way constituents are linked to each other and to \
-		other SMOs, organizations, and social institutions." pg 1222
-		
-		We will operationalize "The problems of binding constituents to the organization" as \
-		a resource cost.
-		
-		"Federation may occur in two ways... Another strategy relies upon \
-		preexisting nonmove-ment local groups which have heavy concentrations of \
-		adherents or isolated constituents" pg 1228
-	|
-
-Opponents=A FUNCTION OF(Opponents) ~~|
-Opponents= INTEG (
-	,
-		)
-	~	
-	~	"A countermovement is a set of opinions and beliefs in a population \
-		opposed to a social movement."
-	|
-
-Advertising  = A FUNCTION OF( )
-	~	
-	~		|
-
-Personnel Resources=A FUNCTION OF(Personnel Resources) ~~|
-Personnel Resources= INTEG (
-	,
-		)
-	~	
-	~	Cadre, professional staff, transitory teams...
-	|
-
-Resources Available[SMO,Resource]=
-	Constituents * Discressionary Resources * (1-External Cost on Resource Provision) + \
-		Entrepreneurship
-	~	
-	~	"resource aggregation requires some minimal form of organization" pg 1216. 
-		Implying: resources may only be mobilized from individuals by an organization, who \
-		are connected to the organization through that process of mobilization.
-		
-		"Individuals and other organizations control resources, which can include \
-		legitimacy, money, facilities, and labor" pg 1220
-		
-		The paper implies no sense of 'stockpiling' resources. While financial \
-		resources could concievably be 'banked' (literally) labor resources \
-		cannot. In our formalizataion of the resource mobilization model, we'll \
-		use the simpler option of assuming that resources are not banked, as there \
-		is no contrary theory presented.
-	|
-
-Percieved 'Product' Quality  = A FUNCTION OF( )
-	~	
-	~		|
-
-Constituents[Benefit,Interaction,Resource Profile,SMO]= INTEG (
-	Mobilization[Benefit,Interaction,Resource Profile,SMO]+Switching,
-		0)
-	~	
-	~	"Adherents are those individuals and organizations that believe in the goals of the \
-		movement. The constituents of a SMO are those providing resources for it." \
-		pg 1221
-		
-		Technically, the constituents of the SM are also adherents, but without a \
-		positive monicker for the unweildy "non-constituent adherents" we'll \
-		reserve the term "adherents" strictly for this category.
-	|
-
-Constraints on Allocation=A FUNCTION OF(Constraints on Allocation) ~~|
-Constraints on Allocation=
-	~	
-	~	"a SMO does not have complete freedom of choice in making the sorts of \
-		decisions to which we have alluded. Such choices are constrained by a \
-		number of factors including the preexisting organization of various \
-		segments of the SM, the size and diversity of the SMI of which it is a \
-		part, and the competitive position of the SMS" pg 1223
-	|
-
-Resource Allocation to Goal Accomplishment[SMO,Resource]=
-	1 - (Resource Allocation to Conversion + Resource Allocation to Encouraging Switching\
-		 + Resource Allocation to Mobilization
-)
-	~	
-	~	"the amount of activity directed toward goal accomplishment is crudely a function of \
-		the resources controlled by an organization." 1221
-		
-		"Assume that SMOs operate much like any other organization (J. Q. Wilson \
-		1973), and consequently, once formed, they operate as though \
-		organizational survival were the primary goal. Only if survival is insured \
-		can other goals be pursued." pg 1226
-	|
-
-Resource Cost of Achieving Change=A FUNCTION OF(Resource Cost of Achieving Change,Specialization\
-		) ~~|
-Resource Cost of Achieving Change[SMO, Money]= ~~|
-Resource Cost of Achieving Change[SMO, Labor]= ~~|
-Resource Cost of Achieving Change[SMO, Legitimacy]=
-	~	
-	~	"organizations vary tremendously in the efficiency with which they translate \
-		resources into action" pg 1221
-		
-		"Some organizations may depend heavily upon volunteer labor, while others \
-		may depend upon purchased labor." pg. 1221
-	|
-
-Discontent  = A FUNCTION OF( Creating Discontent) ~~|
-Discontent= INTEG (
-	,
-		)
-	~	
-	~	"grievances and discontent may be defined, created, and manipulated by \
-		issue entrepreneurs and organizations." pg 1215
-	|
-
-Resource Cost of Conversion[Interaction]  = A FUNCTION OF( Specialization) ~~|
-Resource Cost of Conversion[Interaction]=
-	0.5, 1
-	~	
-	~	"Federation developing out of preexisting groups can occur quite rapidly, while \
-		organizing unattached individuals probably requires more time and \
-		resources." pg. 1228
-		
-		"organizations vary tremendously in the efficiency with which they \
-		translate resources into action" pg 1221
-	|
-
-Resources Allocated to Federating Constituents=A FUNCTION OF(Resources Allocated to Federating Constituents\
-		) ~~|
-Resources Allocated to Federating Constituents=
-	~	
-	~	"Federation may occur in two ways. One strategy assigns professional staff \
-		the task of developing chapters out of isolated adherents or \
-		constituents." pg 1228
-	|
-
-Discressionary Resources=A FUNCTION OF(Discressionary Resources,Constituent Resources\
-		,Resource Discretion) ~~|
-Discressionary Resources=
-	~	
-	~	"By discretionary resources we mean time and money which can easily be \
-		reallocated, the opposite of fixed and enduring commitments of time and \
-		money." pg. 1224
-	|
-
-Free Media  = A FUNCTION OF( )
-	~	
-	~		|
-
-Specialization=A FUNCTION OF(Specialization,Resources Available) ~~|
-Specialization=
-	~	
-	~	"Large resource flows allow [liaison work with other organizations, \
-		advertising, accounting, and membership service] to be treated as \
-		specialties, though organizations of moderate size may have problems of \
-		pre-mature specialization. Economies of scale should be reached only at \
-		ap-propriate levels of growth." pg 1234
+		- Should the number of SMOs be modeled as a stock, or as exogenous? If \
+		modeled as a stock, we have trouble differentiating between strategies. If \
+		modeled as fixed, we have trouble talking about new entry...
 	|
 
 Adherents[Benefit,Interaction,Resource,Resource Profile]= INTEG (
@@ -238,6 +49,19 @@ Adherents[Benefit,Interaction,Resource,Resource Profile]= INTEG (
 		
 		We here use adherents to mean those who support the goals of the social \
 		movement but are not constituents.
+	|
+
+Constituents[Benefit,Interaction,Resource Profile,SMO]= INTEG (
+	Mobilization[Benefit,Interaction,Resource Profile,SMO]+Switching,
+		0)
+	~	
+	~	"Adherents are those individuals and organizations that believe in the goals of the \
+		movement. The constituents of a SMO are those providing resources for it." \
+		pg 1221
+		
+		Technically, the constituents of the SM are also adherents, but without a \
+		positive monicker for the unweildy "non-constituent adherents" we'll \
+		reserve the term "adherents" strictly for this category.
 	|
 
 Bystander Public[Benefit,Interaction,Resource Profile]= INTEG (
@@ -272,38 +96,53 @@ Target Goals[SMO]= INTEG (
 	Expansion-Achieving Change[SMO,Resource],
 		)
 	~	
-	~	"Each SMO has a set of target goals, a set of preferred changes toward which it \
-		claims to be working. Such goals may be broad or narrow, and they are the \
-		characteristics of SMOs which link them conceptually with particular SMs \
-		and SMIs." pg 1220
-		
-		"particular SMOs may be broad or narrow in stated target goals." 1220
+	~	"Each SMO has a set of target goals, a set of preferred changes toward \
+		which it claims to be working. Such goals may be broad or narrow, and they \
+		are the characteristics of SMOs which link them conceptually with \
+		particular SMs and SMIs." pg 1220
 	|
 
 Achieving Change[SMO,Resource]=
-	Resources Available[SMO,Resource] * Resource Allocation to Goal Accomplishment / Resource Cost of Achieving Change
+	Money and Labor Resource[SMO,Resource] * Resource Allocation to Goal Accomplishment \
+		/ Resource Cost of Achieving Change
 	~	
 	~	"social movement organizations have a number of strategic tasks. These include ... \
 		achieving change in targets" pg 1217
 		
-		"The SMOs must possess resources, however few and of whatever type, in order to work \
-		toward goal achievement." pg 1220
-		
-		"the amount of activity directed toward goal accomplishment is crudely a \
-		function of the resources controlled by an organization. Some \
-		organizations may depend heavily upon volunteer labor, while others may \
-		depend upon purchased labor. In any case, resources must be controlled or \
-		mobilized before action is possible." pg. 1221
+		"The SMOs must possess resources, however few and of whatever type, in \
+		order to work toward goal achievement." pg 1220
 	|
 
 Mobilization[Benefit,Interaction,Resource Profile,SMO]=
-	Resources Available[SMO,Resource] * Resource Allocation to Mobilization / Resource Cost of Mobilization
+	Money and Labor Resource[SMO,Resource] * Resource Allocation to Mobilization / Resource Cost of Mobilization
 	~	
 	~	"social movement organizations have a number of strategic tasks. These include \
 		mobilizing supporters..." pg 1217
 		
 		"resource mobilization task is primarily that of converting adherents into \
 		constituents and maintaining constituent involvement." pg 1221
+	|
+
+Money and Labor Resource[SMO,Resource]=
+	Constituents * Discressionary Resources * (1-External Cost on Resource Provision) + \
+		Entrepreneurship + External Resource Availability
+	~	
+	~	"resource aggregation requires some minimal form of organization" pg 1216. 
+		Implying: resources may only be mobilized from individuals by an organization, who \
+		are connected to the organization through that process of mobilization.
+		
+		"Individuals and other organizations control resources, which can include \
+		legitimacy, money, facilities, and labor" pg 1220
+		
+		While resources are broken down into categories, little is done with those \
+		categories as a part of the presented theory, and so here they are \
+		aggregated.
+		
+		The paper implies no sense of 'stockpiling' resources. While financial \
+		resources could concievably be 'banked' (literally) labor resources \
+		cannot. In our formalizataion of the resource mobilization model, we'll \
+		use the simpler option of assuming that resources are not banked, as there \
+		is no contrary theory presented.
 	|
 
 Engagement in Social Conflict  = A FUNCTION OF( ) ~~|
@@ -320,8 +159,20 @@ Entrepreneurship=
 		entrepreneur of the cause to attempt to form a viable organization" pg 1226
 	|
 
+Cadre  = A FUNCTION OF( )
+	~	
+	~		|
+
+Organizational Staff  = A FUNCTION OF( )
+	~	
+	~		|
+
+Discressionary Resources  = A FUNCTION OF( Constituent Resources,Resource Discretion)
+	~	
+	~		|
+
 Conversion[Benefit,Interaction,Resource Profile]=
-	Resources Available * Resource Allocation to Conversion / Resource Cost of Conversion
+	Money and Labor Resource * Resource Allocation to Conversion / Resource Cost of Conversion
 	~	
 	~	"social movement organizations have a number of strategic tasks. These include ... \
 		neutralizing and/or transforming mass and elite publics into sympathizers" \
@@ -332,17 +183,34 @@ Conversion[Benefit,Interaction,Resource Profile]=
 		bystander publics who are potential beneficiaries into adherents" pg \
 		1221-1222
 		
-		"At one level the resource mobilization task is primarily that of converting \
+		At one level the resource mobilization task is primarily that of converting \
 		adherents into constituents and maintaining constituent involvement. \
 		However, at another level the task may be seen as turning nonadherents \
 		into adherents"
 		
-		"It may be, of course, to the advantage of a SMO to turn bystander publics into \
-		adherents."
-		
 		To disambiguate terms, we'll use 'mobilization' to refer to turning \
 		adherents into constituents, and 'conversion' to describe the process of \
 		making adherents from bystanders.
+	|
+
+Resource Allocation to Goal Accomplishment[SMO,Money]=
+	0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ~~|
+Resource Allocation to Goal Accomplishment[SMO,Labor]=
+	0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1 ~~|
+Resource Allocation to Goal Accomplishment[SMO,Legitimacy]=
+	0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1
+	~	
+	~	"the amount of activity directed toward goal accomplishment is crudely a \
+		function of the resources controlled by an organization." 1221
+	|
+
+Resource Cost of Achieving Change=A FUNCTION OF(Resource Cost of Achieving Change) ~~|
+Resource Cost of Achieving Change[SMO, Money]= ~~|
+Resource Cost of Achieving Change[SMO, Labor]= ~~|
+Resource Cost of Achieving Change[SMO, Legitimacy]=
+	~	
+	~	"organizations vary tremendously in the efficiency with which they \
+		translate resources into action" pg 1221
 	|
 
 Initial Adherents=A FUNCTION OF(Initial Adherents) ~~|
@@ -361,8 +229,12 @@ Initial Adherents[Benefit,Isolated,Legitimacy,Mass]=
 	~	
 	~		|
 
-Switching  = A FUNCTION OF( Resources Available,Resource Allocation to Encouraging Switching\
+Switching  = A FUNCTION OF( Money and Labor Resource,Resource Allocation to Encouraging Switching\
 		)
+	~	
+	~		|
+
+Transitory Team  = A FUNCTION OF( )
 	~	
 	~		|
 
@@ -382,42 +254,38 @@ Constituent Resources[Benefit,Interaction,Resource,Resource Profile]=
 		limited resource pool which individuals can control is their own time and \
 		labor. Elites are those who control larger resource pools." pg 1221
 		
-		"those who control the largest share of discretionary resources in any society are \
-		also those least likely to feel discontentment concerning their own \
-		personal circumstances." pg 1226
-		
 		"people who give more time to volunteer activities also give more money." \
 		pg 1224
 	|
 
-Costs and Rewards of Participation=A FUNCTION OF(Costs and Rewards of Participation,Activities of Authorities\
-		,Structure of Society) ~~|
+Costs and Rewards of Participation  = A FUNCTION OF( Activities of Authorities,Structure of Society\
+		) ~~|
 Costs and Rewards of Participation=
 	~	
 	~	"the importance of costs and rewards in explaining individual and organizational \
 		involvement in social movement activity. 
-		Costs and rewards are centrally affected by the structure of society and the \
-		activities of authorities." pg 1216
-		
-		"assume that the costs and rewards of involvement can account for individual \
-		participation in SMOs and that, especially, selective incentives are \
-		important since they tend to raise the 
-		rewards for involvement." pg. 1226-1227
+		Costs and rewards are centrally affected by the structure of society and \
+		the activities of authorities." pg 1216
 	|
 
 Desire to expand beneficiary groups  = A FUNCTION OF( )
 	~	
 	~		|
 
+Discontent=A FUNCTION OF(Discontent) ~~|
+Discontent= INTEG (
+	,
+		)
+	~	
+	~	"grievances and discontent may be defined, created, and manipulated by \
+		issue entrepreneurs and organizations." pg 1215
+	|
+
 Expansion=A FUNCTION OF(Expansion) ~~|
 Expansion=
 	~	
 	~	"a SMO may ... expand its target goals in order to enlarge its potential \
 		bene-ficiary group." pg 1222
-		
-		"Many SMOs attempt to present their goal accomplishments in terms of \
-		broader potential benefits for ever-wider groupings of citizens through \
-		notions of a better society, etc. (secondary benefits)." pg 1222
 	|
 
 External Cost on Resource Provision=A FUNCTION OF(External Cost on Resource Provision\
@@ -437,8 +305,6 @@ External Cost on Resource Provision=
 		so we do not include them beyond this influence in the model.
 		
 		
-		"the ability of any SMO to garner resources is shaped by important events such as \
-		war, broad economic trends, and natural disasters." pg 1223
 		
 		"Means of communication, transportation, political freedoms, and the \
 		extent of repression by agents of social control, all of which may affect \
@@ -447,8 +313,8 @@ External Cost on Resource Provision=
 		social movement purposes." pg 1225
 	|
 
-Social Infrastructure=A FUNCTION OF(Social Infrastructure) ~~|
-Social Infrastructure=
+External Resource Availability=A FUNCTION OF(External Resource Availability) ~~|
+External Resource Availability=
 	~	
 	~	"Society provides the infrastructure which social movement industries and other \
 		industries utilize. The aspects utilized include communication media and \
@@ -480,18 +346,34 @@ Resource Discretion=
 		allocate resources to personal comfort and to the advancement of some \
 		group of which he or she is not a member." p 1225-1226
 		
-		"It is well known that the proportion of income going to food and shelter is higher \
-		for low-income families, while the proportion of income going to savings \
-		and recreation increases among high-income families (Samuelson 1964)." 1224
+		"It is well known that the proportion of income going to food and shelter \
+		is higher for low-income families, while the proportion of income going to \
+		savings and recreation increases among high-income families (Samuelson \
+		1964)." 1224
+	|
+
+Resource Cost of Mobilization=
+	10
+	~	
+	~	"The problems of SMOs with regard to binding beneficiary and conscience constituents \
+		to the organization are different, not with regard to the stakes of \
+		individual involvement relative to goal accomplishment (the Olson problem) \
+		but with regard to the way constituents are linked to each other and to \
+		other SMOs, organizations, and social institutions." pg 1222
 		
-		"An individual (or an organization) with large amounts of dis-cretionary resources \
-		may allocate resources to personal comfort and to the advancement of some \
-		group of which he or she is not a member." pg 1225-1226
+		We will operationalize "The problems of binding constituents to the \
+		organization" as a resource cost.
+	|
+
+Resource Cost of Conversion[Interaction]=
+	0.5, 1
+	~	
+	~	"Federation developing out of preexisting groups can occur quite rapidly, while \
+		organizing unattached individuals probably requires more time and \
+		resources." pg. 1228
 		
-		"In modern society discretion over work schedules tends to be related to \
-		larger pools of discretionary income, allowing travel to distant sites as \
-		well. The discretion of constituents over work schedules, then, may be \
-		seen as a potential organizational resource" pg 1236
+		"organizations vary tremendously in the efficiency with which they \
+		translate resources into action" pg 1221
 	|
 
 Resource:
@@ -510,13 +392,10 @@ Resource Allocation to Conversion[Benefit,Interaction,Resource Profile,SMO]=
 		bystander publics may not aid in the development of additional resources" \
 		pg 1223
 		
-		"In approaching the task of mobilizing resources a SMO may focus its attention upon \
-		adherents who are potential beneficiaries and/or attempt to convert \
-		bystander publics who are potential beneficiaries into adherents." pg. \
-		1221-1222
-		
-		"a SMO may attempt to mobilize as adherents those who are not potential \
-		beneficiaries." pg 1222
+		"In approaching the task of mobilizing resources a SMO may focus its \
+		attention upon adherents who are potential beneficiaries and/or attempt to \
+		convert bystander publics who are potential beneficiaries into adherents." \
+		pg. 1221-1222
 	|
 
 Structure of Society  = A FUNCTION OF( )
@@ -526,18 +405,11 @@ Structure of Society  = A FUNCTION OF( )
 Interaction:
 	Federated, Isolated
 	~	
-	~	"Federation serves to organize constituents into small local units. The SMOs which \
-		develop in this manner may deal with constituents directly as well as \
-		through chapters or
-		only through chapters." pg 1227
-		
-		"many SMOs do not develop chapters. These deal directly with constituents, \
-		usually through the mails or through traveling field staff. The important \
-		point is that constituents in non-federated SMOs do not normally meet in \
-		face-to-face interaction with other constituents and hence cannot be bound \
-		to the SMOs through solidary selective incentives. We term these \
-		constituents, isolated constituents." pg. 1227-1228
-	|
+	~		|
+
+Movement Grievances  = A FUNCTION OF( )
+	~	
+	~		|
 
 "Intensity of grievances/preferences"  = A FUNCTION OF( )
 	~	
@@ -576,6 +448,10 @@ Benefit:
 		constituents.
 	|
 
+Opponents  = A FUNCTION OF( )
+	~	
+	~		|
+
 Resource Profile:
 	Mass, Elite
 	~	
@@ -602,7 +478,7 @@ INITIAL TIME  = 0
 	|
 
 SAVEPER  = 
-        TIME STEP 
+        TIME STEP
 	~	Month [0,?]
 	~	The frequency with which output is stored.
 	|
@@ -622,14 +498,15 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,1
 10,4,Constituents,709,273,40,20,3,131,0,0,0,0,0,0
 1,5,7,4,4,0,0,22,0,0,0,-1--1--1,,1|(648,273)|
 1,6,7,3,100,0,0,22,0,0,0,-1--1--1,,1|(594,273)|
-11,7,300,621,273,6,8,34,3,0,0,1,0,0,0
+11,7,268,621,273,6,8,34,3,0,0,1,0,0,0
 10,8,Mobilization,621,289,33,8,40,3,0,0,-1,0,0,0
-10,10,Discontent,375,112,40,20,3,3,0,0,0,0,0,0
-10,11,"Intensity of grievances/preferences",146,98,59,14,8,3,0,0,0,0,0,0
-10,12,Resources Available,719,401,51,8,8,3,0,0,0,0,0,0
+10,9,Movement Grievances,297,50,40,20,3,3,0,0,0,0,0,0
+10,10,Discontent,428,117,40,20,3,3,0,0,0,0,0,0
+10,11,"Intensity of grievances/preferences",228,131,59,14,8,3,0,0,0,0,0,0
+10,12,Money and Labor Resource,719,401,46,14,8,3,0,0,0,0,0,0
 1,13,15,3,4,0,0,22,0,0,0,-1--1--1,,1|(473,273)|
 1,14,15,2,100,0,0,22,0,0,0,-1--1--1,,1|(419,273)|
-11,15,428,446,273,6,8,34,3,0,0,1,0,0,0
+11,15,412,446,273,6,8,34,3,0,0,1,0,0,0
 10,16,Conversion,446,289,30,8,40,3,0,0,-1,0,0,0
 10,17,Target Goals,373,509,40,20,3,3,0,0,0,0,0,0
 12,18,48,224,513,10,8,0,3,0,0,-1,0,0,0
@@ -644,30 +521,31 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,1
 1,27,25,68,0,0,0,0,0,128,0,-1--1--1,,1|(957,368)|
 1,28,26,68,1,0,0,0,0,128,0,-1--1--1,,1|(934,412)|
 10,29,External Cost on Resource Provision,891,440,50,14,8,3,0,0,0,0,0,0
-1,30,29,12,0,0,0,0,0,128,0,-1--1--1,,1|(804,420)|
+1,30,29,12,0,0,0,0,0,128,0,-1--1--1,,1|(809,421)|
 10,31,Resource Allocation to Conversion,347,211,53,14,8,3,0,0,0,0,0,0
 10,32,Resource Cost of Conversion,456,208,45,14,8,3,0,0,0,0,0,0
 1,33,32,15,0,0,0,0,0,128,0,-1--1--1,,1|(451,237)|
 1,34,31,15,0,0,0,0,0,128,0,-1--1--1,,1|(398,243)|
-10,35,Resource Allocation to Encouraging Switching,830,172,60,14,8,3,0,0,0,0,0,0
-1,36,12,41,1,0,0,0,0,128,0,-1--1--1,,1|(800,331)|
-1,37,35,41,1,0,0,0,0,128,0,-1--1--1,,1|(813,190)|
+10,35,Resource Allocation to Encouraging Switching,872,175,60,14,8,3,0,0,0,0,0,0
+1,36,12,41,1,0,0,0,0,128,0,-1--1--1,,1|(832,332)|
+1,37,35,41,1,0,0,0,0,128,0,-1--1--1,,1|(837,189)|
 1,38,40,4,4,0,0,22,0,0,0,-1--1--1,,1|(709,220)|
 1,39,40,4,100,0,0,22,0,0,0,-1--1--1,,1|(759,273)|
-11,40,716,759,220,6,8,34,3,0,0,4,0,0,0
+11,40,428,759,220,6,8,34,3,0,0,4,0,0,0
 10,41,Switching,792,220,27,8,40,3,0,0,-1,0,0,0
-10,42,Engagement in Social Conflict,393,389,40,14,8,3,0,0,0,0,0,0
-10,43,Costs and Rewards of Participation,695,121,49,14,8,3,0,0,0,0,0,0
+10,42,Engagement in Social Conflict,639,474,40,14,8,3,0,0,0,0,0,0
+10,43,Costs and Rewards of Participation,701,147,49,14,8,3,0,0,0,0,0,0
 10,44,Structure of Society,626,74,50,8,8,3,0,0,0,0,0,0
-1,45,44,43,0,0,0,0,0,128,0,-1--1--1,,1|(649,90)|
+1,45,44,43,0,0,0,0,0,128,0,-1--1--1,,1|(655,102)|
 10,46,Activities of Authorities,770,75,33,14,8,3,0,0,0,0,0,0
-1,47,46,43,0,0,0,0,0,128,0,-1--1--1,,1|(738,94)|
+1,47,46,43,0,0,0,0,0,128,0,-1--1--1,,1|(740,105)|
 12,48,48,531,510,10,8,0,3,0,0,-1,0,0,0
 1,49,51,48,4,0,0,22,0,0,0,-1--1--1,,1|(497,510)|
 1,50,51,17,100,0,0,22,0,0,0,-1--1--1,,1|(437,510)|
 11,51,48,467,510,6,8,34,3,0,0,1,0,0,0
 10,52,Achieving Change,467,526,47,8,40,3,0,0,-1,0,0,0
-10,53,Social Infrastructure,807,496,47,14,8,3,0,0,0,0,0,0
+10,53,External Resource Availability,854,516,47,14,8,3,0,0,0,0,0,0
+1,54,53,12,0,0,0,0,0,128,0,-1--1--1,,1|(791,463)|
 10,55,Resource Cost of Mobilization,675,190,45,14,8,3,0,0,0,0,0,0
 10,56,Resource Allocation to Mobilization,567,188,53,14,8,3,0,0,0,0,0,0
 10,57,Entrepreneurship,598,364,44,8,8,3,0,0,0,0,0,0
@@ -682,44 +560,24 @@ $192-192-192,0,Times New Roman|12||0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,1
 1,66,12,16,1,0,0,0,0,128,0,-1--1--1,,1|(522,374)|
 1,67,12,8,1,0,0,0,0,128,0,-1--1--1,,1|(659,361)|
 10,68,Discressionary Resources,881,393,39,14,8,3,0,0,0,0,0,0
-1,69,68,12,0,0,0,0,0,128,0,-1--1--1,,1|(812,395)|
+1,69,68,12,0,0,0,0,0,128,0,-1--1--1,,1|(810,395)|
 1,70,3,57,1,0,0,0,0,128,0,-1--1--1,,1|(550,324)|
-1,71,31,63,0,1,0,0,0,64,0,-1--1--1,,1|(380,321)|
-1,72,35,63,0,1,0,0,0,64,0,-1--1--1,,1|(630,304)|
-1,73,56,63,0,1,0,0,0,64,0,-1--1--1,,1|(496,310)|
-10,74,Initial Bystander Public,359,307,47,14,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
-1,75,74,2,0,1,0,0,0,64,1,-1--1--1,,1|(359,293)|
-10,76,Initial Adherents,534,307,49,8,8,2,1,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
-1,77,76,3,0,1,0,0,0,64,1,-1--1--1,,1|(534,303)|
-10,78,Percieved 'Product' Quality,647,520,40,20,3,3,0,0,0,0,0,0
-10,79,Personnel Resources,770,560,40,20,3,3,0,0,0,0,0,0
-10,80,Specialization,1011,260,36,8,8,3,0,0,0,0,0,0
-1,81,12,80,1,0,0,0,0,128,0,-1--1--1,,1|(895,343)|
-1,82,80,55,1,0,0,0,0,128,0,-1--1--1,,1|(964,195)|
-1,83,80,32,1,0,0,0,0,128,0,-1--1--1,,1|(926,57)|
-1,84,80,61,1,0,0,0,0,128,0,-1--1--1,,1|(1079,406)|
-10,85,Free Media,333,352,30,8,8,3,0,0,0,0,0,0
-10,86,Advertising,434,351,31,8,8,3,0,0,0,0,0,0
-12,87,48,227,115,10,8,0,3,0,0,-1,0,0,0
-1,89,91,10,4,0,0,22,0,0,0,-1--1--1,,1|(313,115)|
-1,90,91,87,100,0,0,22,0,0,0,-1--1--1,,1|(258,115)|
-11,91,0,286,115,6,8,34,3,0,0,1,0,0,0
-10,92,Creating Discontent,286,137,50,8,40,3,0,0,-1,0,0,0
-10,93,Constraints on Allocation,189,206,38,14,8,3,0,0,0,0,0,0
+10,71,Cadre,617,593,17,8,8,3,0,0,0,0,0,0
+10,72,Organizational Staff,671,617,51,8,8,3,0,0,0,0,0,0
+10,73,Transitory Team,709,582,42,8,8,3,0,0,0,0,0,0
+10,74,Initial Bystander Public,84,362,59,8,8,3,0,0,0,0,0,0
+10,75,Initial Adherents,75,424,42,8,8,3,0,0,0,0,0,0
+1,76,75,3,0,0,0,0,0,64,1,-1--1--1,,1|(289,353)|
+1,77,74,2,0,0,0,0,0,64,1,-1--1--1,,1|(206,321)|
 \\\---/// Sketch information - do not modify anything except names
 V300  Do not put anything below this section - it will be ignored
 *View 2
 $192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
-10,1,Resource Allocation to Goal Accomplishment,436,192,61,18,8,3,0,0,-1,0,0,0
-10,2,Resource Allocation to Conversion,238,112,39,18,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
-10,3,Resource Allocation to Encouraging Switching,250,197,65,18,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
-10,4,Resource Allocation to Mobilization,260,270,41,18,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|0||128-128-128
-1,5,2,1,0,0,0,0,0,128,0,-1--1--1,,1|(327,147)|
-1,6,3,1,0,0,0,0,0,128,0,-1--1--1,,1|(338,194)|
-1,7,4,1,0,0,0,0,0,128,0,-1--1--1,,1|(341,233)|
-10,8,Initial Bystander Public,693,133,52,12,8,3,0,0,0,0,0,0
-10,9,Initial Adherents,683,190,49,7,8,3,0,0,0,0,0,0
-10,11,Resources Allocated to Federating Constituents,560,318,62,18,8,3,0,0,0,0,0,0
+10,1,Constituents,362,245,46,7,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,2,Adherents,365,199,39,7,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,3,Bystander Public,363,148,58,7,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,4,Opponents,365,103,41,7,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
+10,5,Expansion,175,179,40,7,8,2,0,3,-1,0,0,0,128-128-128,0-0-0,|12||128-128-128
 ///---\\\
 :L<%^E!@
 9:Current
@@ -735,7 +593,7 @@ $192-192-192,0,Helvetica|12|B|0-0-0|0-0-0|0-0-255|-1--1--1|-1--1--1|72,72,100,0
 19:100,0
 27:2,
 34:0,
-5:Resource Cost of Mobilization
+5:Resource Allocation to Mobilization
 35:Date
 36:YYYY-MM-DD
 37:2000
