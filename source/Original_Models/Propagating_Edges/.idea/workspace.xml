@@ -2,8 +2,12 @@
 <project version="4">
   <component name="AutoTestManager">
     <enabled-run-configurations>
+      <run-configuration type="tests" name="Unittests in test (3)" />
       <run-configuration type="tests" name="Unittests in TestAgent" />
       <run-configuration type="tests" name="Unittest TestAgent.test__init__" />
+      <run-configuration type="tests" name="Unittests in test" />
+      <run-configuration type="tests" name="Unittests in test (1)" />
+      <run-configuration type="tests" name="Unittests in test" />
     </enabled-run-configurations>
   </component>
   <component name="ChangeListManager">
@@ -20,11 +24,18 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_TestAgent.coverage" NAME="Unittests in TestAgent Coverage Results" MODIFIED="1476552078040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_test.coverage" NAME="Unittests in test Coverage Results" MODIFIED="1476558273661" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_TestAgent.coverage" NAME="Unittests in TestAgent Coverage Results" MODIFIED="1476553459943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestAgent_test_emit_all_to_neighbors.coverage" NAME="Unittest TestAgent.test_emit_all_to_neighbors Coverage Results" MODIFIED="1476548802218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestAgent_test_update_mind_equally.coverage" NAME="Unittest TestAgent.test_update_mind_equally Coverage Results" MODIFIED="1476551970943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_test__3_.coverage" NAME="Unittests in test (3) Coverage Results" MODIFIED="1476557723564" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestAgent_test_update_mind_equally.coverage" NAME="Unittest TestAgent.test_update_mind_equally Coverage Results" MODIFIED="1476557767767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_test__2_.coverage" NAME="Unittests in test (2) Coverage Results" MODIFIED="1476557692612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestSociety_test_emit.coverage" NAME="Unittest TestSociety.test_emit Coverage Results" MODIFIED="1476556573244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestSociety_test_receive.coverage" NAME="Unittest TestSociety.test_receive Coverage Results" MODIFIED="1476557708137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
     <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestAgent_test__init__.coverage" NAME="Unittest TestAgent.test__init__ Coverage Results" MODIFIED="1476548003579" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
-    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestAgent_test_receive_all_equally.coverage" NAME="Unittest TestAgent.test_receive_all_equally Coverage Results" MODIFIED="1476551786697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_TestSociety.coverage" NAME="Unittests in TestSociety Coverage Results" MODIFIED="1476553786261" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittests_in_test__1_.coverage" NAME="Unittests in test (1) Coverage Results" MODIFIED="1476557652507" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
+    <SUITE FILE_PATH="coverage/Propagating_Edges$Unittest_TestAgent_test_receive_all_equally.coverage" NAME="Unittest TestAgent.test_receive_all_equally Coverage Results" MODIFIED="1476557894112" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -34,7 +45,7 @@
     <favorites_list name="Propagating_Edges" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.46114865">
       <split-first>
         <leaf>
           <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
@@ -47,14 +58,12 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="test_agent.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/test/test_agent.py">
+          <file leaf-file-name="society.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/social_meaning/society.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="900">
-                  <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#15#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="570">
+                  <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -63,13 +72,47 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="agent.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="test_agent.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/test/test_agent.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="690">
+                  <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="contextlib.py" pinned="false" current-in-tab="false">
+            <entry file="file://$USER_HOME$/anaconda/envs/py3k/lib/python3.5/contextlib.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="156">
+                  <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="agent.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/social_meaning/agent.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+                <state relative-caret-position="471">
+                  <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
                   <folding>
                     <element signature="e#0#21#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="test_society.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/test/test_society.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="435">
+                  <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -90,8 +133,10 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/edge_propagation.py" />
-        <option value="$PROJECT_DIR$/test/test_agent.py" />
         <option value="$PROJECT_DIR$/social_meaning/agent.py" />
+        <option value="$PROJECT_DIR$/test/test_agent.py" />
+        <option value="$PROJECT_DIR$/social_meaning/society.py" />
+        <option value="$PROJECT_DIR$/test/test_society.py" />
       </list>
     </option>
   </component>
@@ -202,8 +247,8 @@
       <recent name="$PROJECT_DIR$/social_meaning" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittest TestAgent.test_update_mind_equally">
-    <configuration default="false" name="Unittest TestAgent.test__init__" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests in test">
+    <configuration default="false" name="Unittest TestSociety.test_receive" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -214,9 +259,9 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Propagating_Edges" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_agent.py" />
-      <option name="CLASS_NAME" value="TestAgent" />
-      <option name="METHOD_NAME" value="test__init__" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_society.py" />
+      <option name="CLASS_NAME" value="TestSociety" />
+      <option name="METHOD_NAME" value="test_receive" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -226,7 +271,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittests in TestAgent" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test (3)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -237,11 +282,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Propagating_Edges" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_agent.py" />
-      <option name="CLASS_NAME" value="TestAgent" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -249,7 +294,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestAgent.test_emit_all_to_neighbors" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest TestAgent.test_update_mind_equally" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -262,7 +307,7 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_agent.py" />
       <option name="CLASS_NAME" value="TestAgent" />
-      <option name="METHOD_NAME" value="test_emit_all_to_neighbors" />
+      <option name="METHOD_NAME" value="test_update_mind_equally" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -295,7 +340,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest TestAgent.test_update_mind_equally" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittests in test" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -306,11 +351,11 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Propagating_Edges" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test/test_agent.py" />
-      <option name="CLASS_NAME" value="TestAgent" />
-      <option name="METHOD_NAME" value="test_update_mind_equally" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/test" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -521,19 +566,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test__init__" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in TestAgent" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_emit_all_to_neighbors" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest TestSociety.test_receive" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test (3)" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_update_mind_equally" />
       <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_receive_all_equally" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_update_mind_equally" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in TestAgent" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_update_mind_equally" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_receive_all_equally" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_emit_all_to_neighbors" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test__init__" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_receive_all_equally" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest TestAgent.test_update_mind_equally" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test (3)" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest TestSociety.test_receive" />
       </list>
     </recent_temporary>
   </component>
@@ -551,35 +596,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_TestAgent_test_receive_all_equally - 2016.10.15 at 13h 16m 24s.xml">
+    <history-entry file="Unittest_TestAgent_test_receive_all_equally - 2016.10.15 at 14h 58m 13s.xml">
       <configuration name="Unittest TestAgent.test_receive_all_equally" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestAgent_test_receive_all_equally - 2016.10.15 at 13h 16m 41s.xml">
-      <configuration name="Unittest TestAgent.test_receive_all_equally" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 00m 26s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestAgent_test_update_mind_equally - 2016.10.15 at 13h 19m 30s.xml">
-      <configuration name="Unittest TestAgent.test_update_mind_equally" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 02m 22s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_TestAgent_test_update_mind_equally - 2016.10.15 at 13h 20m 44s.xml">
-      <configuration name="Unittest TestAgent.test_update_mind_equally" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 02m 50s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAgent - 2016.10.15 at 13h 17m 09s.xml">
-      <configuration name="Unittests in TestAgent" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 04m 07s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAgent - 2016.10.15 at 13h 17m 54s.xml">
-      <configuration name="Unittests in TestAgent" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 04m 09s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAgent - 2016.10.15 at 13h 18m 04s.xml">
-      <configuration name="Unittests in TestAgent" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 04m 13s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAgent - 2016.10.15 at 13h 19m 05s.xml">
-      <configuration name="Unittests in TestAgent" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 04m 25s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAgent - 2016.10.15 at 13h 20m 36s.xml">
-      <configuration name="Unittests in TestAgent" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 04m 30s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_TestAgent - 2016.10.15 at 13h 21m 18s.xml">
-      <configuration name="Unittests in TestAgent" configurationId="tests" />
+    <history-entry file="Unittests_in_test - 2016.10.15 at 15h 04m 34s.xml">
+      <configuration name="Unittests in test" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -592,11 +637,11 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30361447" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3421687" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -614,11 +659,26 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/test/test_agent.py</url>
-          <line>60</line>
+          <line>62</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/test/test_society.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/social_meaning/society.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/social_meaning/agent.py</url>
+          <line>48</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="5" />
+      <option name="time" value="12" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -631,10 +691,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/anaconda/envs/py3k/lib/python3.5/contextlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/test_agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+        <state relative-caret-position="690">
+          <caret line="49" column="15" selection-start-line="49" selection-start-column="15" selection-end-line="49" selection-end-column="15" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
@@ -643,11 +711,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/social_meaning/agent.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="471">
+          <caret line="57" column="31" selection-start-line="57" selection-start-column="31" selection-end-line="57" selection-end-column="31" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_society.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/social_meaning/society.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="34" selection-start-line="38" selection-start-column="34" selection-end-line="38" selection-end-column="34" />
+          <folding />
         </state>
       </provider>
     </entry>
