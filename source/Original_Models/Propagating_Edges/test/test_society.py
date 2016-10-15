@@ -18,7 +18,11 @@ class TestSocietyBasicOperation(unittest.TestCase):
                            social_network=network,
                            node_name=2)
                   }
-        cls.s = Society(network, agents)
+        methods = {'emit': 'all to neighbors',
+                   'receive': 'all equally',
+                   'update mind': 'union'}
+
+        cls.s = Society(network, agents, methods)
 
     def test_setup(self):
 
@@ -29,7 +33,7 @@ class TestSocietyBasicOperation(unittest.TestCase):
                          list())
 
     def test_emit(self):
-        self.s.emit('all to neighbors')
+        self.s.emit()
         # check emitting to both neighbors
         self.assertSetEqual(set(self.s.network.node[0]['agent'].emissions),
                             set([1, 2]))
@@ -43,7 +47,7 @@ class TestSocietyBasicOperation(unittest.TestCase):
                             set())
 
     def test_receive(self):
-        self.s.receive('all equally')
+        self.s.receive()
         # check emitting to both neighbors
         self.assertSetEqual(set(self.s.network.node[0]['agent'].receipts),
                             set([1, 2]))
@@ -57,10 +61,15 @@ class TestSocietyBasicOperation(unittest.TestCase):
                             set(nx.house_graph().edges()))
 
     def test_update_mind(self):
-        self.s.update_mind('union')
+        self.s.update_mind()
         self.assertEqual(self.s.network.node[1]['agent'].mind.nodes(),
                          list(range(5)))
 
         # the 'sender' still has their original
         self.assertEqual(self.s.network.node[0]['agent'].mind.nodes(),
                          list(range(5)))
+
+    def test_mind_similarity(self):
+        # todo: test this with an actually interesting set of networks
+        similarity_matrix = self.s.mind_similarity()
+        repr(similarity_matrix)

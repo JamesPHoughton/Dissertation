@@ -52,8 +52,17 @@ class Agent(object):
     def update_mind(self, method):
         if method == 'union':
             self.update_mind_equally()
+        elif method == 'preference closure':
+            self.update_mind_preferencing_closure()
         else:
             raise NotImplementedError("Method '%s' not implemented" % method)
+
+    def update_mind_preferencing_closure(self):
+        """
+        Assume that individuals prefer to complete triads,
+
+        """
+        raise NotImplementedError()
 
     def update_mind_equally(self):
         """

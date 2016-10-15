@@ -29,8 +29,8 @@
       <file leaf-file-name="threshold_model.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Shared/threshold_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="31" column="91" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="91" />
+            <state relative-caret-position="249">
+              <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -415,8 +415,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Shared/threshold_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="31" column="91" selection-start-line="30" selection-start-column="12" selection-end-line="31" selection-end-column="91" />
+        <state relative-caret-position="249">
+          <caret line="35" column="35" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
