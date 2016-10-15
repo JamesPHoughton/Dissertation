@@ -24,6 +24,27 @@ We start by identifying within the publication statements about the structure of
 
 When statements about behavior do not have more than one structural link in the theory, they aren't really hypotheses about the behavior that arises from the theory as a construction of mechanisms, so much as an assumption about the behavior of a particular mechanism or piece of system structure, encoded as a statement of behavior.
 
+# Describing the structure
+#### Mobilization Chain
+McCarthy and Zald categorize individuals according to their relationship with the social movement as being *"...constituents, adherents, bystander publics, [or] opponents" (pg. 1221)* and the movement of individuals between these groups forms the core of resource mobilization theory. Bystanders are the general public, Adherents are those who passively support the goals of the social movement, Constituents are individuals who have affiliated with a particular Social Movement Organization and provide resources to that organization.
+
+![mobilization chain](Fig_01_Mobilization_Chain.png)
+
+Individuals are also categorized in a number of additional dimensions based upon (relatively) fixed attributes: 
+
+- Whether they stand to directly benefit from the achievement of a SM's goals
+- The degree to which they are integrated into a community of like-minded individuals
+- The level of resources they have at their disposal
+- The elasticity of their demand for SMO offerings
+
+The ability of a social movement organization to mobilize individuals, and the extent and type of resources they are then able to provide, is a function of where individuals fall into each of these various categories.
+
+#### Resources
+The resources available to a social movement are those which are made available continuously by the constituency. These resources fall roughly into categories of material resources such as money and facilities, labor resources, and social resources such as legitimacy. Resources are available in different measures from different categories of constituent, and different mixtures of resources are required to accomplish different movement objectives.
+
+Resources of any kind are only mobilized through the engagement of individual persons who control them.
+
+
 ## New lessons
 - It is ambiguous what is meant by 'engaging in social conflict'. In some ways it is a way of allocating resources
 - The term 'mobilizing' is ambiguous. It seems to be used in some ways as 'allocating' resources, such as in "In approaching the task of mobilizing resources a SMO may focus its attention upon adherents who are potential beneficiaries and/or attempt to convert bystander publics who are potential beneficiaries into adherents." pg. 1221-1222 In other places it is used to describe the process of converting bystander publics into adherents "a
@@ -50,6 +71,10 @@ we can apply a simple economic model to this competitive process. Demand
 may be elastic, and its elasticity is likely to be heavily dependent upon
 SMO advertising." pg 1229. But, the supply side is not really a supply of purchased products in the same way that other products may be. If 'Target Goals' are products, then the supply is not constrained. It is more like a market for selling software, or music, than a commodity market. 
 - Alternately, if the solidary incentives and access to SMO leadership are considered to be the product, then there *is* a constraint on supply.
+- What would happen if a constituent switched to another SM/SMI? Would they no longer be adherents of the SM?
+- perceptions of product quality are ambiguous. Is the product just the target goal, or the presentation of the methods?
+- If a social movement is around a certain set of goals - then how can the theory also claim that the goals can be expanded by SMOs? How can the beneficiary constituency change for each SMO without changing for the SM as a whole?
+- There is a fundamental tension between specialization and inclusivity. if 
 
 ## New observable implications
 - in cases where the beneficiary population has strong financial resources, they may be relatively more able to mobilize legitimacy resources to achieve policy objectives. This may be one reason why gay marriage happened so much more quickly than interracial marriage.

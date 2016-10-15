@@ -1,0 +1,501 @@
+id	label	description	x	y	cluster	weight<Citations>	weight<Co-citations>
+2138	acad manage j	<table><tr><td>Source:</td><td>acad manage j</td></tr><tr><td>Citations:</td><td>304</td></tr><tr><td>Co-citations:</td><td>15256</td></tr></table>	0.8861	0.0191	1	304	15256
+2140	acad manage rev	<table><tr><td>Source:</td><td>acad manage rev</td></tr><tr><td>Citations:</td><td>431</td></tr><tr><td>Co-citations:</td><td>19656</td></tr></table>	0.8574	0.0185	1	431	19656
+2424	acta psychiat scand	<table><tr><td>Source:</td><td>acta psychiat scand</td></tr><tr><td>Citations:</td><td>105</td></tr><tr><td>Co-citations:</td><td>15125</td></tr></table>	-0.9765	-0.4748	3	105	15125
+2431	acta psychol	<table><tr><td>Source:</td><td>acta psychol</td></tr><tr><td>Citations:</td><td>98</td></tr><tr><td>Co-citations:</td><td>6504</td></tr></table>	-0.3371	-0.1079	2	98	6504
+2510	activists borders ad	<table><tr><td>Source:</td><td>activists borders ad</td></tr><tr><td>Citations:</td><td>70</td></tr><tr><td>Co-citations:</td><td>2299</td></tr></table>	0.9353	0.0648	1	70	2299
+2579	addiction	<table><tr><td>Source:</td><td>addiction</td></tr><tr><td>Citations:</td><td>99</td></tr><tr><td>Co-citations:</td><td>3965</td></tr></table>	-0.5538	-0.276	3	99	3965
+2627	admin sci quart	<table><tr><td>Source:</td><td>admin sci quart</td></tr><tr><td>Citations:</td><td>678</td></tr><tr><td>Co-citations:</td><td>31924</td></tr></table>	0.8779	0.0119	1	678	31924
+2724	adv exp soc psychol	<table><tr><td>Source:</td><td>adv exp soc psychol</td></tr><tr><td>Citations:</td><td>66</td></tr><tr><td>Co-citations:</td><td>5061</td></tr></table>	0.0763	-0.0951	2	66	5061
+2775	adv neurol	<table><tr><td>Source:</td><td>adv neurol</td></tr><tr><td>Citations:</td><td>46</td></tr><tr><td>Co-citations:</td><td>2852</td></tr></table>	-0.9511	-0.2308	3	46	2852
+2830	adv stud behav	<table><tr><td>Source:</td><td>adv stud behav</td></tr><tr><td>Citations:</td><td>95</td></tr><tr><td>Co-citations:</td><td>4246</td></tr></table>	-0.7047	0.3464	4	95	4246
+2900	af	<table><tr><td>Source:</td><td>af</td></tr><tr><td>Citations:</td><td>22</td></tr><tr><td>Co-citations:</td><td>4928</td></tr></table>	1.3553	0.0021	1	22	4928
+3220	agr ecosyst environ	<table><tr><td>Source:</td><td>agr ecosyst environ</td></tr><tr><td>Citations:</td><td>50</td></tr><tr><td>Co-citations:</td><td>2351</td></tr></table>	-0.1744	0.4643	4	50	2351
+3342	agroforest syst	<table><tr><td>Source:</td><td>agroforest syst</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>2831</td></tr></table>	-0.2724	0.5038	4	40	2831
+3544	alcohol clin exp res	<table><tr><td>Source:</td><td>alcohol clin exp res</td></tr><tr><td>Citations:</td><td>109</td></tr><tr><td>Co-citations:</td><td>4346</td></tr></table>	-0.7031	-0.2588	3	109	4346
+3755	am anthropol	<table><tr><td>Source:</td><td>am anthropol</td></tr><tr><td>Citations:</td><td>139</td></tr><tr><td>Co-citations:</td><td>4015</td></tr></table>	0.6322	0.0424	1	139	4015
+3784	am behav sci	<table><tr><td>Source:</td><td>am behav sci</td></tr><tr><td>Citations:</td><td>201</td></tr><tr><td>Co-citations:</td><td>8249</td></tr></table>	0.8347	0.0313	1	201	8249
+3861	am econ rev	<table><tr><td>Source:</td><td>am econ rev</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>5895</td></tr></table>	0.6747	-0.0366	1	101	5895
+3879	am ethnol	<table><tr><td>Source:</td><td>am ethnol</td></tr><tr><td>Citations:</td><td>100</td></tr><tr><td>Co-citations:</td><td>2011</td></tr></table>	0.8272	0.0767	1	100	2011
+3926	am hist rev	<table><tr><td>Source:</td><td>am hist rev</td></tr><tr><td>Citations:</td><td>56</td></tr><tr><td>Co-citations:</td><td>2816</td></tr></table>	0.9885	0.0338	1	56	2816
+3972	am j commun psychol	<table><tr><td>Source:</td><td>am j commun psychol</td></tr><tr><td>Citations:</td><td>85</td></tr><tr><td>Co-citations:</td><td>2584</td></tr></table>	0.3034	-0.0592	1	85	2584
+3986	am j epidemiol	<table><tr><td>Source:</td><td>am j epidemiol</td></tr><tr><td>Citations:</td><td>95</td></tr><tr><td>Co-citations:</td><td>2804</td></tr></table>	-0.2731	-0.0891	3	95	2804
+4002	am j hum genet	<table><tr><td>Source:</td><td>am j hum genet</td></tr><tr><td>Citations:</td><td>100</td></tr><tr><td>Co-citations:</td><td>5401</td></tr></table>	-0.6726	0.0675	6	100	5401
+4019	am j med genet	<table><tr><td>Source:</td><td>am j med genet</td></tr><tr><td>Citations:</td><td>71</td></tr><tr><td>Co-citations:</td><td>4001</td></tr></table>	-0.8246	-0.1512	3	71	4001
+4045	am j phys anthropol	<table><tr><td>Source:</td><td>am j phys anthropol</td></tr><tr><td>Citations:</td><td>69</td></tr><tr><td>Co-citations:</td><td>2727</td></tr></table>	-0.532	0.3693	4	69	2727
+4055	am j polit sci	<table><tr><td>Source:</td><td>am j polit sci</td></tr><tr><td>Citations:</td><td>216</td></tr><tr><td>Co-citations:</td><td>10496</td></tr></table>	0.9464	0.0096	1	216	10496
+4059	am j primatol	<table><tr><td>Source:</td><td>am j primatol</td></tr><tr><td>Citations:</td><td>208</td></tr><tr><td>Co-citations:</td><td>9114</td></tr></table>	-0.6937	0.428	4	208	9114
+4061	am j psychiat	<table><tr><td>Source:</td><td>am j psychiat</td></tr><tr><td>Citations:</td><td>681</td></tr><tr><td>Co-citations:</td><td>78275</td></tr></table>	-0.899	-0.4162	3	681	78275
+4065	am j psychol	<table><tr><td>Source:</td><td>am j psychol</td></tr><tr><td>Citations:</td><td>58</td></tr><tr><td>Co-citations:</td><td>3256</td></tr></table>	-0.578	-0.0428	2	58	3256
+4068	am j public health	<table><tr><td>Source:</td><td>am j public health</td></tr><tr><td>Citations:</td><td>240</td></tr><tr><td>Co-citations:</td><td>7792</td></tr></table>	0.0221	-0.0992	3	240	7792
+4080	am j sociol	<table><tr><td>Source:</td><td>am j sociol</td></tr><tr><td>Citations:</td><td>2557</td></tr><tr><td>Co-citations:</td><td>107652</td></tr></table>	0.93	0.0231	1	2557	107652
+4125	am midl nat	<table><tr><td>Source:</td><td>am midl nat</td></tr><tr><td>Citations:</td><td>77</td></tr><tr><td>Co-citations:</td><td>3006</td></tr></table>	-0.7373	0.5585	4	77	3006
+4137	am nat	<table><tr><td>Source:</td><td>am nat</td></tr><tr><td>Citations:</td><td>413</td></tr><tr><td>Co-citations:</td><td>17182</td></tr></table>	-0.6863	0.5497	4	413	17182
+4181	am polit sci rev	<table><tr><td>Source:</td><td>am polit sci rev</td></tr><tr><td>Citations:</td><td>599</td></tr><tr><td>Co-citations:</td><td>27036</td></tr></table>	0.9682	0.0284	1	599	27036
+4196	am prospect	<table><tr><td>Source:</td><td>am prospect</td></tr><tr><td>Citations:</td><td>54</td></tr><tr><td>Co-citations:</td><td>2235</td></tr></table>	0.9268	0.014	1	54	2235
+4202	am psychol	<table><tr><td>Source:</td><td>am psychol</td></tr><tr><td>Citations:</td><td>406</td></tr><tr><td>Co-citations:</td><td>25575</td></tr></table>	-0.0878	-0.19	2	406	25575
+4269	am sociol rev	<table><tr><td>Source:</td><td>am sociol rev</td></tr><tr><td>Citations:</td><td>2859</td></tr><tr><td>Co-citations:</td><td>113627</td></tr></table>	0.9317	0.0171	1	2859	113627
+4340	am zool	<table><tr><td>Source:</td><td>am zool</td></tr><tr><td>Citations:</td><td>91</td></tr><tr><td>Co-citations:</td><td>4138</td></tr></table>	-0.7793	0.3988	4	91	4138
+4650	anim behav	<table><tr><td>Source:</td><td>anim behav</td></tr><tr><td>Citations:</td><td>1334</td></tr><tr><td>Co-citations:</td><td>50039</td></tr></table>	-0.7354	0.4379	4	1334	50039
+4655	anim learn behav	<table><tr><td>Source:</td><td>anim learn behav</td></tr><tr><td>Citations:</td><td>42</td></tr><tr><td>Co-citations:</td><td>3586</td></tr></table>	-0.7942	0.2593	4	42	3586
+4660	anim welfare	<table><tr><td>Source:</td><td>anim welfare</td></tr><tr><td>Citations:</td><td>38</td></tr><tr><td>Co-citations:</td><td>6822</td></tr></table>	-0.7948	0.267	4	38	6822
+4756	ann am acad polit ss	<table><tr><td>Source:</td><td>ann am acad polit ss</td></tr><tr><td>Citations:</td><td>171</td></tr><tr><td>Co-citations:</td><td>8413</td></tr></table>	0.8398	-0.016	1	171	8413
+4764	ann assoc am geogr	<table><tr><td>Source:</td><td>ann assoc am geogr</td></tr><tr><td>Citations:</td><td>144</td></tr><tr><td>Co-citations:</td><td>3102</td></tr></table>	0.8004	0.0896	1	144	3102
+4815	ann intern med	<table><tr><td>Source:</td><td>ann intern med</td></tr><tr><td>Citations:</td><td>76</td></tr><tr><td>Co-citations:</td><td>2522</td></tr></table>	0.0284	-0.1689	3	76	2522
+4955	ann neurol	<table><tr><td>Source:</td><td>ann neurol</td></tr><tr><td>Citations:</td><td>152</td></tr><tr><td>Co-citations:</td><td>10048</td></tr></table>	-0.8888	-0.1927	3	152	10048
+4959	ann ny acad sci	<table><tr><td>Source:</td><td>ann ny acad sci</td></tr><tr><td>Citations:</td><td>171</td></tr><tr><td>Co-citations:</td><td>10407</td></tr></table>	-0.5528	-0.104	3	171	10407
+5080	annu rev anthropol	<table><tr><td>Source:</td><td>annu rev anthropol</td></tr><tr><td>Citations:</td><td>134</td></tr><tr><td>Co-citations:</td><td>4542</td></tr></table>	0.7766	0.0854	1	134	4542
+5091	annu rev ecol syst	<table><tr><td>Source:</td><td>annu rev ecol syst</td></tr><tr><td>Citations:</td><td>98</td></tr><tr><td>Co-citations:</td><td>4250</td></tr></table>	-0.6643	0.5652	4	98	4250
+5103	annu rev microbiol	<table><tr><td>Source:</td><td>annu rev microbiol</td></tr><tr><td>Citations:</td><td>63</td></tr><tr><td>Co-citations:</td><td>3157</td></tr></table>	-1.2234	0.6594	6	63	3157
+5104	annu rev neurosci	<table><tr><td>Source:</td><td>annu rev neurosci</td></tr><tr><td>Citations:</td><td>158</td></tr><tr><td>Co-citations:</td><td>11869</td></tr></table>	-0.7492	-0.1042	2	158	11869
+5111	annu rev polit sci	<table><tr><td>Source:</td><td>annu rev polit sci</td></tr><tr><td>Citations:</td><td>66</td></tr><tr><td>Co-citations:</td><td>4016</td></tr></table>	1.036	0.0666	1	66	4016
+5112	annu rev psychol	<table><tr><td>Source:</td><td>annu rev psychol</td></tr><tr><td>Citations:</td><td>223</td></tr><tr><td>Co-citations:</td><td>19037</td></tr></table>	-0.0792	-0.1372	2	223	19037
+5115	annu rev sociol	<table><tr><td>Source:</td><td>annu rev sociol</td></tr><tr><td>Citations:</td><td>901</td></tr><tr><td>Co-citations:</td><td>41315</td></tr></table>	0.9129	0.0258	1	901	41315
+5296	antipode	<table><tr><td>Source:</td><td>antipode</td></tr><tr><td>Citations:</td><td>229</td></tr><tr><td>Co-citations:</td><td>4284</td></tr></table>	0.837	0.095	1	229	4284
+5394	appl anim behav sci	<table><tr><td>Source:</td><td>appl anim behav sci</td></tr><tr><td>Citations:</td><td>202</td></tr><tr><td>Co-citations:</td><td>15056</td></tr></table>	-0.7827	0.2751	4	202	15056
+5654	arch gen psychiat	<table><tr><td>Source:</td><td>arch gen psychiat</td></tr><tr><td>Citations:</td><td>654</td></tr><tr><td>Co-citations:</td><td>71058</td></tr></table>	-0.9117	-0.4196	3	654	71058
+5674	arch neurol-chicago	<table><tr><td>Source:</td><td>arch neurol-chicago</td></tr><tr><td>Citations:</td><td>150</td></tr><tr><td>Co-citations:</td><td>10023</td></tr></table>	-0.9066	-0.2135	3	150	10023
+5682	arch phys med rehab	<table><tr><td>Source:</td><td>arch phys med rehab</td></tr><tr><td>Citations:</td><td>155</td></tr><tr><td>Co-citations:</td><td>5249</td></tr></table>	-0.7211	-0.2275	3	155	5249
+6400	auk	<table><tr><td>Source:</td><td>auk</td></tr><tr><td>Citations:</td><td>134</td></tr><tr><td>Co-citations:</td><td>7060</td></tr></table>	-0.7442	0.5608	4	134	7060
+6445	aust nz j psychiat	<table><tr><td>Source:</td><td>aust nz j psychiat</td></tr><tr><td>Citations:</td><td>39</td></tr><tr><td>Co-citations:</td><td>4408</td></tr></table>	-0.7959	-0.4422	3	39	4408
+6570	autism	<table><tr><td>Source:</td><td>autism</td></tr><tr><td>Citations:</td><td>62</td></tr><tr><td>Co-citations:</td><td>3791</td></tr></table>	-0.6507	-0.163	2	62	3791
+7263	behav brain res	<table><tr><td>Source:</td><td>behav brain res</td></tr><tr><td>Citations:</td><td>201</td></tr><tr><td>Co-citations:</td><td>13170</td></tr></table>	-0.8433	-0.0318	3	201	13170
+7264	behav brain sci	<table><tr><td>Source:</td><td>behav brain sci</td></tr><tr><td>Citations:</td><td>277</td></tr><tr><td>Co-citations:</td><td>24191</td></tr></table>	-0.2534	-0.0744	2	277	24191
+7279	behav ecol	<table><tr><td>Source:</td><td>behav ecol</td></tr><tr><td>Citations:</td><td>175</td></tr><tr><td>Co-citations:</td><td>7288</td></tr></table>	-0.718	0.5346	4	175	7288
+7280	behav ecol sociobiol	<table><tr><td>Source:</td><td>behav ecol sociobiol</td></tr><tr><td>Citations:</td><td>584</td></tr><tr><td>Co-citations:</td><td>22107</td></tr></table>	-0.7065	0.5343	4	584	22107
+7318	behav neurosci	<table><tr><td>Source:</td><td>behav neurosci</td></tr><tr><td>Citations:</td><td>58</td></tr><tr><td>Co-citations:</td><td>4288</td></tr></table>	-0.822	0.0479	4	58	4288
+7332	behav process	<table><tr><td>Source:</td><td>behav process</td></tr><tr><td>Citations:</td><td>115</td></tr><tr><td>Co-citations:</td><td>7637</td></tr></table>	-0.792	0.3164	4	115	7637
+7344	behav res ther	<table><tr><td>Source:</td><td>behav res ther</td></tr><tr><td>Citations:</td><td>255</td></tr><tr><td>Co-citations:</td><td>25090</td></tr></table>	-0.7369	-0.4239	3	255	25090
+7359	behav ther	<table><tr><td>Source:</td><td>behav ther</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>11346</td></tr></table>	-0.7815	-0.4671	3	75	11346
+7388	behaviour	<table><tr><td>Source:</td><td>behaviour</td></tr><tr><td>Citations:</td><td>455</td></tr><tr><td>Co-citations:</td><td>19887</td></tr></table>	-0.7378	0.4185	4	455	19887
+7798	biol conserv	<table><tr><td>Source:</td><td>biol conserv</td></tr><tr><td>Citations:</td><td>119</td></tr><tr><td>Co-citations:</td><td>6238</td></tr></table>	-0.5727	0.5474	4	119	6238
+7806	biol cybern	<table><tr><td>Source:</td><td>biol cybern</td></tr><tr><td>Citations:</td><td>70</td></tr><tr><td>Co-citations:</td><td>3087</td></tr></table>	-0.5834	-0.0376	2	70	3087
+7826	biol j linn soc	<table><tr><td>Source:</td><td>biol j linn soc</td></tr><tr><td>Citations:</td><td>58</td></tr><tr><td>Co-citations:</td><td>2637</td></tr></table>	-0.7478	0.577	4	58	2637
+7848	biol psychiat	<table><tr><td>Source:</td><td>biol psychiat</td></tr><tr><td>Citations:</td><td>461</td></tr><tr><td>Co-citations:</td><td>47975</td></tr></table>	-0.9155	-0.318	3	461	47975
+7850	biol psychol	<table><tr><td>Source:</td><td>biol psychol</td></tr><tr><td>Citations:</td><td>61</td></tr><tr><td>Co-citations:</td><td>4252</td></tr></table>	-0.6307	-0.1859	2	61	4252
+7858	biol rev	<table><tr><td>Source:</td><td>biol rev</td></tr><tr><td>Citations:</td><td>64</td></tr><tr><td>Co-citations:</td><td>3345</td></tr></table>	-0.7085	0.4479	4	64	3345
+7937	bioscience	<table><tr><td>Source:</td><td>bioscience</td></tr><tr><td>Citations:</td><td>95</td></tr><tr><td>Co-citations:</td><td>4261</td></tr></table>	-0.4393	0.5275	4	95	4261
+7967	biotropica	<table><tr><td>Source:</td><td>biotropica</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>2816</td></tr></table>	-0.5805	0.5335	4	51	2816
+7991	birds n am	<table><tr><td>Source:</td><td>birds n am</td></tr><tr><td>Citations:</td><td>29</td></tr><tr><td>Co-citations:</td><td>3323</td></tr></table>	-0.7528	0.6642	4	29	3323
+8172	blackwell companion	<table><tr><td>Source:</td><td>blackwell companion</td></tr><tr><td>Citations:</td><td>147</td></tr><tr><td>Co-citations:</td><td>7046</td></tr></table>	0.987	0.036	1	147	7046
+8621	brain	<table><tr><td>Source:</td><td>brain</td></tr><tr><td>Citations:</td><td>602</td></tr><tr><td>Co-citations:</td><td>40950</td></tr></table>	-0.8507	-0.1644	2	602	40950
+8624	brain behav evolut	<table><tr><td>Source:</td><td>brain behav evolut</td></tr><tr><td>Citations:</td><td>49</td></tr><tr><td>Co-citations:</td><td>2713</td></tr></table>	-0.8296	0.1861	4	49	2713
+8632	brain cognition	<table><tr><td>Source:</td><td>brain cognition</td></tr><tr><td>Citations:</td><td>137</td></tr><tr><td>Co-citations:</td><td>10766</td></tr></table>	-0.7497	-0.1619	2	137	10766
+8645	brain injury	<table><tr><td>Source:</td><td>brain injury</td></tr><tr><td>Citations:</td><td>56</td></tr><tr><td>Co-citations:</td><td>4954</td></tr></table>	-0.8342	-0.2635	3	56	4954
+8648	brain lang	<table><tr><td>Source:</td><td>brain lang</td></tr><tr><td>Citations:</td><td>48</td></tr><tr><td>Co-citations:</td><td>3615</td></tr></table>	-0.8208	-0.1375	2	48	3615
+8658	brain res	<table><tr><td>Source:</td><td>brain res</td></tr><tr><td>Citations:</td><td>379</td></tr><tr><td>Co-citations:</td><td>23553</td></tr></table>	-0.8752	-0.0312	3	379	23553
+8660	brain res bull	<table><tr><td>Source:</td><td>brain res bull</td></tr><tr><td>Citations:</td><td>63</td></tr><tr><td>Co-citations:</td><td>4157</td></tr></table>	-0.8659	0.0037	4	63	4157
+8665	brain res rev	<table><tr><td>Source:</td><td>brain res rev</td></tr><tr><td>Citations:</td><td>46</td></tr><tr><td>Co-citations:</td><td>2999</td></tr></table>	-0.7585	-0.1457	2	46	2999
+8898	brit j clin psychol	<table><tr><td>Source:</td><td>brit j clin psychol</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>3512</td></tr></table>	-0.7706	-0.384	3	51	3512
+8901	brit j dev psychol	<table><tr><td>Source:</td><td>brit j dev psychol</td></tr><tr><td>Citations:</td><td>78</td></tr><tr><td>Co-citations:</td><td>3613</td></tr></table>	-0.603	-0.0902	2	78	3613
+8937	brit j polit sci	<table><tr><td>Source:</td><td>brit j polit sci</td></tr><tr><td>Citations:</td><td>120</td></tr><tr><td>Co-citations:</td><td>4712</td></tr></table>	0.9211	0.0544	1	120	4712
+8940	brit j psychiat	<table><tr><td>Source:</td><td>brit j psychiat</td></tr><tr><td>Citations:</td><td>323</td></tr><tr><td>Co-citations:</td><td>39152</td></tr></table>	-0.9331	-0.4724	3	323	39152
+8941	brit j psychol	<table><tr><td>Source:</td><td>brit j psychol</td></tr><tr><td>Citations:</td><td>65</td></tr><tr><td>Co-citations:</td><td>5457</td></tr></table>	-0.5892	-0.1155	2	65	5457
+8946	brit j soc psychol	<table><tr><td>Source:</td><td>brit j soc psychol</td></tr><tr><td>Citations:</td><td>125</td></tr><tr><td>Co-citations:</td><td>5724</td></tr></table>	0.3027	-0.0605	2	125	5724
+8950	brit j sociol	<table><tr><td>Source:</td><td>brit j sociol</td></tr><tr><td>Citations:</td><td>117</td></tr><tr><td>Co-citations:</td><td>3227</td></tr></table>	0.8752	0.048	1	117	3227
+8961	brit med j	<table><tr><td>Source:</td><td>brit med j</td></tr><tr><td>Citations:</td><td>335</td></tr><tr><td>Co-citations:</td><td>11802</td></tr></table>	-0.273	-0.2235	3	335	11802
+9608	calif law rev	<table><tr><td>Source:</td><td>calif law rev</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>11211</td></tr></table>	0.8455	-0.1603	5	101	11211
+9775	can j forest res	<table><tr><td>Source:</td><td>can j forest res</td></tr><tr><td>Citations:</td><td>28</td></tr><tr><td>Co-citations:</td><td>2389</td></tr></table>	-0.6513	0.6258	4	28	2389
+9788	can j psychiat	<table><tr><td>Source:</td><td>can j psychiat</td></tr><tr><td>Citations:</td><td>29</td></tr><tr><td>Co-citations:</td><td>5911</td></tr></table>	-1.0052	-0.5176	3	29	5911
+9801	can j zool	<table><tr><td>Source:</td><td>can j zool</td></tr><tr><td>Citations:</td><td>335</td></tr><tr><td>Co-citations:</td><td>12500</td></tr></table>	-0.7213	0.5755	4	335	12500
+10419	cell	<table><tr><td>Source:</td><td>cell</td></tr><tr><td>Citations:</td><td>122</td></tr><tr><td>Co-citations:</td><td>6372</td></tr></table>	-1.0897	0.5342	6	122	6372
+10542	cereb cortex	<table><tr><td>Source:</td><td>cereb cortex</td></tr><tr><td>Citations:</td><td>361</td></tr><tr><td>Co-citations:</td><td>27423</td></tr></table>	-0.8046	-0.1107	2	361	27423
+10583	cf s c	<table><tr><td>Source:</td><td>cf s c</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>13880</td></tr></table>	1.3167	0.0401	1	40	13880
+10677	challenging politica	<table><tr><td>Source:</td><td>challenging politica</td></tr><tr><td>Citations:</td><td>72</td></tr><tr><td>Co-citations:</td><td>2544</td></tr></table>	1.0148	0.0128	1	72	2544
+11030	child dev	<table><tr><td>Source:</td><td>child dev</td></tr><tr><td>Citations:</td><td>402</td></tr><tr><td>Co-citations:</td><td>21882</td></tr></table>	-0.5605	-0.0879	2	402	21882
+11223	china quart	<table><tr><td>Source:</td><td>china quart</td></tr><tr><td>Citations:</td><td>35</td></tr><tr><td>Co-citations:</td><td>3011</td></tr></table>	0.9887	0.0604	1	35	3011
+11482	cio news	<table><tr><td>Source:</td><td>cio news</td></tr><tr><td>Citations:</td><td>20</td></tr><tr><td>Co-citations:</td><td>4520</td></tr></table>	1.357	0.0021	1	20	4520
+12148	clin neurophysiol	<table><tr><td>Source:</td><td>clin neurophysiol</td></tr><tr><td>Citations:</td><td>71</td></tr><tr><td>Co-citations:</td><td>5834</td></tr></table>	-0.8731	-0.2053	3	71	5834
+12181	clin psychol rev	<table><tr><td>Source:</td><td>clin psychol rev</td></tr><tr><td>Citations:</td><td>111</td></tr><tr><td>Co-citations:</td><td>14292</td></tr></table>	-0.6046	-0.4013	3	111	14292
+12182	clin psychol-sci pr	<table><tr><td>Source:</td><td>clin psychol-sci pr</td></tr><tr><td>Citations:</td><td>36</td></tr><tr><td>Co-citations:</td><td>7381</td></tr></table>	-0.6418	-0.4415	3	36	7381
+12284	cns drugs	<table><tr><td>Source:</td><td>cns drugs</td></tr><tr><td>Citations:</td><td>22</td></tr><tr><td>Co-citations:</td><td>3096</td></tr></table>	-1.0504	-0.4531	3	22	3096
+12414	cognition	<table><tr><td>Source:</td><td>cognition</td></tr><tr><td>Citations:</td><td>384</td></tr><tr><td>Co-citations:</td><td>23824</td></tr></table>	-0.3062	-0.1116	2	384	23824
+12425	cognition emotion	<table><tr><td>Source:</td><td>cognition emotion</td></tr><tr><td>Citations:</td><td>219</td></tr><tr><td>Co-citations:</td><td>13008</td></tr></table>	-0.3809	-0.2125	2	219	13008
+12452	cognitive brain res	<table><tr><td>Source:</td><td>cognitive brain res</td></tr><tr><td>Citations:</td><td>150</td></tr><tr><td>Co-citations:</td><td>9875</td></tr></table>	-0.7633	-0.1077	2	150	9875
+12464	cognitive neuropsych	<table><tr><td>Source:</td><td>cognitive neuropsych</td></tr><tr><td>Citations:</td><td>49</td></tr><tr><td>Co-citations:</td><td>3298</td></tr></table>	-0.7878	-0.1593	2	49	3298
+12472	cognitive psychol	<table><tr><td>Source:</td><td>cognitive psychol</td></tr><tr><td>Citations:</td><td>66</td></tr><tr><td>Co-citations:</td><td>3701</td></tr></table>	-0.0816	-0.1142	2	66	3701
+12481	cognitive sci	<table><tr><td>Source:</td><td>cognitive sci</td></tr><tr><td>Citations:</td><td>69</td></tr><tr><td>Co-citations:</td><td>3700</td></tr></table>	-0.2985	-0.0772	2	69	3700
+12495	cognitive ther res	<table><tr><td>Source:</td><td>cognitive ther res</td></tr><tr><td>Citations:</td><td>44</td></tr><tr><td>Co-citations:</td><td>3624</td></tr></table>	-0.657	-0.3876	3	44	3624
+12741	columbia law rev	<table><tr><td>Source:</td><td>columbia law rev</td></tr><tr><td>Citations:</td><td>159</td></tr><tr><td>Co-citations:</td><td>15318</td></tr></table>	0.9517	-0.1702	5	159	15318
+12973	commoner	<table><tr><td>Source:</td><td>commoner</td></tr><tr><td>Citations:</td><td>25</td></tr><tr><td>Co-citations:</td><td>5419</td></tr></table>	1.2817	0.0455	1	25	5419
+13024	communication	<table><tr><td>Source:</td><td>communication</td></tr><tr><td>Citations:</td><td>810</td></tr><tr><td>Co-citations:</td><td>58472</td></tr></table>	1.1425	0.0275	1	810	58472
+13339	comp perspectives so	<table><tr><td>Source:</td><td>comp perspectives so</td></tr><tr><td>Citations:</td><td>335</td></tr><tr><td>Co-citations:</td><td>15675</td></tr></table>	1.0174	0.035	1	335	15675
+13344	comp polit	<table><tr><td>Source:</td><td>comp polit</td></tr><tr><td>Citations:</td><td>102</td></tr><tr><td>Co-citations:</td><td>6354</td></tr></table>	1.0521	0.0644	1	102	6354
+13346	comp polit stud	<table><tr><td>Source:</td><td>comp polit stud</td></tr><tr><td>Citations:</td><td>93</td></tr><tr><td>Co-citations:</td><td>4453</td></tr></table>	1.0377	0.0585	1	93	4453
+13384	comp stud soc hist	<table><tr><td>Source:</td><td>comp stud soc hist</td></tr><tr><td>Citations:</td><td>87</td></tr><tr><td>Co-citations:</td><td>3451</td></tr></table>	0.9385	0.0587	1	87	3451
+13713	condor	<table><tr><td>Source:</td><td>condor</td></tr><tr><td>Citations:</td><td>72</td></tr><tr><td>Co-citations:</td><td>3344</td></tr></table>	-0.7452	0.6162	4	72	3344
+13909	conscious cogn	<table><tr><td>Source:</td><td>conscious cogn</td></tr><tr><td>Citations:</td><td>86</td></tr><tr><td>Co-citations:</td><td>9033</td></tr></table>	-0.4279	-0.1134	2	86	9033
+13944	conserv biol	<table><tr><td>Source:</td><td>conserv biol</td></tr><tr><td>Citations:</td><td>217</td></tr><tr><td>Co-citations:</td><td>10414</td></tr></table>	-0.3409	0.5051	4	217	10414
+14655	cornell law rev	<table><tr><td>Source:</td><td>cornell law rev</td></tr><tr><td>Citations:</td><td>56</td></tr><tr><td>Co-citations:</td><td>7562</td></tr></table>	0.7076	-0.1768	5	56	7562
+14778	cortex	<table><tr><td>Source:</td><td>cortex</td></tr><tr><td>Citations:</td><td>74</td></tr><tr><td>Co-citations:</td><td>4897</td></tr></table>	-0.7404	-0.1525	2	74	4897
+15568	ct	<table><tr><td>Source:</td><td>ct</td></tr><tr><td>Citations:</td><td>21</td></tr><tr><td>Co-citations:</td><td>7686</td></tr></table>	1.326	0.0405	1	21	7686
+15970	curr anthropol	<table><tr><td>Source:</td><td>curr anthropol</td></tr><tr><td>Citations:</td><td>127</td></tr><tr><td>Co-citations:</td><td>4347</td></tr></table>	0.5908	0.102	1	127	4347
+15972	curr biol	<table><tr><td>Source:</td><td>curr biol</td></tr><tr><td>Citations:</td><td>446</td></tr><tr><td>Co-citations:</td><td>26119</td></tr></table>	-0.8325	0.2252	6	446	26119
+15975	curr dir psychol sci	<table><tr><td>Source:</td><td>curr dir psychol sci</td></tr><tr><td>Citations:</td><td>86</td></tr><tr><td>Co-citations:</td><td>6297</td></tr></table>	-0.3424	-0.1309	2	86	6297
+15998	curr opin neurobiol	<table><tr><td>Source:</td><td>curr opin neurobiol</td></tr><tr><td>Citations:</td><td>134</td></tr><tr><td>Co-citations:</td><td>9421</td></tr></table>	-0.8391	-0.0736	2	134	9421
+17109	depress anxiety	<table><tr><td>Source:</td><td>depress anxiety</td></tr><tr><td>Citations:</td><td>35</td></tr><tr><td>Co-citations:</td><td>11142</td></tr></table>	-1.0108	-0.5101	3	35	11142
+17285	dev biol	<table><tr><td>Source:</td><td>dev biol</td></tr><tr><td>Citations:</td><td>59</td></tr><tr><td>Co-citations:</td><td>3076</td></tr></table>	-1.0852	0.556	6	59	3076
+17295	dev change	<table><tr><td>Source:</td><td>dev change</td></tr><tr><td>Citations:</td><td>90</td></tr><tr><td>Co-citations:</td><td>2673</td></tr></table>	0.841	0.0926	1	90	2673
+17382	dev med child neurol	<table><tr><td>Source:</td><td>dev med child neurol</td></tr><tr><td>Citations:</td><td>187</td></tr><tr><td>Co-citations:</td><td>5742</td></tr></table>	-0.7217	-0.2204	3	187	5742
+17400	dev neuropsychol	<table><tr><td>Source:</td><td>dev neuropsychol</td></tr><tr><td>Citations:</td><td>30</td></tr><tr><td>Co-citations:</td><td>2921</td></tr></table>	-0.7465	-0.1433	2	30	2921
+17424	dev psychobiol	<table><tr><td>Source:</td><td>dev psychobiol</td></tr><tr><td>Citations:</td><td>108</td></tr><tr><td>Co-citations:</td><td>7261</td></tr></table>	-0.7676	0.1447	4	108	7261
+17425	dev psychol	<table><tr><td>Source:</td><td>dev psychol</td></tr><tr><td>Citations:</td><td>317</td></tr><tr><td>Co-citations:</td><td>16193</td></tr></table>	-0.5845	-0.0885	2	317	16193
+17431	dev psychopathol	<table><tr><td>Source:</td><td>dev psychopathol</td></tr><tr><td>Citations:</td><td>70</td></tr><tr><td>Co-citations:</td><td>3988</td></tr></table>	-0.7532	-0.1643	2	70	3988
+17491	development	<table><tr><td>Source:</td><td>development</td></tr><tr><td>Citations:</td><td>79</td></tr><tr><td>Co-citations:</td><td>4127</td></tr></table>	-0.9448	0.5193	6	79	4127
+17504	developmental sci	<table><tr><td>Source:</td><td>developmental sci</td></tr><tr><td>Citations:</td><td>153</td></tr><tr><td>Co-citations:</td><td>8632</td></tr></table>	-0.671	-0.0636	2	153	8632
+17561	diagn stat man ment	<table><tr><td>Source:</td><td>diagn stat man ment</td></tr><tr><td>Citations:</td><td>107</td></tr><tr><td>Co-citations:</td><td>5472</td></tr></table>	-0.534	-0.2802	3	107	5472
+18637	duke law j	<table><tr><td>Source:</td><td>duke law j</td></tr><tr><td>Citations:</td><td>70</td></tr><tr><td>Co-citations:</td><td>7468</td></tr></table>	0.9316	-0.176	5	70	7468
+18727	dynamics contention	<table><tr><td>Source:</td><td>dynamics contention</td></tr><tr><td>Citations:</td><td>95</td></tr><tr><td>Co-citations:</td><td>4485</td></tr></table>	1.03	0.0517	1	95	4485
+18753	dynamics social move	<table><tr><td>Source:</td><td>dynamics social move</td></tr><tr><td>Citations:</td><td>120</td></tr><tr><td>Co-citations:</td><td>4039</td></tr></table>	0.99	0.008	1	120	4039
+19219	ecol appl	<table><tr><td>Source:</td><td>ecol appl</td></tr><tr><td>Citations:</td><td>125</td></tr><tr><td>Co-citations:</td><td>6618</td></tr></table>	-0.495	0.5501	4	125	6618
+19231	ecol lett	<table><tr><td>Source:</td><td>ecol lett</td></tr><tr><td>Citations:</td><td>74</td></tr><tr><td>Co-citations:</td><td>4580</td></tr></table>	-0.4464	0.5226	4	74	4580
+19233	ecol monogr	<table><tr><td>Source:</td><td>ecol monogr</td></tr><tr><td>Citations:</td><td>93</td></tr><tr><td>Co-citations:</td><td>4470</td></tr></table>	-0.6598	0.6079	4	93	4470
+19234	ecol psychol	<table><tr><td>Source:</td><td>ecol psychol</td></tr><tr><td>Citations:</td><td>69</td></tr><tr><td>Co-citations:</td><td>3140</td></tr></table>	-0.3814	-0.0709	2	69	3140
+19318	ecology	<table><tr><td>Source:</td><td>ecology</td></tr><tr><td>Citations:</td><td>654</td></tr><tr><td>Co-citations:</td><td>29116</td></tr></table>	-0.6539	0.6005	4	654	29116
+19415	econ j	<table><tr><td>Source:</td><td>econ j</td></tr><tr><td>Citations:</td><td>36</td></tr><tr><td>Co-citations:</td><td>3295</td></tr></table>	0.5969	-0.0675	5	36	3295
+19423	econ soc	<table><tr><td>Source:</td><td>econ soc</td></tr><tr><td>Citations:</td><td>78</td></tr><tr><td>Co-citations:</td><td>2513</td></tr></table>	0.8895	0.0641	1	78	2513
+19435	econometrica	<table><tr><td>Source:</td><td>econometrica</td></tr><tr><td>Citations:</td><td>76</td></tr><tr><td>Co-citations:</td><td>2412</td></tr></table>	0.7514	0.0143	1	76	2412
+19819	electroen clin neuro	<table><tr><td>Source:</td><td>electroen clin neuro</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>6435</td></tr></table>	-0.8366	-0.1748	2	101	6435
+19921	embo j	<table><tr><td>Source:</td><td>embo j</td></tr><tr><td>Citations:</td><td>60</td></tr><tr><td>Co-citations:</td><td>3525</td></tr></table>	-1.1139	0.566	6	60	3525
+20012	emotion	<table><tr><td>Source:</td><td>emotion</td></tr><tr><td>Citations:</td><td>102</td></tr><tr><td>Co-citations:</td><td>6075</td></tr></table>	-0.493	-0.1749	2	102	6075
+20880	environ behav	<table><tr><td>Source:</td><td>environ behav</td></tr><tr><td>Citations:</td><td>147</td></tr><tr><td>Co-citations:</td><td>5365</td></tr></table>	0.4882	0.0111	1	147	5365
+20891	environ health persp	<table><tr><td>Source:</td><td>environ health persp</td></tr><tr><td>Citations:</td><td>74</td></tr><tr><td>Co-citations:</td><td>2717</td></tr></table>	-0.1446	0.0014	3	74	2717
+20905	environ plann a	<table><tr><td>Source:</td><td>environ plann a</td></tr><tr><td>Citations:</td><td>232</td></tr><tr><td>Co-citations:</td><td>4928</td></tr></table>	0.8036	0.093	1	232	4928
+20908	environ plann d	<table><tr><td>Source:</td><td>environ plann d</td></tr><tr><td>Citations:</td><td>212</td></tr><tr><td>Co-citations:</td><td>4121</td></tr></table>	0.842	0.0897	1	212	4121
+20910	environ polit	<table><tr><td>Source:</td><td>environ polit</td></tr><tr><td>Citations:</td><td>82</td></tr><tr><td>Co-citations:</td><td>2324</td></tr></table>	0.8512	0.0825	1	82	2324
+21020	epilepsia	<table><tr><td>Source:</td><td>epilepsia</td></tr><tr><td>Citations:</td><td>33</td></tr><tr><td>Co-citations:</td><td>3157</td></tr></table>	-0.9354	-0.1964	3	33	3157
+21455	ethnic racial stud	<table><tr><td>Source:</td><td>ethnic racial stud</td></tr><tr><td>Citations:</td><td>91</td></tr><tr><td>Co-citations:</td><td>3469</td></tr></table>	0.8923	0.0749	1	91	3469
+21545	ethology	<table><tr><td>Source:</td><td>ethology</td></tr><tr><td>Citations:</td><td>199</td></tr><tr><td>Co-citations:</td><td>8984</td></tr></table>	-0.7085	0.434	4	199	8984
+21587	eur arch psy clin n	<table><tr><td>Source:</td><td>eur arch psy clin n</td></tr><tr><td>Citations:</td><td>42</td></tr><tr><td>Co-citations:</td><td>5996</td></tr></table>	-0.9966	-0.4678	3	42	5996
+21650	eur j neurosci	<table><tr><td>Source:</td><td>eur j neurosci</td></tr><tr><td>Citations:</td><td>226</td></tr><tr><td>Co-citations:</td><td>15049</td></tr></table>	-0.8124	-0.0793	2	226	15049
+21662	eur j pharmacol	<table><tr><td>Source:</td><td>eur j pharmacol</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>2769</td></tr></table>	-0.9334	-0.0869	3	40	2769
+21666	eur j polit res	<table><tr><td>Source:</td><td>eur j polit res</td></tr><tr><td>Citations:</td><td>60</td></tr><tr><td>Co-citations:</td><td>2495</td></tr></table>	0.9586	0.0258	1	60	2495
+21673	eur j soc psychol	<table><tr><td>Source:</td><td>eur j soc psychol</td></tr><tr><td>Citations:</td><td>164</td></tr><tr><td>Co-citations:</td><td>8926</td></tr></table>	0.2156	-0.0774	2	164	8926
+21689	eur neuropsychopharm	<table><tr><td>Source:</td><td>eur neuropsychopharm</td></tr><tr><td>Citations:</td><td>37</td></tr><tr><td>Co-citations:</td><td>9802</td></tr></table>	-1.0457	-0.4967	3	37	9802
+22033	evolution	<table><tr><td>Source:</td><td>evolution</td></tr><tr><td>Citations:</td><td>195</td></tr><tr><td>Co-citations:</td><td>8178</td></tr></table>	-0.7327	0.57	4	195	8178
+22218	exp brain res	<table><tr><td>Source:</td><td>exp brain res</td></tr><tr><td>Citations:</td><td>414</td></tr><tr><td>Co-citations:</td><td>26080</td></tr></table>	-0.7742	-0.0961	2	414	26080
+22233	exp neurol	<table><tr><td>Source:</td><td>exp neurol</td></tr><tr><td>Citations:</td><td>48</td></tr><tr><td>Co-citations:</td><td>3123</td></tr></table>	-0.9087	-0.107	3	48	3123
+23267	feminist org harvest	<table><tr><td>Source:</td><td>feminist org harvest</td></tr><tr><td>Citations:</td><td>70</td></tr><tr><td>Co-citations:</td><td>2650</td></tr></table>	1.0058	0.0123	1	70	2650
+23796	folia primatol	<table><tr><td>Source:</td><td>folia primatol</td></tr><tr><td>Citations:</td><td>149</td></tr><tr><td>Co-citations:</td><td>6642</td></tr></table>	-0.6845	0.4496	4	149	6642
+24003	fordham law rev	<table><tr><td>Source:</td><td>fordham law rev</td></tr><tr><td>Citations:</td><td>30</td></tr><tr><td>Co-citations:</td><td>2953</td></tr></table>	0.9905	-0.1807	5	30	2953
+24008	foreign aff	<table><tr><td>Source:</td><td>foreign aff</td></tr><tr><td>Citations:</td><td>54</td></tr><tr><td>Co-citations:</td><td>2594</td></tr></table>	0.9928	0.0695	1	54	2594
+24399	freedom summer	<table><tr><td>Source:</td><td>freedom summer</td></tr><tr><td>Citations:</td><td>66</td></tr><tr><td>Co-citations:</td><td>3257</td></tr></table>	1.0332	0.0103	1	66	3257
+24554	frontiers social mov	<table><tr><td>Source:</td><td>frontiers social mov</td></tr><tr><td>Citations:</td><td>494</td></tr><tr><td>Co-citations:</td><td>18736</td></tr></table>	0.9928	0.0155	1	494	18736
+24665	fundamentals	<table><tr><td>Source:</td><td>fundamentals</td></tr><tr><td>Citations:</td><td>47</td></tr><tr><td>Co-citations:</td><td>15980</td></tr></table>	1.3132	0.0398	1	47	15980
+25000	gen comp endocr	<table><tr><td>Source:</td><td>gen comp endocr</td></tr><tr><td>Citations:</td><td>36</td></tr><tr><td>Co-citations:</td><td>4422</td></tr></table>	-0.8154	0.274	4	36	4422
+25180	gender soc	<table><tr><td>Source:</td><td>gender soc</td></tr><tr><td>Citations:</td><td>226</td></tr><tr><td>Co-citations:</td><td>7992</td></tr></table>	0.9556	0.0137	1	226	7992
+25225	gene dev	<table><tr><td>Source:</td><td>gene dev</td></tr><tr><td>Citations:</td><td>72</td></tr><tr><td>Co-citations:</td><td>4171</td></tr></table>	-1.1188	0.5794	6	72	4171
+25314	genetics	<table><tr><td>Source:</td><td>genetics</td></tr><tr><td>Citations:</td><td>97</td></tr><tr><td>Co-citations:</td><td>4279</td></tr></table>	-0.8111	0.5677	4	97	4279
+25375	geoforum	<table><tr><td>Source:</td><td>geoforum</td></tr><tr><td>Citations:</td><td>175</td></tr><tr><td>Co-citations:</td><td>3738</td></tr></table>	0.7886	0.1076	1	175	3738
+25497	georgetown law j	<table><tr><td>Source:</td><td>georgetown law j</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>7867</td></tr></table>	0.9718	-0.1803	5	75	7867
+25901	global environ chang	<table><tr><td>Source:</td><td>global environ chang</td></tr><tr><td>Citations:</td><td>85</td></tr><tr><td>Co-citations:</td><td>1969</td></tr></table>	0.543	0.1705	1	85	1969
+25964	global netw	<table><tr><td>Source:</td><td>global netw</td></tr><tr><td>Citations:</td><td>68</td></tr><tr><td>Co-citations:</td><td>3935</td></tr></table>	0.8812	0.0814	1	68	3935
+26928	guardian	<table><tr><td>Source:</td><td>guardian</td></tr><tr><td>Citations:</td><td>96</td></tr><tr><td>Co-citations:</td><td>2779</td></tr></table>	0.9312	0.0665	1	96	2779
+27235	harv cr cl l rev	<table><tr><td>Source:</td><td>harv cr cl l rev</td></tr><tr><td>Citations:</td><td>22</td></tr><tr><td>Co-citations:</td><td>2709</td></tr></table>	0.9957	-0.1835	5	22	2709
+27253	harvard bus rev	<table><tr><td>Source:</td><td>harvard bus rev</td></tr><tr><td>Citations:</td><td>85</td></tr><tr><td>Co-citations:</td><td>2834</td></tr></table>	0.7322	0.0221	1	85	2834
+27259	harvard civil rights	<table><tr><td>Source:</td><td>harvard civil rights</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>5479</td></tr></table>	0.9865	-0.1629	5	51	5479
+27275	harvard law rev	<table><tr><td>Source:</td><td>harvard law rev</td></tr><tr><td>Citations:</td><td>351</td></tr><tr><td>Co-citations:</td><td>32950</td></tr></table>	0.948	-0.1725	5	351	32950
+27302	hastings law j	<table><tr><td>Source:</td><td>hastings law j</td></tr><tr><td>Citations:</td><td>32</td></tr><tr><td>Co-citations:</td><td>3029</td></tr></table>	0.9704	-0.184	5	32	3029
+27629	hdb social psychol	<table><tr><td>Source:</td><td>hdb social psychol</td></tr><tr><td>Citations:</td><td>71</td></tr><tr><td>Co-citations:</td><td>5425</td></tr></table>	0.2137	-0.0983	2	71	5425
+27636	hdb sociology	<table><tr><td>Source:</td><td>hdb sociology</td></tr><tr><td>Citations:</td><td>84</td></tr><tr><td>Co-citations:</td><td>3159</td></tr></table>	1.0343	0.0344	1	84	3159
+28798	horm behav	<table><tr><td>Source:</td><td>horm behav</td></tr><tr><td>Citations:</td><td>98</td></tr><tr><td>Co-citations:</td><td>7078</td></tr></table>	-0.8036	0.2457	4	98	7078
+28999	hum brain mapp	<table><tr><td>Source:</td><td>hum brain mapp</td></tr><tr><td>Citations:</td><td>136</td></tr><tr><td>Co-citations:</td><td>9154</td></tr></table>	-0.843	-0.1398	2	136	9154
+29034	hum movement sci	<table><tr><td>Source:</td><td>hum movement sci</td></tr><tr><td>Citations:</td><td>76</td></tr><tr><td>Co-citations:</td><td>2748</td></tr></table>	-0.5615	-0.1009	2	76	2748
+29040	hum organ	<table><tr><td>Source:</td><td>hum organ</td></tr><tr><td>Citations:</td><td>77</td></tr><tr><td>Co-citations:</td><td>2137</td></tr></table>	0.6931	0.0655	1	77	2137
+29046	hum relat	<table><tr><td>Source:</td><td>hum relat</td></tr><tr><td>Citations:</td><td>107</td></tr><tr><td>Co-citations:</td><td>4631</td></tr></table>	0.6784	0.0041	1	107	4631
+29056	hum rights quart	<table><tr><td>Source:</td><td>hum rights quart</td></tr><tr><td>Citations:</td><td>66</td></tr><tr><td>Co-citations:</td><td>2547</td></tr></table>	0.9746	0.0733	1	66	2547
+29484	ibis	<table><tr><td>Source:</td><td>ibis</td></tr><tr><td>Citations:</td><td>88</td></tr><tr><td>Co-citations:</td><td>4226</td></tr></table>	-0.7461	0.6184	4	88	4226
+30578	infancy	<table><tr><td>Source:</td><td>infancy</td></tr><tr><td>Citations:</td><td>42</td></tr><tr><td>Co-citations:</td><td>2940</td></tr></table>	-0.6354	-0.0721	2	42	2940
+30581	infant behav dev	<table><tr><td>Source:</td><td>infant behav dev</td></tr><tr><td>Citations:</td><td>154</td></tr><tr><td>Co-citations:</td><td>8193</td></tr></table>	-0.659	-0.0692	2	154	8193
+30838	insect soc	<table><tr><td>Source:</td><td>insect soc</td></tr><tr><td>Citations:</td><td>96</td></tr><tr><td>Co-citations:</td><td>2821</td></tr></table>	-0.6855	0.5586	4	96	2821
+31015	int clin psychopharm	<table><tr><td>Source:</td><td>int clin psychopharm</td></tr><tr><td>Citations:</td><td>88</td></tr><tr><td>Co-citations:</td><td>29084</td></tr></table>	-1.0576	-0.5392	3	88	29084
+31292	int j neuropsychoph	<table><tr><td>Source:</td><td>int j neuropsychoph</td></tr><tr><td>Citations:</td><td>23</td></tr><tr><td>Co-citations:</td><td>5191</td></tr></table>	-1.0619	-0.5034	3	23	5191
+31322	int j primatol	<table><tr><td>Source:</td><td>int j primatol</td></tr><tr><td>Citations:</td><td>171</td></tr><tr><td>Co-citations:</td><td>7164</td></tr></table>	-0.688	0.4569	4	171	7164
+31334	int j psychophysiol	<table><tr><td>Source:</td><td>int j psychophysiol</td></tr><tr><td>Citations:</td><td>50</td></tr><tr><td>Co-citations:</td><td>3568</td></tr></table>	-0.6684	-0.1547	2	50	3568
+31394	int j urban regional	<table><tr><td>Source:</td><td>int j urban regional</td></tr><tr><td>Citations:</td><td>119</td></tr><tr><td>Co-citations:</td><td>2486</td></tr></table>	0.8672	0.088	1	119	2486
+31436	int migr rev	<table><tr><td>Source:</td><td>int migr rev</td></tr><tr><td>Citations:</td><td>119</td></tr><tr><td>Co-citations:</td><td>4659</td></tr></table>	0.8249	0.0671	1	119	4659
+31471	int organ	<table><tr><td>Source:</td><td>int organ</td></tr><tr><td>Citations:</td><td>169</td></tr><tr><td>Co-citations:</td><td>7946</td></tr></table>	0.9978	0.0767	1	169	7946
+31578	int security	<table><tr><td>Source:</td><td>int security</td></tr><tr><td>Citations:</td><td>36</td></tr><tr><td>Co-citations:</td><td>2488</td></tr></table>	1.0196	0.0818	1	36	2488
+31607	int social movement	<table><tr><td>Source:</td><td>int social movement</td></tr><tr><td>Citations:</td><td>240</td></tr><tr><td>Co-citations:</td><td>11346</td></tr></table>	1.0443	0.0147	1	240	11346
+31633	int stud quart	<table><tr><td>Source:</td><td>int stud quart</td></tr><tr><td>Citations:</td><td>48</td></tr><tr><td>Co-citations:</td><td>2695</td></tr></table>	1.0282	0.0751	1	48	2695
+32658	iue news	<table><tr><td>Source:</td><td>iue news</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>8240</td></tr></table>	1.3449	0.002	1	40	8240
+32679	j abnorm psychol	<table><tr><td>Source:</td><td>j abnorm psychol</td></tr><tr><td>Citations:</td><td>223</td></tr><tr><td>Co-citations:</td><td>12808</td></tr></table>	-0.6647	-0.2694	3	223	12808
+32696	j acoust soc am	<table><tr><td>Source:</td><td>j acoust soc am</td></tr><tr><td>Citations:</td><td>86</td></tr><tr><td>Co-citations:</td><td>4480</td></tr></table>	-0.6124	0.2542	4	86	4480
+32713	j affect disorders	<table><tr><td>Source:</td><td>j affect disorders</td></tr><tr><td>Citations:</td><td>44</td></tr><tr><td>Co-citations:</td><td>8181</td></tr></table>	-0.9154	-0.4683	3	44	8181
+32750	j am acad child psy	<table><tr><td>Source:</td><td>j am acad child psy</td></tr><tr><td>Citations:</td><td>166</td></tr><tr><td>Co-citations:</td><td>17168</td></tr></table>	-0.8869	-0.3487	3	166	17168
+32763	j am geriatr soc	<table><tr><td>Source:</td><td>j am geriatr soc</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>2821</td></tr></table>	-0.6346	-0.2425	3	75	2821
+32764	j am hist	<table><tr><td>Source:</td><td>j am hist</td></tr><tr><td>Citations:</td><td>79</td></tr><tr><td>Co-citations:</td><td>8548</td></tr></table>	1.1421	-0.044	1	79	8548
+32799	j anim ecol	<table><tr><td>Source:</td><td>j anim ecol</td></tr><tr><td>Citations:</td><td>345</td></tr><tr><td>Co-citations:</td><td>14275</td></tr></table>	-0.7128	0.6085	4	345	14275
+32817	j anxiety disord	<table><tr><td>Source:</td><td>j anxiety disord</td></tr><tr><td>Citations:</td><td>55</td></tr><tr><td>Co-citations:</td><td>6470</td></tr></table>	-0.7963	-0.4361	3	55	6470
+32832	j appl ecol	<table><tr><td>Source:</td><td>j appl ecol</td></tr><tr><td>Citations:</td><td>134</td></tr><tr><td>Co-citations:</td><td>5816</td></tr></table>	-0.5243	0.5603	4	134	5816
+32839	j appl psychol	<table><tr><td>Source:</td><td>j appl psychol</td></tr><tr><td>Citations:</td><td>65</td></tr><tr><td>Co-citations:</td><td>3780</td></tr></table>	0.3348	-0.0609	2	65	3780
+32844	j appl soc psychol	<table><tr><td>Source:</td><td>j appl soc psychol</td></tr><tr><td>Citations:</td><td>91</td></tr><tr><td>Co-citations:</td><td>5589</td></tr></table>	0.2139	-0.0799	2	91	5589
+32885	j autism dev disord	<table><tr><td>Source:</td><td>j autism dev disord</td></tr><tr><td>Citations:</td><td>495</td></tr><tr><td>Co-citations:</td><td>26296</td></tr></table>	-0.7648	-0.1629	2	495	26296
+32890	j bacteriol	<table><tr><td>Source:</td><td>j bacteriol</td></tr><tr><td>Citations:</td><td>623</td></tr><tr><td>Co-citations:</td><td>18413</td></tr></table>	-1.2277	0.6488	6	623	18413
+32901	j behav ther exp psy	<table><tr><td>Source:</td><td>j behav ther exp psy</td></tr><tr><td>Citations:</td><td>50</td></tr><tr><td>Co-citations:</td><td>6512</td></tr></table>	-0.7684	-0.4501	3	50	6512
+32907	j biol chem	<table><tr><td>Source:</td><td>j biol chem</td></tr><tr><td>Citations:</td><td>86</td></tr><tr><td>Co-citations:</td><td>3939</td></tr></table>	-1.1049	0.5479	6	86	3939
+32977	j cell biol	<table><tr><td>Source:</td><td>j cell biol</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>3193</td></tr></table>	-1.0656	0.5375	6	75	3193
+32999	j child psychol psyc	<table><tr><td>Source:</td><td>j child psychol psyc</td></tr><tr><td>Citations:</td><td>419</td></tr><tr><td>Co-citations:</td><td>26291</td></tr></table>	-0.7807	-0.163	2	419	26291
+33021	j clin exp neuropsyc	<table><tr><td>Source:</td><td>j clin exp neuropsyc</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>3858</td></tr></table>	-0.7875	-0.2223	3	40	3858
+33041	j clin psychiat	<table><tr><td>Source:</td><td>j clin psychiat</td></tr><tr><td>Citations:</td><td>255</td></tr><tr><td>Co-citations:</td><td>68906</td></tr></table>	-1.0195	-0.521	3	255	68906
+33049	j clin psychol	<table><tr><td>Source:</td><td>j clin psychol</td></tr><tr><td>Citations:</td><td>62</td></tr><tr><td>Co-citations:</td><td>10795</td></tr></table>	-0.561	-0.4035	3	62	10795
+33053	j clin psychopharm	<table><tr><td>Source:</td><td>j clin psychopharm</td></tr><tr><td>Citations:</td><td>129</td></tr><tr><td>Co-citations:</td><td>42314</td></tr></table>	-1.0484	-0.5365	3	129	42314
+33069	j cognitive neurosci	<table><tr><td>Source:</td><td>j cognitive neurosci</td></tr><tr><td>Citations:</td><td>390</td></tr><tr><td>Co-citations:</td><td>26273</td></tr></table>	-0.749	-0.1131	2	390	26273
+33080	j commun	<table><tr><td>Source:</td><td>j commun</td></tr><tr><td>Citations:</td><td>68</td></tr><tr><td>Co-citations:</td><td>2146</td></tr></table>	0.7272	0.0148	1	68	2146
+33099	j comp neurol	<table><tr><td>Source:</td><td>j comp neurol</td></tr><tr><td>Citations:</td><td>219</td></tr><tr><td>Co-citations:</td><td>16512</td></tr></table>	-0.918	-0.0725	3	219	16512
+33108	j comp physiol psych	<table><tr><td>Source:</td><td>j comp physiol psych</td></tr><tr><td>Citations:</td><td>70</td></tr><tr><td>Co-citations:</td><td>5590</td></tr></table>	-0.8263	0.164	4	70	5590
+33112	j comp psychol	<table><tr><td>Source:</td><td>j comp psychol</td></tr><tr><td>Citations:</td><td>181</td></tr><tr><td>Co-citations:</td><td>9266</td></tr></table>	-0.7665	0.2135	4	181	9266
+33129	j conflict resolut	<table><tr><td>Source:</td><td>j conflict resolut</td></tr><tr><td>Citations:</td><td>126</td></tr><tr><td>Co-citations:</td><td>9237</td></tr></table>	0.9687	0.051	1	126	9237
+33136	j consult clin psych	<table><tr><td>Source:</td><td>j consult clin psych</td></tr><tr><td>Citations:</td><td>420</td></tr><tr><td>Co-citations:</td><td>65129</td></tr></table>	-0.6917	-0.4395	3	420	65129
+33146	j consum res	<table><tr><td>Source:</td><td>j consum res</td></tr><tr><td>Citations:</td><td>97</td></tr><tr><td>Co-citations:</td><td>2351</td></tr></table>	0.4472	-0.0105	1	97	2351
+33176	j couns psychol	<table><tr><td>Source:</td><td>j couns psychol</td></tr><tr><td>Citations:</td><td>63</td></tr><tr><td>Co-citations:</td><td>8859</td></tr></table>	-0.5172	-0.3914	3	63	8859
+33183	j cross cult psychol	<table><tr><td>Source:</td><td>j cross cult psychol</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>3257</td></tr></table>	0.1871	-0.1192	2	40	3257
+33203	j democr	<table><tr><td>Source:</td><td>j democr</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>3789</td></tr></table>	0.986	0.0605	1	75	3789
+33317	j environ psychol	<table><tr><td>Source:</td><td>j environ psychol</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>4364</td></tr></table>	0.4987	0.0051	1	101	4364
+33346	j exp anal behav	<table><tr><td>Source:</td><td>j exp anal behav</td></tr><tr><td>Citations:</td><td>41</td></tr><tr><td>Co-citations:</td><td>2629</td></tr></table>	-0.6163	0.1885	4	41	2629
+33348	j exp biol	<table><tr><td>Source:</td><td>j exp biol</td></tr><tr><td>Citations:</td><td>119</td></tr><tr><td>Co-citations:</td><td>4022</td></tr></table>	-0.7731	0.3173	4	119	4022
+33350	j exp child psychol	<table><tr><td>Source:</td><td>j exp child psychol</td></tr><tr><td>Citations:</td><td>57</td></tr><tr><td>Co-citations:</td><td>3792</td></tr></table>	-0.626	-0.1119	2	57	3792
+33354	j exp psychol	<table><tr><td>Source:</td><td>j exp psychol</td></tr><tr><td>Citations:</td><td>48</td></tr><tr><td>Co-citations:</td><td>3218</td></tr></table>	-0.4126	-0.1566	2	48	3218
+33356	j exp psychol gen	<table><tr><td>Source:</td><td>j exp psychol gen</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>8389</td></tr></table>	-0.2844	-0.1356	2	101	8389
+33357	j exp psychol human	<table><tr><td>Source:</td><td>j exp psychol human</td></tr><tr><td>Citations:</td><td>372</td></tr><tr><td>Co-citations:</td><td>20161</td></tr></table>	-0.4852	-0.0915	2	372	20161
+33358	j exp psychol learn	<table><tr><td>Source:</td><td>j exp psychol learn</td></tr><tr><td>Citations:</td><td>72</td></tr><tr><td>Co-citations:</td><td>5362</td></tr></table>	-0.3094	-0.1038	2	72	5362
+33362	j exp soc psychol	<table><tr><td>Source:</td><td>j exp soc psychol</td></tr><tr><td>Citations:</td><td>186</td></tr><tr><td>Co-citations:</td><td>13081</td></tr></table>	-0.0986	-0.0929	2	186	13081
+33400	j fish biol	<table><tr><td>Source:</td><td>j fish biol</td></tr><tr><td>Citations:</td><td>82</td></tr><tr><td>Co-citations:</td><td>2048</td></tr></table>	-0.7017	0.5518	4	82	2048
+33488	j health soc behav	<table><tr><td>Source:</td><td>j health soc behav</td></tr><tr><td>Citations:</td><td>93</td></tr><tr><td>Co-citations:</td><td>3140</td></tr></table>	0.2995	-0.081	3	93	3140
+33527	j homosexual	<table><tr><td>Source:</td><td>j homosexual</td></tr><tr><td>Citations:</td><td>35</td></tr><tr><td>Co-citations:</td><td>2876</td></tr></table>	0.8702	-0.1162	5	35	2876
+33620	j int neuropsych soc	<table><tr><td>Source:</td><td>j int neuropsych soc</td></tr><tr><td>Citations:</td><td>48</td></tr><tr><td>Co-citations:</td><td>3159</td></tr></table>	-0.8372	-0.2108	2	48	3159
+33695	j legal educ	<table><tr><td>Source:</td><td>j legal educ</td></tr><tr><td>Citations:</td><td>32</td></tr><tr><td>Co-citations:</td><td>2973</td></tr></table>	0.7231	-0.1653	5	32	2973
+33721	j mammal	<table><tr><td>Source:</td><td>j mammal</td></tr><tr><td>Citations:</td><td>440</td></tr><tr><td>Co-citations:</td><td>17156</td></tr></table>	-0.7275	0.596	4	440	17156
+33726	j manage stud	<table><tr><td>Source:</td><td>j manage stud</td></tr><tr><td>Citations:</td><td>90</td></tr><tr><td>Co-citations:</td><td>3746</td></tr></table>	0.8842	0.0297	1	90	3746
+33743	j marketing	<table><tr><td>Source:</td><td>j marketing</td></tr><tr><td>Citations:</td><td>82</td></tr><tr><td>Co-citations:</td><td>2063</td></tr></table>	0.6367	0.0111	1	82	2063
+33846	j nerv ment dis	<table><tr><td>Source:</td><td>j nerv ment dis</td></tr><tr><td>Citations:</td><td>140</td></tr><tr><td>Co-citations:</td><td>12855</td></tr></table>	-0.7729	-0.41	3	140	12855
+33867	j neurol	<table><tr><td>Source:</td><td>j neurol</td></tr><tr><td>Citations:</td><td>54</td></tr><tr><td>Co-citations:</td><td>2881</td></tr></table>	-0.9015	-0.2434	3	54	2881
+33868	j neurol neurosur ps	<table><tr><td>Source:</td><td>j neurol neurosur ps</td></tr><tr><td>Citations:</td><td>263</td></tr><tr><td>Co-citations:</td><td>14155</td></tr></table>	-0.8852	-0.2499	3	263	14155
+33882	j neurophysiol	<table><tr><td>Source:</td><td>j neurophysiol</td></tr><tr><td>Citations:</td><td>360</td></tr><tr><td>Co-citations:</td><td>25982</td></tr></table>	-0.8437	-0.0865	2	360	25982
+33884	j neuropsych clin n	<table><tr><td>Source:</td><td>j neuropsych clin n</td></tr><tr><td>Citations:</td><td>43</td></tr><tr><td>Co-citations:</td><td>3035</td></tr></table>	-0.9456	-0.3243	3	43	3035
+33890	j neurosci	<table><tr><td>Source:</td><td>j neurosci</td></tr><tr><td>Citations:</td><td>711</td></tr><tr><td>Co-citations:</td><td>47304</td></tr></table>	-0.8207	-0.0905	2	711	47304
+33894	j neurosurg	<table><tr><td>Source:</td><td>j neurosurg</td></tr><tr><td>Citations:</td><td>56</td></tr><tr><td>Co-citations:</td><td>5245</td></tr></table>	-0.9721	-0.2824	3	56	5245
+33903	j nonverbal behav	<table><tr><td>Source:</td><td>j nonverbal behav</td></tr><tr><td>Citations:</td><td>176</td></tr><tr><td>Co-citations:</td><td>9698</td></tr></table>	-0.2263	-0.1115	2	176	9698
+33974	j peace res	<table><tr><td>Source:</td><td>j peace res</td></tr><tr><td>Citations:</td><td>65</td></tr><tr><td>Co-citations:</td><td>5038</td></tr></table>	1.0171	0.0762	1	65	5038
+33976	j peasant stud	<table><tr><td>Source:</td><td>j peasant stud</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>2019</td></tr></table>	0.7479	0.1343	1	101	2019
+33998	j pers	<table><tr><td>Source:</td><td>j pers</td></tr><tr><td>Citations:</td><td>82</td></tr><tr><td>Co-citations:</td><td>4903</td></tr></table>	0.118	-0.1036	2	82	4903
+34002	j pers soc psychol	<table><tr><td>Source:</td><td>j pers soc psychol</td></tr><tr><td>Citations:</td><td>1387</td></tr><tr><td>Co-citations:</td><td>67924</td></tr></table>	0.0193	-0.1052	2	1387	67924
+34015	j pharmacol exp ther	<table><tr><td>Source:</td><td>j pharmacol exp ther</td></tr><tr><td>Citations:</td><td>56</td></tr><tr><td>Co-citations:</td><td>3417</td></tr></table>	-0.9551	-0.2132	3	56	3417
+34056	j polit	<table><tr><td>Source:</td><td>j polit</td></tr><tr><td>Citations:</td><td>147</td></tr><tr><td>Co-citations:</td><td>5863</td></tr></table>	0.9636	0.0197	1	147	5863
+34057	j polit econ	<table><tr><td>Source:</td><td>j polit econ</td></tr><tr><td>Citations:</td><td>65</td></tr><tr><td>Co-citations:</td><td>2565</td></tr></table>	0.7328	0.0485	1	65	2565
+34093	j psychiat res	<table><tr><td>Source:</td><td>j psychiat res</td></tr><tr><td>Citations:</td><td>55</td></tr><tr><td>Co-citations:</td><td>4313</td></tr></table>	-0.9018	-0.3572	3	55	4313
+34112	j psychopharmacol	<table><tr><td>Source:</td><td>j psychopharmacol</td></tr><tr><td>Citations:</td><td>44</td></tr><tr><td>Co-citations:</td><td>9393</td></tr></table>	-0.9705	-0.4375	3	44	9393
+34191	j res pers	<table><tr><td>Source:</td><td>j res pers</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>3188</td></tr></table>	0.0389	-0.1386	2	40	3188
+34225	j rural stud	<table><tr><td>Source:</td><td>j rural stud</td></tr><tr><td>Citations:</td><td>136</td></tr><tr><td>Co-citations:</td><td>2458</td></tr></table>	0.7668	0.1039	1	136	2458
+34239	j sci stud relig	<table><tr><td>Source:</td><td>j sci stud relig</td></tr><tr><td>Citations:</td><td>122</td></tr><tr><td>Co-citations:</td><td>3327</td></tr></table>	0.829	0.0089	1	122	3327
+34254	j sleep res	<table><tr><td>Source:</td><td>j sleep res</td></tr><tr><td>Citations:</td><td>59</td></tr><tr><td>Co-citations:</td><td>3889</td></tr></table>	-0.7653	-0.1698	2	59	3889
+34269	j soc issues	<table><tr><td>Source:</td><td>j soc issues</td></tr><tr><td>Citations:</td><td>212</td></tr><tr><td>Co-citations:</td><td>8469</td></tr></table>	0.4315	-0.044	1	212	8469
+34275	j soc psychol	<table><tr><td>Source:</td><td>j soc psychol</td></tr><tr><td>Citations:</td><td>60</td></tr><tr><td>Co-citations:</td><td>3592</td></tr></table>	0.152	-0.0832	2	60	3592
+34345	j stud alcohol	<table><tr><td>Source:</td><td>j stud alcohol</td></tr><tr><td>Citations:</td><td>52</td></tr><tr><td>Co-citations:</td><td>2648</td></tr></table>	-0.5827	-0.2687	3	52	2648
+34375	j theor biol	<table><tr><td>Source:</td><td>j theor biol</td></tr><tr><td>Citations:</td><td>310</td></tr><tr><td>Co-citations:</td><td>9213</td></tr></table>	-0.6815	0.4881	4	310	9213
+34403	j trauma stress	<table><tr><td>Source:</td><td>j trauma stress</td></tr><tr><td>Citations:</td><td>92</td></tr><tr><td>Co-citations:</td><td>13612</td></tr></table>	-0.7983	-0.485	3	92	13612
+34457	j wildlife manage	<table><tr><td>Source:</td><td>j wildlife manage</td></tr><tr><td>Citations:</td><td>530</td></tr><tr><td>Co-citations:</td><td>15100</td></tr></table>	-0.7052	0.6038	4	530	15100
+34477	j zool	<table><tr><td>Source:</td><td>j zool</td></tr><tr><td>Citations:</td><td>245</td></tr><tr><td>Co-citations:</td><td>8203</td></tr></table>	-0.7284	0.5626	4	245	8203
+34499	jama-j am med assoc	<table><tr><td>Source:</td><td>jama-j am med assoc</td></tr><tr><td>Citations:</td><td>350</td></tr><tr><td>Co-citations:</td><td>18628</td></tr></table>	-0.4622	-0.277	3	350	18628
+35562	lancet	<table><tr><td>Source:</td><td>lancet</td></tr><tr><td>Citations:</td><td>407</td></tr><tr><td>Co-citations:</td><td>11443</td></tr></table>	-0.3786	-0.2056	3	407	11443
+35987	law human behav	<table><tr><td>Source:</td><td>law human behav</td></tr><tr><td>Citations:</td><td>37</td></tr><tr><td>Co-citations:</td><td>5216</td></tr></table>	0.3894	-0.1528	5	37	5216
+36045	law soc rev	<table><tr><td>Source:</td><td>law soc rev</td></tr><tr><td>Citations:</td><td>185</td></tr><tr><td>Co-citations:</td><td>12081</td></tr></table>	0.8722	-0.1029	5	185	12081
+36050	law social inquiry	<table><tr><td>Source:</td><td>law social inquiry</td></tr><tr><td>Citations:</td><td>41</td></tr><tr><td>Co-citations:</td><td>2902</td></tr></table>	0.9101	-0.0935	5	41	2902
+36132	leadership quart	<table><tr><td>Source:</td><td>leadership quart</td></tr><tr><td>Citations:</td><td>72</td></tr><tr><td>Co-citations:</td><td>2972</td></tr></table>	0.6321	-0.0027	1	72	2972
+37085	logic collective act	<table><tr><td>Source:</td><td>logic collective act</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>4217</td></tr></table>	0.9407	0.008	1	101	4217
+38024	manage sci	<table><tr><td>Source:</td><td>manage sci</td></tr><tr><td>Citations:</td><td>78</td></tr><tr><td>Co-citations:</td><td>2617</td></tr></table>	0.7595	0.0116	1	78	2617
+38373	mar ecol prog ser	<table><tr><td>Source:</td><td>mar ecol prog ser</td></tr><tr><td>Citations:</td><td>97</td></tr><tr><td>Co-citations:</td><td>3250</td></tr></table>	-0.6494	0.5674	4	97	3250
+38971	med care	<table><tr><td>Source:</td><td>med care</td></tr><tr><td>Citations:</td><td>92</td></tr><tr><td>Co-citations:</td><td>2386</td></tr></table>	-0.3006	-0.2176	3	92	2386
+39051	med sci sport exer	<table><tr><td>Source:</td><td>med sci sport exer</td></tr><tr><td>Citations:</td><td>93</td></tr><tr><td>Co-citations:</td><td>1351</td></tr></table>	-0.3736	-0.151	3	93	1351
+39207	mem cognition	<table><tr><td>Source:</td><td>mem cognition</td></tr><tr><td>Citations:</td><td>64</td></tr><tr><td>Co-citations:</td><td>4161</td></tr></table>	-0.173	-0.1181	2	64	4161
+39566	mich law rev	<table><tr><td>Source:</td><td>mich law rev</td></tr><tr><td>Citations:</td><td>152</td></tr><tr><td>Co-citations:</td><td>15784</td></tr></table>	0.9277	-0.1717	5	152	15784
+39646	middle e report	<table><tr><td>Source:</td><td>middle e report</td></tr><tr><td>Citations:</td><td>22</td></tr><tr><td>Co-citations:</td><td>2903</td></tr></table>	1.0991	0.0732	1	22	2903
+39919	minn law rev	<table><tr><td>Source:</td><td>minn law rev</td></tr><tr><td>Citations:</td><td>37</td></tr><tr><td>Co-citations:</td><td>3038</td></tr></table>	0.9702	-0.1739	5	37	3038
+40114	mobilization	<table><tr><td>Source:</td><td>mobilization</td></tr><tr><td>Citations:</td><td>350</td></tr><tr><td>Co-citations:</td><td>18030</td></tr></table>	1.0103	0.0504	1	350	18030
+40123	mobilization revolut	<table><tr><td>Source:</td><td>mobilization revolut</td></tr><tr><td>Citations:</td><td>174</td></tr><tr><td>Co-citations:</td><td>7513</td></tr></table>	1.0062	0.0263	1	174	7513
+40383	mol ecol	<table><tr><td>Source:</td><td>mol ecol</td></tr><tr><td>Citations:</td><td>208</td></tr><tr><td>Co-citations:</td><td>8272</td></tr></table>	-0.7147	0.5636	4	208	8272
+40389	mol gen genet	<table><tr><td>Source:</td><td>mol gen genet</td></tr><tr><td>Citations:</td><td>92</td></tr><tr><td>Co-citations:</td><td>3029</td></tr></table>	-1.2534	0.6671	6	92	3029
+40396	mol microbiol	<table><tr><td>Source:</td><td>mol microbiol</td></tr><tr><td>Citations:</td><td>345</td></tr><tr><td>Co-citations:</td><td>14051</td></tr></table>	-1.2355	0.6528	6	345	14051
+40405	mol psychiatr	<table><tr><td>Source:</td><td>mol psychiatr</td></tr><tr><td>Citations:</td><td>43</td></tr><tr><td>Co-citations:</td><td>4223</td></tr></table>	-0.8586	-0.2779	3	43	4223
+40803	movement disord	<table><tr><td>Source:</td><td>movement disord</td></tr><tr><td>Citations:</td><td>340</td></tr><tr><td>Co-citations:</td><td>12181</td></tr></table>	-0.8985	-0.2591	3	340	12181
+41428	nat genet	<table><tr><td>Source:</td><td>nat genet</td></tr><tr><td>Citations:</td><td>45</td></tr><tr><td>Co-citations:</td><td>2734</td></tr></table>	-0.9062	0.1923	6	45	2734
+41460	nat neurosci	<table><tr><td>Source:</td><td>nat neurosci</td></tr><tr><td>Citations:</td><td>412</td></tr><tr><td>Co-citations:</td><td>30420</td></tr></table>	-0.7665	-0.1094	2	412	30420
+41487	nat rev neurosci	<table><tr><td>Source:</td><td>nat rev neurosci</td></tr><tr><td>Citations:</td><td>273</td></tr><tr><td>Co-citations:</td><td>18820</td></tr></table>	-0.7832	-0.1328	2	273	18820
+41519	nation	<table><tr><td>Source:</td><td>nation</td></tr><tr><td>Citations:</td><td>61</td></tr><tr><td>Co-citations:</td><td>4075</td></tr></table>	1.0973	0.026	1	61	4075
+41841	nature	<table><tr><td>Source:</td><td>nature</td></tr><tr><td>Citations:</td><td>1249</td></tr><tr><td>Co-citations:</td><td>58530</td></tr></table>	-0.6621	0.2701	4	1249	58530
+42311	neuroimage	<table><tr><td>Source:</td><td>neuroimage</td></tr><tr><td>Citations:</td><td>865</td></tr><tr><td>Co-citations:</td><td>53876</td></tr></table>	-0.7948	-0.1204	2	865	53876
+42334	neurology	<table><tr><td>Source:</td><td>neurology</td></tr><tr><td>Citations:</td><td>430</td></tr><tr><td>Co-citations:</td><td>23610</td></tr></table>	-0.8971	-0.2179	3	430	23610
+42350	neuron	<table><tr><td>Source:</td><td>neuron</td></tr><tr><td>Citations:</td><td>338</td></tr><tr><td>Co-citations:</td><td>24890</td></tr></table>	-0.7984	-0.0672	2	338	24890
+42372	neuropsychologia	<table><tr><td>Source:</td><td>neuropsychologia</td></tr><tr><td>Citations:</td><td>581</td></tr><tr><td>Co-citations:</td><td>38243</td></tr></table>	-0.7434	-0.136	2	581	38243
+42395	neuropsychopharmacol	<table><tr><td>Source:</td><td>neuropsychopharmacol</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>10316</td></tr></table>	-0.9636	-0.2417	3	101	10316
+42400	neuroreport	<table><tr><td>Source:</td><td>neuroreport</td></tr><tr><td>Citations:</td><td>277</td></tr><tr><td>Co-citations:</td><td>20680</td></tr></table>	-0.8008	-0.1113	2	277	20680
+42403	neurosci biobehav r	<table><tr><td>Source:</td><td>neurosci biobehav r</td></tr><tr><td>Citations:</td><td>161</td></tr><tr><td>Co-citations:</td><td>13051</td></tr></table>	-0.7829	-0.0445	2	161	13051
+42405	neurosci lett	<table><tr><td>Source:</td><td>neurosci lett</td></tr><tr><td>Citations:</td><td>135</td></tr><tr><td>Co-citations:</td><td>7995</td></tr></table>	-0.7867	-0.075	2	135	7995
+42409	neuroscience	<table><tr><td>Source:</td><td>neuroscience</td></tr><tr><td>Citations:</td><td>104</td></tr><tr><td>Co-citations:</td><td>6890</td></tr></table>	-0.9128	-0.1162	3	104	6890
+42419	neurosurgery	<table><tr><td>Source:</td><td>neurosurgery</td></tr><tr><td>Citations:</td><td>29</td></tr><tr><td>Co-citations:</td><td>4240</td></tr></table>	-1.0161	-0.3793	3	29	4240
+42576	new engl j med	<table><tr><td>Source:</td><td>new engl j med</td></tr><tr><td>Citations:</td><td>349</td></tr><tr><td>Co-citations:</td><td>17412</td></tr></table>	-0.4547	-0.2481	3	349	17412
+42645	new i org anal	<table><tr><td>Source:</td><td>new i org anal</td></tr><tr><td>Citations:</td><td>182</td></tr><tr><td>Co-citations:</td><td>9317</td></tr></table>	0.9617	0.0366	1	182	9317
+42698	new left rev	<table><tr><td>Source:</td><td>new left rev</td></tr><tr><td>Citations:</td><td>147</td></tr><tr><td>Co-citations:</td><td>4153</td></tr></table>	0.9124	0.0687	1	147	4153
+42877	new social movements	<table><tr><td>Source:</td><td>new social movements</td></tr><tr><td>Citations:</td><td>232</td></tr><tr><td>Co-citations:</td><td>9291</td></tr></table>	1.0162	0.0252	1	232	9291
+43002	new york u law rev	<table><tr><td>Source:</td><td>new york u law rev</td></tr><tr><td>Citations:</td><td>88</td></tr><tr><td>Co-citations:</td><td>9043</td></tr></table>	0.9298	-0.1717	5	88	9043
+43338	nomads present socia	<table><tr><td>Source:</td><td>nomads present socia</td></tr><tr><td>Citations:</td><td>73</td></tr><tr><td>Co-citations:</td><td>2983</td></tr></table>	1.0127	0.0249	1	73	2983
+43478	northwest u law rev	<table><tr><td>Source:</td><td>northwest u law rev</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>6376</td></tr></table>	0.7808	-0.1762	5	51	6376
+43770	ny times	<table><tr><td>Source:</td><td>ny times</td></tr><tr><td>Citations:</td><td>451</td></tr><tr><td>Co-citations:</td><td>16037</td></tr></table>	0.8941	-0.0495	1	451	16037
+43818	nyt	<table><tr><td>Source:</td><td>nyt</td></tr><tr><td>Citations:</td><td>88</td></tr><tr><td>Co-citations:</td><td>25859</td></tr></table>	1.3161	0.0305	1	88	25859
+43824	nyu rev l soc change	<table><tr><td>Source:</td><td>nyu rev l soc change</td></tr><tr><td>Citations:</td><td>23</td></tr><tr><td>Co-citations:</td><td>2946</td></tr></table>	1.0034	-0.1938	5	23	2946
+44003	oecologia	<table><tr><td>Source:</td><td>oecologia</td></tr><tr><td>Citations:</td><td>219</td></tr><tr><td>Co-citations:</td><td>9847</td></tr></table>	-0.6724	0.5952	4	219	9847
+44052	oikos	<table><tr><td>Source:</td><td>oikos</td></tr><tr><td>Citations:</td><td>248</td></tr><tr><td>Co-citations:</td><td>12196</td></tr></table>	-0.6567	0.6146	4	248	12196
+44568	organ behav hum dec	<table><tr><td>Source:</td><td>organ behav hum dec</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>13934</td></tr></table>	0.2842	-0.1379	5	75	13934
+44574	organ sci	<table><tr><td>Source:</td><td>organ sci</td></tr><tr><td>Citations:</td><td>232</td></tr><tr><td>Co-citations:</td><td>11604</td></tr></table>	0.8454	0.0147	1	232	11604
+44575	organ stud	<table><tr><td>Source:</td><td>organ stud</td></tr><tr><td>Citations:</td><td>171</td></tr><tr><td>Co-citations:</td><td>8694</td></tr></table>	0.901	0.0324	1	171	8694
+44604	organization	<table><tr><td>Source:</td><td>organization</td></tr><tr><td>Citations:</td><td>77</td></tr><tr><td>Co-citations:</td><td>4152</td></tr></table>	0.8782	0.0386	1	77	4152
+44662	origins civil rights	<table><tr><td>Source:</td><td>origins civil rights</td></tr><tr><td>Citations:</td><td>109</td></tr><tr><td>Co-citations:</td><td>4988</td></tr></table>	1.0042	-0.0426	1	109	4988
+45706	p natl acad sci usa	<table><tr><td>Source:</td><td>p natl acad sci usa</td></tr><tr><td>Citations:</td><td>1227</td></tr><tr><td>Co-citations:</td><td>60499</td></tr></table>	-0.7706	0.2857	6	1227	60499
+45726	p r soc b	<table><tr><td>Source:</td><td>p r soc b</td></tr><tr><td>Citations:</td><td>67</td></tr><tr><td>Co-citations:</td><td>3459</td></tr></table>	-0.5807	0.429	4	67	3459
+45741	p roy soc b-biol sci	<table><tr><td>Source:</td><td>p roy soc b-biol sci</td></tr><tr><td>Citations:</td><td>355</td></tr><tr><td>Co-citations:</td><td>16277</td></tr></table>	-0.6835	0.4476	4	355	16277
+46246	pain	<table><tr><td>Source:</td><td>pain</td></tr><tr><td>Citations:</td><td>202</td></tr><tr><td>Co-citations:</td><td>6638</td></tr></table>	-0.4615	-0.2339	3	202	6638
+46625	passionate politics	<table><tr><td>Source:</td><td>passionate politics</td></tr><tr><td>Citations:</td><td>62</td></tr><tr><td>Co-citations:</td><td>2585</td></tr></table>	0.9511	0.0376	1	62	2585
+46931	pediatrics	<table><tr><td>Source:</td><td>pediatrics</td></tr><tr><td>Citations:</td><td>187</td></tr><tr><td>Co-citations:</td><td>6026</td></tr></table>	-0.6093	-0.1835	3	187	6026
+47091	percept motor skill	<table><tr><td>Source:</td><td>percept motor skill</td></tr><tr><td>Citations:</td><td>74</td></tr><tr><td>Co-citations:</td><td>3709</td></tr></table>	-0.4877	-0.0064	2	74	3709
+47092	percept psychophys	<table><tr><td>Source:</td><td>percept psychophys</td></tr><tr><td>Citations:</td><td>153</td></tr><tr><td>Co-citations:</td><td>8621</td></tr></table>	-0.5459	-0.0988	2	153	8621
+47093	perception	<table><tr><td>Source:</td><td>perception</td></tr><tr><td>Citations:</td><td>184</td></tr><tr><td>Co-citations:</td><td>8362</td></tr></table>	-0.6107	-0.0881	2	184	8362
+47194	pers soc psychol b	<table><tr><td>Source:</td><td>pers soc psychol b</td></tr><tr><td>Citations:</td><td>363</td></tr><tr><td>Co-citations:</td><td>24699</td></tr></table>	0.1475	-0.0985	2	363	24699
+47195	pers soc psychol rev	<table><tr><td>Source:</td><td>pers soc psychol rev</td></tr><tr><td>Citations:</td><td>75</td></tr><tr><td>Co-citations:</td><td>5168</td></tr></table>	0.0325	-0.0748	2	75	5168
+47284	perspect psychol sci	<table><tr><td>Source:</td><td>perspect psychol sci</td></tr><tr><td>Citations:</td><td>30</td></tr><tr><td>Co-citations:</td><td>4280</td></tr></table>	-0.2748	-0.1553	2	30	4280
+47309	perspectives imitati	<table><tr><td>Source:</td><td>perspectives imitati</td></tr><tr><td>Citations:</td><td>49</td></tr><tr><td>Co-citations:</td><td>3589</td></tr></table>	-0.6537	-0.0073	2	49	3589
+47406	pharmacol biochem be	<table><tr><td>Source:</td><td>pharmacol biochem be</td></tr><tr><td>Citations:</td><td>86</td></tr><tr><td>Co-citations:</td><td>4406</td></tr></table>	-0.8602	-0.0916	3	86	4406
+47412	pharmacopsychiatry	<table><tr><td>Source:</td><td>pharmacopsychiatry</td></tr><tr><td>Citations:</td><td>32</td></tr><tr><td>Co-citations:</td><td>6973</td></tr></table>	-1.0405	-0.4922	3	32	6973
+47526	philos t r soc b	<table><tr><td>Source:</td><td>philos t r soc b</td></tr><tr><td>Citations:</td><td>292</td></tr><tr><td>Co-citations:</td><td>17636</td></tr></table>	-0.6021	0.1117	2	292	17636
+47531	philos t roy soc b	<table><tr><td>Source:</td><td>philos t roy soc b</td></tr><tr><td>Citations:</td><td>160</td></tr><tr><td>Co-citations:</td><td>7976</td></tr></table>	-0.6684	0.2189	4	160	7976
+47604	phys rev e	<table><tr><td>Source:</td><td>phys rev e</td></tr><tr><td>Citations:</td><td>150</td></tr><tr><td>Co-citations:</td><td>3579</td></tr></table>	-0.568	0.3633	4	150	3579
+47644	physiol behav	<table><tr><td>Source:</td><td>physiol behav</td></tr><tr><td>Citations:</td><td>210</td></tr><tr><td>Co-citations:</td><td>12957</td></tr></table>	-0.8224	0.1536	4	210	12957
+47967	plos biol	<table><tr><td>Source:</td><td>plos biol</td></tr><tr><td>Citations:</td><td>81</td></tr><tr><td>Co-citations:</td><td>5599</td></tr></table>	-0.7648	0.1951	6	81	5599
+47973	plos one	<table><tr><td>Source:</td><td>plos one</td></tr><tr><td>Citations:</td><td>136</td></tr><tr><td>Co-citations:</td><td>7724</td></tr></table>	-0.6015	0.0537	2	136	7724
+48033	poetics	<table><tr><td>Source:</td><td>poetics</td></tr><tr><td>Citations:</td><td>59</td></tr><tr><td>Co-citations:</td><td>2811</td></tr></table>	0.8968	0.0105	1	59	2811
+48216	polit geogr	<table><tr><td>Source:</td><td>polit geogr</td></tr><tr><td>Citations:</td><td>114</td></tr><tr><td>Co-citations:</td><td>2814</td></tr></table>	0.847	0.0899	1	114	2814
+48224	polit psychol	<table><tr><td>Source:</td><td>polit psychol</td></tr><tr><td>Citations:</td><td>59</td></tr><tr><td>Co-citations:</td><td>2966</td></tr></table>	0.521	-0.0491	2	59	2966
+48231	polit soc	<table><tr><td>Source:</td><td>polit soc</td></tr><tr><td>Citations:</td><td>164</td></tr><tr><td>Co-citations:</td><td>7420</td></tr></table>	0.9848	0.0565	1	164	7420
+48453	political process de	<table><tr><td>Source:</td><td>political process de</td></tr><tr><td>Citations:</td><td>216</td></tr><tr><td>Co-citations:</td><td>9771</td></tr></table>	1.0436	0.0136	1	216	9771
+48810	politics social prot	<table><tr><td>Source:</td><td>politics social prot</td></tr><tr><td>Citations:</td><td>58</td></tr><tr><td>Co-citations:</td><td>2466</td></tr></table>	1.0322	0.0391	1	58	2466
+48937	poor peoples movemen	<table><tr><td>Source:</td><td>poor peoples movemen</td></tr><tr><td>Citations:</td><td>115</td></tr><tr><td>Co-citations:</td><td>5965</td></tr></table>	1.0589	-0.002	1	115	5965
+49315	poultry sci	<table><tr><td>Source:</td><td>poultry sci</td></tr><tr><td>Citations:</td><td>36</td></tr><tr><td>Co-citations:</td><td>4852</td></tr></table>	-0.82	0.2789	4	36	4852
+49458	power movement	<table><tr><td>Source:</td><td>power movement</td></tr><tr><td>Citations:</td><td>72</td></tr><tr><td>Co-citations:</td><td>4676</td></tr></table>	1.1316	0.0306	1	72	4676
+49460	power movement socia	<table><tr><td>Source:</td><td>power movement socia</td></tr><tr><td>Citations:</td><td>166</td></tr><tr><td>Co-citations:</td><td>8305</td></tr></table>	1.0507	0.0407	1	166	8305
+49926	primates	<table><tr><td>Source:</td><td>primates</td></tr><tr><td>Citations:</td><td>121</td></tr><tr><td>Co-citations:</td><td>5116</td></tr></table>	-0.7046	0.3979	4	121	5116
+50430	prog brain res	<table><tr><td>Source:</td><td>prog brain res</td></tr><tr><td>Citations:</td><td>64</td></tr><tr><td>Co-citations:</td><td>5266</td></tr></table>	-0.8024	-0.1581	2	64	5266
+50439	prog hum geog	<table><tr><td>Source:</td><td>prog hum geog</td></tr><tr><td>Citations:</td><td>187</td></tr><tr><td>Co-citations:</td><td>4352</td></tr></table>	0.8096	0.0928	1	187	4352
+50442	prog neuro-psychoph	<table><tr><td>Source:</td><td>prog neuro-psychoph</td></tr><tr><td>Citations:</td><td>53</td></tr><tr><td>Co-citations:</td><td>7243</td></tr></table>	-0.9996	-0.4027	3	53	7243
+50863	psychiat clin neuros	<table><tr><td>Source:</td><td>psychiat clin neuros</td></tr><tr><td>Citations:</td><td>20</td></tr><tr><td>Co-citations:</td><td>3682</td></tr></table>	-0.9978	-0.43	3	20	3682
+50879	psychiat res	<table><tr><td>Source:</td><td>psychiat res</td></tr><tr><td>Citations:</td><td>133</td></tr><tr><td>Co-citations:</td><td>12445</td></tr></table>	-0.9246	-0.3645	3	133	12445
+50892	psychiatr serv	<table><tr><td>Source:</td><td>psychiatr serv</td></tr><tr><td>Citations:</td><td>42</td></tr><tr><td>Co-citations:</td><td>2779</td></tr></table>	-0.676	-0.4291	3	42	2779
+50964	psychol bull	<table><tr><td>Source:</td><td>psychol bull</td></tr><tr><td>Citations:</td><td>531</td></tr><tr><td>Co-citations:</td><td>43011</td></tr></table>	-0.1411	-0.1742	2	531	43011
+51007	psychol inq	<table><tr><td>Source:</td><td>psychol inq</td></tr><tr><td>Citations:</td><td>40</td></tr><tr><td>Co-citations:</td><td>3397</td></tr></table>	0.0519	-0.161	2	40	3397
+51032	psychol med	<table><tr><td>Source:</td><td>psychol med</td></tr><tr><td>Citations:</td><td>211</td></tr><tr><td>Co-citations:</td><td>17398</td></tr></table>	-0.7695	-0.3373	3	211	17398
+51064	psychol public pol l	<table><tr><td>Source:</td><td>psychol public pol l</td></tr><tr><td>Citations:</td><td>20</td></tr><tr><td>Co-citations:</td><td>2849</td></tr></table>	0.3252	-0.1552	5	20	2849
+51076	psychol rep	<table><tr><td>Source:</td><td>psychol rep</td></tr><tr><td>Citations:</td><td>61</td></tr><tr><td>Co-citations:</td><td>3479</td></tr></table>	-0.2104	-0.0995	2	61	3479
+51079	psychol res-psych fo	<table><tr><td>Source:</td><td>psychol res-psych fo</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>3373</td></tr></table>	-0.5248	-0.0846	2	51	3373
+51080	psychol rev	<table><tr><td>Source:</td><td>psychol rev</td></tr><tr><td>Citations:</td><td>385</td></tr><tr><td>Co-citations:</td><td>26953</td></tr></table>	-0.1169	-0.103	2	385	26953
+51085	psychol sci	<table><tr><td>Source:</td><td>psychol sci</td></tr><tr><td>Citations:</td><td>528</td></tr><tr><td>Co-citations:</td><td>36959</td></tr></table>	-0.2809	-0.1071	2	528	36959
+51148	psychon b rev	<table><tr><td>Source:</td><td>psychon b rev</td></tr><tr><td>Citations:</td><td>119</td></tr><tr><td>Co-citations:</td><td>7810</td></tr></table>	-0.5022	-0.0533	2	119	7810
+51163	psychopharmacol bull	<table><tr><td>Source:</td><td>psychopharmacol bull</td></tr><tr><td>Citations:</td><td>68</td></tr><tr><td>Co-citations:</td><td>11345</td></tr></table>	-1.0166	-0.4875	3	68	11345
+51165	psychopharmacology	<table><tr><td>Source:</td><td>psychopharmacology</td></tr><tr><td>Citations:</td><td>254</td></tr><tr><td>Co-citations:</td><td>19498</td></tr></table>	-0.9048	-0.3014	3	254	19498
+51176	psychophysiology	<table><tr><td>Source:</td><td>psychophysiology</td></tr><tr><td>Citations:</td><td>141</td></tr><tr><td>Co-citations:</td><td>7609</td></tr></table>	-0.7116	-0.1981	2	141	7609
+51188	psychosom med	<table><tr><td>Source:</td><td>psychosom med</td></tr><tr><td>Citations:</td><td>65</td></tr><tr><td>Co-citations:</td><td>4541</td></tr></table>	-0.6316	-0.2894	3	65	4541
+51191	psychother psychosom	<table><tr><td>Source:</td><td>psychother psychosom</td></tr><tr><td>Citations:</td><td>32</td></tr><tr><td>Co-citations:</td><td>6053</td></tr></table>	-0.8361	-0.4933	3	32	6053
+51192	psychother res	<table><tr><td>Source:</td><td>psychother res</td></tr><tr><td>Citations:</td><td>24</td></tr><tr><td>Co-citations:</td><td>6902</td></tr></table>	-0.616	-0.436	3	24	6902
+51195	psychotherapy	<table><tr><td>Source:</td><td>psychotherapy</td></tr><tr><td>Citations:</td><td>23</td></tr><tr><td>Co-citations:</td><td>6235</td></tr></table>	-0.6517	-0.4496	3	23	6235
+51277	public culture	<table><tr><td>Source:</td><td>public culture</td></tr><tr><td>Citations:</td><td>94</td></tr><tr><td>Co-citations:</td><td>3369</td></tr></table>	0.8974	0.0561	1	94	3369
+51340	public opin quart	<table><tr><td>Source:</td><td>public opin quart</td></tr><tr><td>Citations:</td><td>120</td></tr><tr><td>Co-citations:</td><td>4155</td></tr></table>	0.76	-0.0086	1	120	4155
+51545	q j econ	<table><tr><td>Source:</td><td>q j econ</td></tr><tr><td>Citations:</td><td>73</td></tr><tr><td>Co-citations:</td><td>3386</td></tr></table>	0.7513	-0.0247	1	73	3386
+51552	q j exp psychol	<table><tr><td>Source:</td><td>q j exp psychol</td></tr><tr><td>Citations:</td><td>55</td></tr><tr><td>Co-citations:</td><td>4560</td></tr></table>	-0.452	-0.1147	2	55	4560
+51553	q j exp psychol-a	<table><tr><td>Source:</td><td>q j exp psychol-a</td></tr><tr><td>Citations:</td><td>78</td></tr><tr><td>Co-citations:</td><td>4442</td></tr></table>	-0.5642	-0.1244	2	78	4442
+51567	q rev biol	<table><tr><td>Source:</td><td>q rev biol</td></tr><tr><td>Citations:</td><td>73</td></tr><tr><td>Co-citations:</td><td>3214</td></tr></table>	-0.6404	0.3953	4	73	3214
+53192	relative deprivation	<table><tr><td>Source:</td><td>relative deprivation</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>2830</td></tr></table>	0.4829	-0.0438	2	51	2830
+53565	repertoires cycles c	<table><tr><td>Source:</td><td>repertoires cycles c</td></tr><tr><td>Citations:</td><td>64</td></tr><tr><td>Co-citations:</td><td>3349</td></tr></table>	1.079	0.0331	1	64	3349
+53842	res organ behav	<table><tr><td>Source:</td><td>res organ behav</td></tr><tr><td>Citations:</td><td>115</td></tr><tr><td>Co-citations:</td><td>6095</td></tr></table>	0.9149	0.0223	1	115	6095
+53898	res soc mov confl ch	<table><tr><td>Source:</td><td>res soc mov confl ch</td></tr><tr><td>Citations:</td><td>49</td></tr><tr><td>Co-citations:</td><td>2918</td></tr></table>	0.9934	0.0468	1	49	2918
+53901	res soc org	<table><tr><td>Source:</td><td>res soc org</td></tr><tr><td>Citations:</td><td>53</td></tr><tr><td>Co-citations:</td><td>2959</td></tr></table>	0.9719	0.0365	1	53	2959
+53914	res social movements	<table><tr><td>Source:</td><td>res social movements</td></tr><tr><td>Citations:</td><td>207</td></tr><tr><td>Co-citations:</td><td>8663</td></tr></table>	0.9993	0.0166	1	207	8663
+55349	rural sociol	<table><tr><td>Source:</td><td>rural sociol</td></tr><tr><td>Citations:</td><td>151</td></tr><tr><td>Co-citations:</td><td>4031</td></tr></table>	0.7399	0.0604	1	151	4031
+55963	schizophr res	<table><tr><td>Source:</td><td>schizophr res</td></tr><tr><td>Citations:</td><td>299</td></tr><tr><td>Co-citations:</td><td>21427</td></tr></table>	-0.9402	-0.341	3	299	21427
+55968	schizophrenia bull	<table><tr><td>Source:</td><td>schizophrenia bull</td></tr><tr><td>Citations:</td><td>211</td></tr><tr><td>Co-citations:</td><td>12984</td></tr></table>	-0.9166	-0.3548	3	211	12984
+56027	sci am	<table><tr><td>Source:</td><td>sci am</td></tr><tr><td>Citations:</td><td>92</td></tr><tr><td>Co-citations:</td><td>3184</td></tr></table>	-0.1208	0.0723	2	92	3184
+56233	science	<table><tr><td>Source:</td><td>science</td></tr><tr><td>Citations:</td><td>1599</td></tr><tr><td>Co-citations:</td><td>84564</td></tr></table>	-0.4564	0.1788	4	1599	84564
+56372	searchlight	<table><tr><td>Source:</td><td>searchlight</td></tr><tr><td>Citations:</td><td>26</td></tr><tr><td>Co-citations:</td><td>9386</td></tr></table>	1.3233	0.0403	1	26	9386
+56926	sex roles	<table><tr><td>Source:</td><td>sex roles</td></tr><tr><td>Citations:</td><td>107</td></tr><tr><td>Co-citations:</td><td>3705</td></tr></table>	0.3508	-0.0586	2	107	3705
+57319	signs	<table><tr><td>Source:</td><td>signs</td></tr><tr><td>Citations:</td><td>155</td></tr><tr><td>Co-citations:</td><td>6948</td></tr></table>	1.0013	-0.0212	1	155	6948
+57526	sleep	<table><tr><td>Source:</td><td>sleep</td></tr><tr><td>Citations:</td><td>221</td></tr><tr><td>Co-citations:</td><td>10156</td></tr></table>	-0.7315	-0.1937	2	221	10156
+57736	soc cognition	<table><tr><td>Source:</td><td>soc cognition</td></tr><tr><td>Citations:</td><td>64</td></tr><tr><td>Co-citations:</td><td>6959</td></tr></table>	-0.0555	-0.1197	2	64	6959
+57765	soc forces	<table><tr><td>Source:</td><td>soc forces</td></tr><tr><td>Citations:</td><td>752</td></tr><tr><td>Co-citations:</td><td>33863</td></tr></table>	0.9473	0.0213	1	752	33863
+57808	soc natur resour	<table><tr><td>Source:</td><td>soc natur resour</td></tr><tr><td>Citations:</td><td>121</td></tr><tr><td>Co-citations:</td><td>4078</td></tr></table>	0.6443	0.0815	1	121	4078
+57813	soc networks	<table><tr><td>Source:</td><td>soc networks</td></tr><tr><td>Citations:</td><td>100</td></tr><tr><td>Co-citations:</td><td>3794</td></tr></table>	0.7318	0.0621	1	100	3794
+57818	soc neurosci	<table><tr><td>Source:</td><td>soc neurosci</td></tr><tr><td>Citations:</td><td>63</td></tr><tr><td>Co-citations:</td><td>4113</td></tr></table>	-0.6768	-0.0845	2	63	4113
+57837	soc probl	<table><tr><td>Source:</td><td>soc probl</td></tr><tr><td>Citations:</td><td>786</td></tr><tr><td>Co-citations:</td><td>30513</td></tr></table>	0.9396	0.0098	1	786	30513
+57847	soc psychol quart	<table><tr><td>Source:</td><td>soc psychol quart</td></tr><tr><td>Citations:</td><td>105</td></tr><tr><td>Co-citations:</td><td>5487</td></tr></table>	0.4534	-0.0387	2	105	5487
+57855	soc res	<table><tr><td>Source:</td><td>soc res</td></tr><tr><td>Citations:</td><td>271</td></tr><tr><td>Co-citations:</td><td>11368</td></tr></table>	0.9779	0.0252	1	271	11368
+57870	soc sci hist	<table><tr><td>Source:</td><td>soc sci hist</td></tr><tr><td>Citations:</td><td>90</td></tr><tr><td>Co-citations:</td><td>3761</td></tr></table>	0.9996	0.0428	1	90	3761
+57872	soc sci inform	<table><tr><td>Source:</td><td>soc sci inform</td></tr><tr><td>Citations:</td><td>51</td></tr><tr><td>Co-citations:</td><td>2661</td></tr></table>	0.9079	0.0578	1	51	2661
+57874	soc sci med	<table><tr><td>Source:</td><td>soc sci med</td></tr><tr><td>Citations:</td><td>446</td></tr><tr><td>Co-citations:</td><td>10094</td></tr></table>	0.2107	-0.0693	3	446	10094
+57880	soc sci quart	<table><tr><td>Source:</td><td>soc sci quart</td></tr><tr><td>Citations:</td><td>157</td></tr><tr><td>Co-citations:</td><td>4929</td></tr></table>	0.766	0.0124	1	157	4929
+57901	soc stud sci	<table><tr><td>Source:</td><td>soc stud sci</td></tr><tr><td>Citations:</td><td>90</td></tr><tr><td>Co-citations:</td><td>2935</td></tr></table>	0.8038	0.0491	1	90	2935
+58043	social conflict soci	<table><tr><td>Source:</td><td>social conflict soci</td></tr><tr><td>Citations:</td><td>79</td></tr><tr><td>Co-citations:</td><td>3314</td></tr></table>	0.9802	-0.0022	1	79	3314
+58046	social construction	<table><tr><td>Source:</td><td>social construction</td></tr><tr><td>Citations:</td><td>77</td></tr><tr><td>Co-citations:</td><td>2971</td></tr></table>	0.7775	0.0074	1	77	2971
+58320	social movements cul	<table><tr><td>Source:</td><td>social movements cul</td></tr><tr><td>Citations:</td><td>122</td></tr><tr><td>Co-citations:</td><td>5360</td></tr></table>	0.9877	0.0041	1	122	5360
+58334	social movements mat	<table><tr><td>Source:</td><td>social movements mat</td></tr><tr><td>Citations:</td><td>87</td></tr><tr><td>Co-citations:</td><td>4817</td></tr></table>	1.0212	0.0365	1	87	4817
+58335	social movements net	<table><tr><td>Source:</td><td>social movements net</td></tr><tr><td>Citations:</td><td>60</td></tr><tr><td>Co-citations:</td><td>3000</td></tr></table>	1.0016	0.0602	1	60	3000
+58336	social movements org	<table><tr><td>Source:</td><td>social movements org</td></tr><tr><td>Citations:</td><td>169</td></tr><tr><td>Co-citations:</td><td>9224</td></tr></table>	0.9939	0.0403	1	169	9224
+58671	socialist rev	<table><tr><td>Source:</td><td>socialist rev</td></tr><tr><td>Citations:</td><td>89</td></tr><tr><td>Co-citations:</td><td>3095</td></tr></table>	1.0304	0.0167	1	89	3095
+58703	socio-econ rev	<table><tr><td>Source:</td><td>socio-econ rev</td></tr><tr><td>Citations:</td><td>45</td></tr><tr><td>Co-citations:</td><td>2759</td></tr></table>	0.9666	0.0431	1	45	2759
+58729	sociol forum	<table><tr><td>Source:</td><td>sociol forum</td></tr><tr><td>Citations:</td><td>249</td></tr><tr><td>Co-citations:</td><td>11745</td></tr></table>	0.9569	0.0337	1	249	11745
+58730	sociol health ill	<table><tr><td>Source:</td><td>sociol health ill</td></tr><tr><td>Citations:</td><td>107</td></tr><tr><td>Co-citations:</td><td>2523</td></tr></table>	0.5114	-0.0285	1	107	2523
+58734	sociol inq	<table><tr><td>Source:</td><td>sociol inq</td></tr><tr><td>Citations:</td><td>217</td></tr><tr><td>Co-citations:</td><td>8895</td></tr></table>	0.8809	0.0197	1	217	8895
+58736	sociol method res	<table><tr><td>Source:</td><td>sociol method res</td></tr><tr><td>Citations:</td><td>95</td></tr><tr><td>Co-citations:</td><td>3838</td></tr></table>	0.9841	0.0207	1	95	3838
+58737	sociol methodol	<table><tr><td>Source:</td><td>sociol methodol</td></tr><tr><td>Citations:</td><td>80</td></tr><tr><td>Co-citations:</td><td>3021</td></tr></table>	0.8512	0.0241	1	80	3021
+58738	sociol perspect	<table><tr><td>Source:</td><td>sociol perspect</td></tr><tr><td>Citations:</td><td>98</td></tr><tr><td>Co-citations:</td><td>4277</td></tr></table>	0.9054	0.0174	1	98	4277
+58740	sociol quart	<table><tr><td>Source:</td><td>sociol quart</td></tr><tr><td>Citations:</td><td>228</td></tr><tr><td>Co-citations:</td><td>9761</td></tr></table>	0.925	0.0149	1	228	9761
+58744	sociol rev	<table><tr><td>Source:</td><td>sociol rev</td></tr><tr><td>Citations:</td><td>88</td></tr><tr><td>Co-citations:</td><td>2595</td></tr></table>	0.8671	0.0413	1	88	2595
+58746	sociol ruralis	<table><tr><td>Source:</td><td>sociol ruralis</td></tr><tr><td>Citations:</td><td>152</td></tr><tr><td>Co-citations:</td><td>2588</td></tr></table>	0.7857	0.1117	1	152	2588
+58752	sociol theor	<table><tr><td>Source:</td><td>sociol theor</td></tr><tr><td>Citations:</td><td>115</td></tr><tr><td>Co-citations:</td><td>6256</td></tr></table>	0.9675	0.04	1	115	6256
+58791	sociological theory	<table><tr><td>Source:</td><td>sociological theory</td></tr><tr><td>Citations:</td><td>107</td></tr><tr><td>Co-citations:</td><td>4608</td></tr></table>	0.9603	0.0194	1	107	4608
+58806	sociology	<table><tr><td>Source:</td><td>sociology</td></tr><tr><td>Citations:</td><td>153</td></tr><tr><td>Co-citations:</td><td>4820</td></tr></table>	0.8647	0.0362	1	153	4820
+59099	south calif law rev	<table><tr><td>Source:</td><td>south calif law rev</td></tr><tr><td>Citations:</td><td>20</td></tr><tr><td>Co-citations:</td><td>3229</td></tr></table>	0.6664	-0.1629	5	20	3229
+59107	southern calif law r	<table><tr><td>Source:</td><td>southern calif law r</td></tr><tr><td>Citations:</td><td>22</td></tr><tr><td>Co-citations:</td><td>2972</td></tr></table>	0.7843	-0.1698	5	22	2972
+59651	stanford law rev	<table><tr><td>Source:</td><td>stanford law rev</td></tr><tr><td>Citations:</td><td>192</td></tr><tr><td>Co-citations:</td><td>21276</td></tr></table>	0.8441	-0.1688	5	192	21276
+60275	strategic manage j	<table><tr><td>Source:</td><td>strategic manage j</td></tr><tr><td>Citations:</td><td>157</td></tr><tr><td>Co-citations:</td><td>7321</td></tr></table>	0.8618	0.0176	1	157	7321
+60317	strategy social prot	<table><tr><td>Source:</td><td>strategy social prot</td></tr><tr><td>Citations:</td><td>155</td></tr><tr><td>Co-citations:</td><td>7093</td></tr></table>	1.015	0.0172	1	155	7093
+60401	stroke	<table><tr><td>Source:</td><td>stroke</td></tr><tr><td>Citations:</td><td>83</td></tr><tr><td>Co-citations:</td><td>4450</td></tr></table>	-0.8301	-0.208	3	83	4450
+61207	symb interact	<table><tr><td>Source:</td><td>symb interact</td></tr><tr><td>Citations:</td><td>61</td></tr><tr><td>Co-citations:</td><td>2318</td></tr></table>	0.7978	-0.0047	1	61	2318
+61359	t i brit geogr	<table><tr><td>Source:</td><td>t i brit geogr</td></tr><tr><td>Citations:</td><td>145</td></tr><tr><td>Co-citations:</td><td>3080</td></tr></table>	0.854	0.0939	1	145	3080
+61513	talking politics	<table><tr><td>Source:</td><td>talking politics</td></tr><tr><td>Citations:</td><td>59</td></tr><tr><td>Co-citations:</td><td>3401</td></tr></table>	1.0441	0.0203	1	59	3401
+61956	tex law rev	<table><tr><td>Source:</td><td>tex law rev</td></tr><tr><td>Citations:</td><td>58</td></tr><tr><td>Co-citations:</td><td>6418</td></tr></table>	0.8346	-0.1798	5	58	6418
+62120	theor cult soc	<table><tr><td>Source:</td><td>theor cult soc</td></tr><tr><td>Citations:</td><td>146</td></tr><tr><td>Co-citations:</td><td>3451</td></tr></table>	0.8844	0.0541	1	146	3451
+62130	theor soc	<table><tr><td>Source:</td><td>theor soc</td></tr><tr><td>Citations:</td><td>340</td></tr><tr><td>Co-citations:</td><td>17389</td></tr></table>	0.9413	0.0354	1	340	17389
+62689	thesis u california	<table><tr><td>Source:</td><td>thesis u california</td></tr><tr><td>Citations:</td><td>101</td></tr><tr><td>Co-citations:</td><td>3199</td></tr></table>	0.3964	0.1502	1	101	3199
+63046	third world q	<table><tr><td>Source:</td><td>third world q</td></tr><tr><td>Citations:</td><td>88</td></tr><tr><td>Co-citations:</td><td>2827</td></tr></table>	0.9379	0.0912	1	88	2827
+63153	time	<table><tr><td>Source:</td><td>time</td></tr><tr><td>Citations:</td><td>47</td></tr><tr><td>Co-citations:</td><td>2943</td></tr></table>	0.9661	-0.0712	5	47	2943
+63820	transnational protes	<table><tr><td>Source:</td><td>transnational protes</td></tr><tr><td>Citations:</td><td>46</td></tr><tr><td>Co-citations:</td><td>2219</td></tr></table>	0.9718	0.0703	1	46	2219
+63824	transnational social	<table><tr><td>Source:</td><td>transnational social</td></tr><tr><td>Citations:</td><td>62</td></tr><tr><td>Co-citations:</td><td>2569</td></tr></table>	0.928	0.0792	1	62	2569
+64003	trends cogn sci	<table><tr><td>Source:</td><td>trends cogn sci</td></tr><tr><td>Citations:</td><td>602</td></tr><tr><td>Co-citations:</td><td>34456</td></tr></table>	-0.6622	-0.0875	2	602	34456
+64007	trends ecol evol	<table><tr><td>Source:</td><td>trends ecol evol</td></tr><tr><td>Citations:</td><td>321</td></tr><tr><td>Co-citations:</td><td>15099</td></tr></table>	-0.5957	0.5185	4	321	15099
+64018	trends neurosci	<table><tr><td>Source:</td><td>trends neurosci</td></tr><tr><td>Citations:</td><td>142</td></tr><tr><td>Co-citations:</td><td>9714</td></tr></table>	-0.8511	-0.0824	2	142	9714
+64315	u chicago law rev	<table><tr><td>Source:</td><td>u chicago law rev</td></tr><tr><td>Citations:</td><td>90</td></tr><tr><td>Co-citations:</td><td>10648</td></tr></table>	0.7965	-0.167	5	90	10648
+64320	u colo l rev	<table><tr><td>Source:</td><td>u colo l rev</td></tr><tr><td>Citations:</td><td>22</td></tr><tr><td>Co-citations:</td><td>3432</td></tr></table>	0.8315	-0.1489	5	22	3432
+64336	u miami l rev	<table><tr><td>Source:</td><td>u miami l rev</td></tr><tr><td>Citations:</td><td>41</td></tr><tr><td>Co-citations:</td><td>4322</td></tr></table>	0.9883	-0.1792	5	41	4322
+64352	u penn law rev	<table><tr><td>Source:</td><td>u penn law rev</td></tr><tr><td>Citations:</td><td>130</td></tr><tr><td>Co-citations:</td><td>13729</td></tr></table>	0.9326	-0.1673	5	130	13729
+64396	ucla law rev	<table><tr><td>Source:</td><td>ucla law rev</td></tr><tr><td>Citations:</td><td>80</td></tr><tr><td>Co-citations:</td><td>6744</td></tr></table>	0.9416	-0.1636	5	80	6744
+65546	urban stud	<table><tr><td>Source:</td><td>urban stud</td></tr><tr><td>Citations:</td><td>107</td></tr><tr><td>Co-citations:</td><td>2398</td></tr></table>	0.8263	0.0617	1	107	2398
+65793	va law rev	<table><tr><td>Source:</td><td>va law rev</td></tr><tr><td>Citations:</td><td>138</td></tr><tr><td>Co-citations:</td><td>15620</td></tr></table>	0.8312	-0.1661	5	138	15620
+65863	vanderbilt law rev	<table><tr><td>Source:</td><td>vanderbilt law rev</td></tr><tr><td>Citations:</td><td>47</td></tr><tr><td>Co-citations:</td><td>6621</td></tr></table>	0.5792	-0.1653	5	47	6621
+66210	vis cogn	<table><tr><td>Source:</td><td>vis cogn</td></tr><tr><td>Citations:</td><td>127</td></tr><tr><td>Co-citations:</td><td>6953</td></tr></table>	-0.6497	-0.1283	2	127	6953
+66238	vision res	<table><tr><td>Source:</td><td>vision res</td></tr><tr><td>Citations:</td><td>163</td></tr><tr><td>Co-citations:</td><td>9414</td></tr></table>	-0.6723	-0.0225	2	163	9414
+66489	w european politics	<table><tr><td>Source:</td><td>w european politics</td></tr><tr><td>Citations:</td><td>73</td></tr><tr><td>Co-citations:</td><td>2576</td></tr></table>	1.0266	0.0561	1	73	2576
+66604	wall street j	<table><tr><td>Source:</td><td>wall street j</td></tr><tr><td>Citations:</td><td>63</td></tr><tr><td>Co-citations:</td><td>2919</td></tr></table>	0.9922	-0.0117	1	63	2919
+67676	wildlife soc b	<table><tr><td>Source:</td><td>wildlife soc b</td></tr><tr><td>Citations:</td><td>117</td></tr><tr><td>Co-citations:</td><td>3052</td></tr></table>	-0.6792	0.6102	4	117	3052
+67772	wisc law rev	<table><tr><td>Source:</td><td>wisc law rev</td></tr><tr><td>Citations:</td><td>48</td></tr><tr><td>Co-citations:</td><td>4380</td></tr></table>	0.9696	-0.144	5	48	4380
+67832	wm mary l rev	<table><tr><td>Source:</td><td>wm mary l rev</td></tr><tr><td>Citations:</td><td>30</td></tr><tr><td>Co-citations:</td><td>3185</td></tr></table>	0.8872	-0.1832	5	30	3185
+68269	womens movements us	<table><tr><td>Source:</td><td>womens movements us</td></tr><tr><td>Citations:</td><td>80</td></tr><tr><td>Co-citations:</td><td>3065</td></tr></table>	1.0097	-0.0065	1	80	3065
+68662	world dev	<table><tr><td>Source:</td><td>world dev</td></tr><tr><td>Citations:</td><td>212</td></tr><tr><td>Co-citations:</td><td>5916</td></tr></table>	0.8101	0.0984	1	212	5916
+68797	world polit	<table><tr><td>Source:</td><td>world polit</td></tr><tr><td>Citations:</td><td>170</td></tr><tr><td>Co-citations:</td><td>9287</td></tr></table>	1.0316	0.0738	1	170	9287
+69062	yale law j	<table><tr><td>Source:</td><td>yale law j</td></tr><tr><td>Citations:</td><td>319</td></tr><tr><td>Co-citations:</td><td>31005</td></tr></table>	0.9201	-0.1741	5	319	31005
+69263	z tierpsychol	<table><tr><td>Source:</td><td>z tierpsychol</td></tr><tr><td>Citations:</td><td>81</td></tr><tr><td>Co-citations:</td><td>3357</td></tr></table>	-0.753	0.4717	4	81	3357
+69383	zoo biol	<table><tr><td>Source:</td><td>zoo biol</td></tr><tr><td>Citations:</td><td>38</td></tr><tr><td>Co-citations:</td><td>6386</td></tr></table>	-0.7901	0.2765	4	38	6386
